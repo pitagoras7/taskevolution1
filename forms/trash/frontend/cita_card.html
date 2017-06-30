@@ -1,0 +1,97 @@
+{% extends "base_consulta.html" %}
+
+
+
+{% block categoria2 %} 
+<div id="categoria2" >
+
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block visor1 %}
+<div id="visor1"  class="col-md-12">
+{{ dato.visor1|raw }}
+</div>
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+function response_lsdajax001(){
+  validation_form();
+}
+
+
+function response_lsdajax002(){
+}
+
+
+  ver_general();
+  
+  function ocultarformCita(){
+  $(".element-formCita").fadeOut();
+  }
+
+
+  function ver_general(){
+  $(".element-formCita").fadeIn();
+  $("#element-pacapr").css('display','none');
+  }
+
+
+  function ver_anp(){
+  ocultarformCita();  
+  $("#element-pacapr").fadeIn();
+  }
+
+
+
+</script>
+
+
+<link type="text/css" rel="stylesheet" href="jQuery-TE/jquery-te-1.4.0.css">
+<script type="text/javascript" src="jQuery-TE/jquery-te-1.4.0.min.js" charset="utf-8"></script>
+<script>
+    $('#jqte-conpla').jqte();
+     $('#jqte-conref').jqte();
+       $('#jqte-conind').jqte();     
+    // settings of status
+    var jqteStatus = true;
+    $(".status").click(function()
+    {
+        jqteStatus = jqteStatus ? false : true;
+        $('.jqte-test').jqte({"status" : jqteStatus})
+    });
+
+</script>
+{% endblock %}
+
+
+{% block css %}
+<style>
+
+
+
+
+</style>
+
+
+{% endblock %}

@@ -1,0 +1,113 @@
+{
+  "soap": [
+    {
+      "name": "Sopa de Calabaza y Papa",
+      "ico": "",
+      "category": "soap_product cold",
+      "price": "5.30",
+      "color": "",
+      "code":300001,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa de Municiones y Alcachofas",
+      "ico": "",
+      "category": "soap_product cold",
+      "price": "5.30",
+      "color": "",
+      "code":300002,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa de Hongos con Elote",
+      "ico": "",
+      "category": "soap_product cold",
+      "price": "5.30",
+      "color": "",
+      "code":300003,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa de Calabacitas con Elotes",
+      "ico": "",
+      "category": "soap_product hot",
+      "price": "5.30",
+      "color": "",
+      "code":300004,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa de Elote con Rajas y Queso Manchego",
+      "ico": "",
+      "category": "soap_product hot",
+      "price": "5.30",
+      "color": "",
+      "code":30005
+,
+    "exento":"false"
+   },
+    {
+      "name": "Crema de Frijol con Queso Panela ",
+      "ico": "",
+      "category": "soap_product cold",
+      "price": "5.30",
+      "color": "",
+      "code":300006,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa de Jamón y Chícharos",
+      "ico": "",
+      "category": "soap_product hot",
+      "price": "5.30",
+      "color": "",
+      "code":300007,
+          "exento":"false"
+    },
+    {
+      "name": "Potaje de Garbanzos",
+      "ico": "",
+      "category": "soap_product cold",
+      "price": "5.30",
+      "color": "",
+      "code":300008,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa Campo Verde",
+      "ico": "",
+      "category": "soap_product cold",
+      "price": "5.30",
+      "color": "",
+      "code":300009,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa Minestrone",
+      "ico": "",
+      "category": "soap_product hot",
+      "price": "5.30",
+      "color": "",
+      "code":300010,
+          "exento":"false"
+    },
+    {
+      "name": " Sopa de Espinaca Light",
+      "ico": "",
+      "category": "soap_product cold",
+      "price": "5.30",
+      "color": "",
+      "code":300011,
+          "exento":"false"
+    },
+    {
+      "name": "Sopa de Brocoli con Almendra ",
+      "ico": "",
+      "category": "soap_product hot",
+      "price": "5.30",
+      "color": "",
+      "code":300012,
+          "exento":"false"
+    }
+  ]
+}

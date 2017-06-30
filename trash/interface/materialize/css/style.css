@@ -1,0 +1,140 @@
+
+#panel1 , #panel2 , #panel3, #panel4{
+height:600px;
+text-align: center;
+margin-top: 10px;
+}
+
+
+#panel1 .btn, #panel2 .btn, #panel3 .btn{
+height: 50px;
+line-height: 26px;
+padding-top: 10px;
+font-size: 16px;
+}
+
+ #panel32 .btn{
+height: 60px;
+line-height: 26px;
+padding-top: 5px;
+font-size: 16px;
+}
+
+
+#panel32,#panel31,#panel33,#panel2,#panel4{
+  padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#panel32,#panel32_001, #panel32_002,#panel32_003{
+height:400px;
+text-align: center;
+margin-top: 10px;
+}
+
+
+#panel1 a, #panel2 a, #panel31 a ,  #panel33 a , #panel4 a{
+margin:3px;
+}
+
+#panel2 .numerico{
+margin:3px;
+width: 30%;
+font-size: 24px;
+font-weight: bold;
+}
+
+#panel32_001 a,#panel32_002 a,#panel32 a,#panel32_003 a, #panel33 a {
+margin:3px;
+width: 24%;
+}
+
+#panel31 .modify {
+margin:3px;
+width: 15%;
+padding-top: 10px;
+line-height: 18px;
+}
+
+
+.LCD{
+background: white;
+margin-left: 4px !important;
+margin-top: 3px;
+}
+
+
+
+#panel4 .btn{
+height: 70px;
+line-height: 26px;
+padding-top: 10px;
+font-size: 20px;
+}
+
+
+#panel4  .nav_button{
+height: 200px;
+line-height: 26px;
+padding-top: 10px;
+font-size: 20px;
+}
+
+.carousel .carousel-item{
+    position: relative;
+    top: 200px;
+    left: 0px;
+    width: 97%;
+  }
+
+  .carousel .indicators .indicator-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    margin: 24px 4px;
+    background-color: rgba(255,255,255,0.5);
+    transition: background-color .3s;
+    border-radius: 50%;
+}
+
+
+
+
+#panel2 a{
+    display: none;
+}
+
+#panel2 .principal{
+    display: inline-block;
+}
+
+
+#panel2 .principal{
+    display: inline-block;
+}
+
+
+#panel31 .modify{
+    display: none;
+}
+
+#panel31 .bews{
+    display: none;
+}
+#panel33 .modify{
+    display: none;
+}
+
+
+
+.product{
+    height: auto;
+    min-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#333
+}
+

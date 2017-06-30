@@ -1,0 +1,541 @@
+{
+  "config": {
+    "table": "tipopagoCategory",
+    "view": "tipopagoCategory",
+    "col": [
+      {
+        "campo": "tpcid",
+        "label": "tpcid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpcden",
+        "label": "tpcden",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpcest",
+        "label": "tpcest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpcreg",
+        "label": "tpcreg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpcuse",
+        "label": "tpcuse",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpcobs",
+        "label": "tpcobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpccol",
+        "label": "tpccol",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpcico",
+        "label": "tpcico",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "tpcava",
+        "label": "tpcava",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "tpcid  not in (0)",
+    "th": [
+      {
+        "value": "tpcid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpcden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpcest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpcreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpcuse",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpcobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpccol",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpcico",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "tpcava",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "tpcid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpcden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpcest",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpcreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpcuse",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpcobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpccol",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpcico",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "tpcava",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "edit": [
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_tpc_click",
+            "parametro": "tpcid",
+            "href": "#modal-tpc",
+            "class": "btn btn-xs btn-primary"
+          },
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_tpcxxx_click",
+            "parametro": "usuid",
+            "href": "#modal-usuimg",
+            "class": "btn btn-xs btn-primary"
+          },
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_tpc_report_click",
+            "parametro": "tpcid",
+            "href": "#modal-tpc-report",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "tpcreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "tpcid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "tpcxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "tpcest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_tipopagoCategory",
+    "name": "modal_new_tipopagoCategory",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_tpc",
+    "col": [
+      {
+        "campo": "tpcid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpcden",
+        "label": "tpcden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpcest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpcreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "Readonly",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpcuse",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpcobs",
+        "label": "tpcobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpccol",
+        "label": "tpccol",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpcico",
+        "label": "tpcico",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tpcava",
+        "label": "tpcava",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_tpc_confirm",
+        "id": "submit_form_tpc_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_tpc_confirm','#submit_form_tpc');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_tpc",
+        "id": "submit_form_tpc",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_tpc_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo_multiple": [
+    {
+      "fk_id": "tpcid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "tpcest='t' and tpcid > 0",
+      "fk_id2": "tpcid",
+      "fk_table2": "tipopagoCategory",
+      "fk_table_id2": "tpcid",
+      "fk_table_id3": "tpcid",
+      "fk_table_est": "tpcest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "tpcest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{% extends "base_cards.html" %}
+
+
+{% block menuTop1 %} 
+
+{% endblock %}
+
+
+{% block menuTop2 %}
+
+{% endblock %}
+
+
+
+{% block content_menu %}
+
+{% endblock %}
+
+
+
+
+
+{% block content_wrapper %}
+
+
+
+<div class="row" id="view" >
+  <div class="col-xs-12 col-md-12 ">
+
+    <div class="infobox infobox-green">
+      <div class="infobox-icon">
+        <i class="ace-icon fa fa-clock-o"></i>
+      </div>
+
+      <div class="infobox-data">
+        <span class="infobox-data-number">{{ dato.enespera }}</span>
+        <div class="infobox-content"> En Espera </div>
+      </div>
+
+      <!-- #section:pages/dashboard.infobox.stat -->
+      <div class="stat stat-success">8%</div>
+
+      <!-- /section:pages/dashboard.infobox.stat -->
+    </div>
+
+
+    <div class="infobox infobox-red">
+      <div class="infobox-icon">
+        <i class="ace-icon fa fa-check"></i>
+      </div>
+
+      <div class="infobox-data">
+        <span class="infobox-data-number">{{ dato.enpreparacion }}</span>
+        <div class="infobox-content">En preparación </div>
+      </div>
+    </div>
+
+  </div>  
+
+
+
+
+
+
+
+
+  <div class="col-xs-12 col-md-6 ">
+
+    {{ dato.cards1|raw }}
+
+  </div>
+
+  <div class="col-xs-12 col-md-6 ">
+
+    {{ dato.cards2|raw }}
+
+  </div>
+
+  
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+function response_lsdajax001(){
+  validation_form();
+}
+
+
+function response_lsdajax002(){
+}
+
+
+
+</script>
+
+
+{% endblock %}
+
+
+{% block css %}
+
+
+
+{% endblock %}

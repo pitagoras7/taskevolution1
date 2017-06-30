@@ -1,0 +1,369 @@
+{% extends "base_consulta.html" %}
+
+
+
+
+{% block categoria1 %}
+
+{{ dato.menu_filter_cards|raw }}
+
+{% endblock %}
+
+
+
+{% block categoria2 %} 
+<div id="categoria2" >
+
+
+
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block visor1 %}
+
+
+
+<div id="visor1"  class="col-md-3" style="background:#333; height:600px; border-radius:5px; padding-top:10px; color:#fff">
+
+  <!-- ULTIMA VISITA -->
+  <div class="col-md-12" style="background:#f5f5f5; color:#333; margin-top:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:5px;" class="fa fa-calendar"></i></td>
+        <td > <div style="margin-top:5px; font-size:14px">
+         <span style="font-size:16px; font-weight:bold"> Ultima Visita </span>
+         <br> 12 / 09 / 2016 hace 1 días </div></td>
+       </tr>
+
+     </table>
+
+   </div>
+   <!-- ULTIMA VISITA -->
+
+   <!-- ALERGIA -->
+   <div class="col-md-12" style="background:#F3F781; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-exclamation-circle"></i></td>
+        <td > <div style="margin-top:5px;  font-size:14px">
+         <span style="font-size:16px; font-weight:bold">  Recordatorio para hoy  </span>
+         <br> Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  </div></td>
+       </tr>
+
+     </table>
+   </div>
+   <!-- ALERGIA -->
+
+
+   <!-- OBSERVACION -->
+   <div class="col-md-12" style="background:#F5F5F5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-clock-o"></i></td>
+        <td > <div style="margin-top:5px;  font-size:14px">
+         <span style="font-size:16px; font-weight:bold"> Pacientes en espera  </span>
+         <br>
+         -  Marbelis Cordero<br>
+         -  Alberto Felix<br>
+         -  Jesus Rovkrter<br>
+         -  Armando Salas Vector<br>                   
+       </div></td>
+     </tr>
+
+   </table>
+ </div>
+ <!-- OBSERVACION -->
+
+ <!-- OBSERVACION -->
+ <div class="col-md-12" style="text-align:center; margin-top:15px; padding-bottom:10px; border-radius:5px">
+
+  <a style=" width:80%; height:40px; font-size:16px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-success" href="?opcion=dashboardConsulta" onclick="">
+    <span class="menu-text"><i class='fa fa-home' style='font-size:22px'></i> VOLVER ATRAS </span>
+  </a>
+
+      <!--
+    <div class="col-md-12" style=" height:50px">
+     {{ dato.menu_filter_cards|raw }}
+   </div>-->
+ </div>
+ <!-- OBSERVACION -->
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="visor2"  class="col-md-8"  style="background:#fff; height:650px; border-radius:5px; padding-top:0px; margin-left:50px; color:#333" >
+
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- PAGE CONTENT BEGINS -->
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="space"></div>
+
+                  <!-- #section:plugins/data-time.calendar -->
+                  <div id="calendar"></div>
+
+                  <!-- /section:plugins/data-time.calendar -->
+                </div>
+
+                
+              </div>
+
+              <!-- PAGE CONTENT ENDS -->
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+
+
+
+
+      </div>
+
+
+
+
+
+      {% endblock %}
+
+
+
+
+
+
+      {% block javascript %}
+      <script src="distXP/js/date-time/moment.min.js"></script>
+      <script src="distXP/js/fullcalendar.js"></script>
+      <script type="text/javascript">
+      jQuery(function($) {
+
+/* initialize the external events
+-----------------------------------------------------------------*/
+
+$('#external-events div.external-event').each(function() {
+
+        // create an Event Object (http://arshaw.com/fullcalendar/docs/event_data/Event_Object/)
+        // it doesn't need to have a start or end
+        var eventObject = {
+            title: $.trim($(this).text()) // use the element's text as the event title
+          };
+
+        // store the Event Object in the DOM element so we can get to it later
+        $(this).data('eventObject', eventObject);
+
+        // make the event draggable using jQuery UI
+        $(this).draggable({
+          zIndex: 999,
+            revert: true,      // will cause the event to go back to its
+            revertDuration: 0  //  original position after the drag
+          });
+        
+      });
+
+
+
+
+    /* initialize the calendar
+    -----------------------------------------------------------------*/
+
+    var date = new Date();
+    var d = date.getDate();
+    var m = date.getMonth();
+    var y = date.getFullYear();
+
+
+    var calendar = $('#calendar').fullCalendar({
+        //isRTL: true,
+        buttonHtml: {
+          prev: '<i class="ace-icon fa fa-chevron-left"></i>',
+          next: '<i class="ace-icon fa fa-chevron-right"></i>'
+        },
+        
+        header: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'month,agendaWeek,agendaDay'
+        },
+        editable: true,
+        droppable: true, // this allows things to be dropped onto the calendar !!!
+        drop: function(date, allDay) { // this function is called when something is dropped
+
+            // retrieve the dropped element's stored Event Object
+            var originalEventObject = $(this).data('eventObject');
+            var $extraEventClass = $(this).attr('data-class');
+            
+            
+            // we need to copy it, so that multiple events don't have a reference to the same object
+            var copiedEventObject = $.extend({}, originalEventObject);
+            
+            // assign it the date that was reported
+            copiedEventObject.start = date;
+            copiedEventObject.allDay = allDay;
+            if($extraEventClass) copiedEventObject['className'] = [$extraEventClass];
+            
+            // render the event on the calendar
+            // the last `true` argument determines if the event "sticks" (http://arshaw.com/fullcalendar/docs/event_rendering/renderEvent/)
+            $('#calendar').fullCalendar('renderEvent', copiedEventObject, true);
+            
+            // is the "remove after drop" checkbox checked?
+            if ($('#drop-remove').is(':checked')) {
+                // if so, remove the element from the "Draggable Events" list
+                $(this).remove();
+              }
+
+            }
+            ,
+            selectable: true,
+            selectHelper: true,
+            select: function(start, end, allDay) {
+
+
+  //display a modal
+  var modal = 
+  '<div class="modal fade" >\
+  <div class="modal-dialog">\
+  <div class="modal-content">\
+  <div class="modal-body" style="height:450px">\
+  <button type="button" class="close" data-dismiss="modal" style="margin-top:-10px;">&times;</button>\
+  <form class="no-margin" action="index.php" method="POST">\
+  <div class="col-md-12"> <span class="span-modal-calendar"> Fecha Y Hora</span> <br>\
+  <input readonly name="fechahora" class="middle" autocomplete="off" type="text" value="'+start.format('DD-MM-YYYY/hh:mm')+'" style="width:100%" /></div>\
+   <div class="col-md-12"> <span class="span-modal-calendar">  Motivo <br>\
+    <textarea style="width:100%"  name="citden" class="middle" autocomplete="off" type="text" ></textarea></div>\
+    <div class="col-md-6"><span class="span-modal-calendar">   Responsable </span><br>\
+    <input style="width:100%"  value="{{ dato.paciente.pacfnm }} {{ dato.paciente.paclnm }}" name="citres" class="middle" autocomplete="off" type="text" value="" /></div>\
+     <div class="col-md-6"> <span class="span-modal-calendar">   Teléfono </span> <br>\
+    <input style="width:100%" value="{{ dato.paciente.pactlf }}"  name="cittfa" class="middle" autocomplete="off" type="text" value="" /></div>\
+     <div class="col-md-6"> <span class="span-modal-calendar">  Email  </span><br>\
+    <input style="width:100%"  value="{{ dato.paciente.paccor }}"  name="citcor" class="middle" autocomplete="off" type="text" value="" /></div>\
+     <div class="col-md-6"> <span class="span-modal-calendar">  Destino </span> <br>\
+    <input style="width:100%"  name="citdes" class="middle" autocomplete="off" type="text" value="" /></div>\
+     <div class="col-md-12"> <span class="span-modal-calendar">   Observación </span><br>\
+    <input style="width:100%"  name="citobs" class="middle" autocomplete="off" type="text" value="" /></div>\
+ <div class="row"> <div class="col-md-12"> <br><br> <input  name="abrirCita" type="hidden" value="true" />\
+  <input type="submit" value="Agendar Consulta" class="btn  btn-success btn-sm" ></div></div>\
+  </form>\
+  </div>\
+  </div>\
+  </div>\
+  </div>';
+
+
+  var modal = $(modal).appendTo('body');
+
+  modal.modal('show').on('hidden', function(){
+    modal.remove();
+  });
+
+
+  calendar.fullCalendar('unselect');
+}
+,
+eventClick: function(calEvent, jsEvent, view) {
+
+            //display a modal
+            var modal = 
+            '<div class="modal fade">\
+            <div class="modal-dialog">\
+            <div class="modal-content">\
+            <div class="modal-body">\
+            <button type="button" class="close" data-dismiss="modal" style="margin-top:-10px;">&times;</button>\
+            <form class="no-margin">\
+            <label>Change event ddddd name &nbsp;</label>\
+            <input readonly name="orrini" class="middle" autocomplete="off" type="text" value="'+start.format('DD-MM-YYYY/hh:mm')+'" />\
+            </form>\
+            </div>\
+            <div class="modal-footer">\
+            <button type="button" class="btn btn-sm btn-danger" data-action="delete"><i class="ace-icon fa fa-trash-o"></i> Delete Event</button>\
+            <button type="button" class="btn btn-sm" data-dismiss="modal"><i class="ace-icon fa fa-times"></i> Cancel</button>\
+            </div>\
+            </div>\
+            </div>\
+            </div>';
+            
+            
+            var modal = $(modal).appendTo('body');
+            modal.find('form').on('submit', function(ev){
+              ev.preventDefault();
+
+              calEvent.title = $(this).find("input[type=text]").val();
+              calendar.fullCalendar('updateEvent', calEvent);
+              modal.modal("hide");
+            });
+            modal.find('button[data-action=delete]').on('click', function() {
+              calendar.fullCalendar('removeEvents' , function(ev){
+                return (ev._id == calEvent._id);
+              })
+              modal.modal("hide");
+            });
+            
+            modal.modal('show').on('hidden', function(){
+              modal.remove();
+            });
+          }
+
+        });
+
+
+})
+</script>
+
+
+<script type="text/javascript">
+
+
+initDatatable();
+
+/*
+      function response_lsdajax001(){
+        validation_form();
+      }
+
+
+      function response_lsdajax002(){
+      }
+      */
+
+
+
+
+      </script>
+
+
+      {% endblock %}
+
+
+      {% block css %}
+      <link rel="stylesheet" href="distXP/css/fullcalendar.css" />
+
+      <style>
+
+
+
+
+      </style>
+
+
+      {% endblock %}

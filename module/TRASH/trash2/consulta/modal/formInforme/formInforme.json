@@ -1,0 +1,149 @@
+{
+  "formInforme": {
+    "id": "modal_new_formInforme",
+    "name": "modal_new_formInforme",
+    "class": "modal-formulario",
+    "style": "width:95%",
+    "title": "Informe Medico",
+    "height": "600px",
+    "form_class": "",
+    "form_id": "form_formInforme",
+    "type":"documento",
+    "col": [
+      {
+        "campo": "conpla",
+        "label": "Plan",
+        "size": "6",
+        "type": "textarea",
+        "class": "",
+        "style": "height:100px;  resize: none; padding:10px; line-height: 20px; text-transform:none; font-size:18px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conidx",
+        "label": "Diagnostico",
+        "size": "6",
+        "type": "textarea",
+        "class": "",
+        "style": "height:100px;  resize: none; padding:10px; line-height: 20px; text-transform:none; font-size:18px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conrep",
+        "label": "Reposo",
+        "size": "6",
+        "type": "textarea",
+        "class": "",
+        "style": "height:100px;  resize: none; padding:10px; line-height: 20px; text-transform:none; font-size:18px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "contto",
+        "label": "TTO",
+        "size": "6",
+        "type": "textarea",
+        "class": "",
+        "style": "height:100px;  resize: none; padding:10px; line-height: 20px; text-transform:none; font-size:18px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "confdx",
+        "label": "Fecha Diagnostico",
+        "size": "6",
+        "type": "date",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "concpt",
+        "label": "Diagnostico CPT",
+        "size": "6",
+        "type": "textarea",
+        "class": "",
+        "style": "height:100px;  resize: none; padding:10px; line-height: 20px; text-transform:none; font-size:18px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "concmp",
+        "label": "Complicaciones",
+        "size": "6",
+        "type": "textarea",
+        "class": "",
+        "style": "height:100px;  resize: none; padding:10px; line-height: 20px; text-transform:none; font-size:18px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "contst",
+        "label": "Signos y Sintomas ",
+        "size": "6",
+        "type": "textarea",
+        "class": "",
+        "style": "height:100px;  resize: none; padding:10px; line-height: 20px; text-transform:none; font-size:18px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_formInforme_confirm",
+        "id": "submit_form_formInforme_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_formInforme_confirm','#submit_form_formInforme');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_formInforme",
+        "id": "submit_form_formInforme",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_formInforme_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

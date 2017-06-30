@@ -1,0 +1,145 @@
+{% extends "baseXP.html" %}
+
+    {% block menuTop %}
+
+
+
+
+    <li class="hover">
+    <a href="#modal-ord" role="button" data-toggle="modal" onclick="new_modal_ord_click()">
+    <i class="menu-icon fa fa-plus"></i>
+    <span class="menu-text">  New  </span>
+    </a>
+
+    <b class="arrow"></b>
+    </li>
+
+
+    <li class="hover">
+    <a href="?opcion=orders">
+    <i class="menu-icon fa fa-print"></i>
+    <span class="menu-text">  Report  </span>
+    </a>
+
+    <b class="arrow"></b>
+    </li>
+
+
+
+
+    {% endblock %}
+
+
+
+    {% block content_menu %}
+
+
+    {% endblock %}
+
+
+
+
+    {% block content_wrapper %}
+
+
+
+    <div class="row" >
+
+    <div class="col-xs-12">
+
+
+    <div class="clearfix options-print-datatable" >
+    <div class="pull-right tableTools-container"></div>
+    </div>
+
+    <!--<div class="table-header">
+    Listado
+    </div>-->
+
+    <div id="view">
+
+    {{ dato.datatable|raw }} 
+
+
+    </div>
+    </div>
+
+    </div>
+
+
+
+    <div id = "modal-ord" class="modal fade" tabindex="-1">
+    <div id="content-modal-ord"></div>
+    </div>
+
+    {% endblock %}
+
+    {% block javascript %}
+
+
+
+    <script type="text/javascript">
+
+
+
+    function new_modal_ord_click(x) {
+        goto_lsdajax001('new_ord', [x], 'content-modal-ord','module/orders/ord_AJAX.php');
+    }
+
+    function submit_modal_ord_click(x) {
+        goto_lsdajax001('edit_ord', [x], 'content-modal-ord','module/orders/ord_AJAX.php');
+    }
+
+
+
+    function submit_form_ord_click() {
+
+        var vista = 'view';
+        var data = $('#form_ord').serialize();
+        goto_lsdajax002('save_ord', [data], vista,'module/orders/ord_AJAX.php');
+
+    }
+
+
+    function response_lsdajax001(){
+        validation_form();
+    }
+
+
+    function response_lsdajax002(){
+        initDatatable();
+    }
+
+
+
+
+    initDatatable();
+
+
+
+    function refresh_JS() {
+
+
+        $(".date").datepicker({
+            format: 'dd/mm/yyyy',
+            showOtherMonths: true,
+            selectOtherMonths: false
+
+        });
+
+
+$('.date').mask('99/99/2999');
+
+
+}
+
+
+
+</script>  
+
+{% endblock %}
+
+
+{% block css %}
+
+{% endblock %}

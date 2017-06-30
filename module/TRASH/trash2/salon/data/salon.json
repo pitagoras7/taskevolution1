@@ -1,0 +1,578 @@
+{
+  "config": {
+    "table": "salon",
+    "view": "salon",
+    "col": [
+      {
+        "campo": "salid",
+        "label": "salid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "salden",
+        "label": "salden",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "salest",
+        "label": "salest",
+        "size": "12",
+        "type": "tinyint(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "salreg",
+        "label": "salreg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "salava",
+        "label": "salava",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "salid  not in (0)",
+    "th": [
+      {
+        "value": "Id",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Denomination",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Estatu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Created",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "salava",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "salid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "salden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": ""
+      },
+      {
+        "value": "salest_fk_value_fijo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "salreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "salava",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-cog bigger-120'></i>",
+            "funcion": "submit_modal_sal_click",
+            "parametro": "salid",
+            "href": "#modal-sal",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "salreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "salid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "salxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "salest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_salon",
+    "name": "modal_new_salon",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "200px",
+    "form_class": "",
+    "form_id": "form_sal",
+    "col": [
+      {
+        "campo": "salid",
+        "label": "salid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salden",
+        "label": "Denomination",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salest_combo_fijo",
+        "label": "Estatu",
+        "size": "12",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salava",
+        "label": "salava",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_sal_confirm",
+        "id": "submit_form_sal_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_sal_confirm','#submit_form_sal');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_sal",
+        "id": "submit_form_sal",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_sal_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "",
+      "fk_table": "",
+      "fk_table_id": "",
+      "fk_table_campo": "",
+      "fk_table_where": ""
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "salid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "salest='t' and salid > 0",
+      "fk_id2": "salid",
+      "fk_table2": "salon",
+      "fk_table_id2": "salid",
+      "fk_table_id3": "salid",
+      "fk_table_est": "salest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "salest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ],
+  "form_xxx": {
+    "id": "modal_new_salon",
+    "name": "modal_new_salon",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_sal",
+    "col": [
+      {
+        "campo": "salid",
+        "label": "salid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salden",
+        "label": "salden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salest",
+        "label": "salest",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salreg",
+        "label": "salreg",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salava",
+        "label": "salava",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_sal_confirm",
+        "id": "submit_form_sal_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_sal_confirm','#submit_form_sal');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_sal",
+        "id": "submit_form_sal",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_sal_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "form_yyy": {
+    "id": "modal_new_salon",
+    "name": "modal_new_salon",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_sal",
+    "col": [
+      {
+        "campo": "salid",
+        "label": "salid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salden",
+        "label": "salden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salest",
+        "label": "salest",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salreg",
+        "label": "salreg",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "salava",
+        "label": "salava",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_sal_confirm",
+        "id": "submit_form_sal_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_sal_confirm','#submit_form_sal');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_sal",
+        "id": "submit_form_sal",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_sal_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

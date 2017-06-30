@@ -1,0 +1,121 @@
+{
+  "formIndicaciones": {
+    "id": "modal_new_formIndicaciones",
+    "name": "modal_new_formIndicaciones",
+    "class": "",
+    "style": "width:95%",
+    "title": "Indicaciones",
+    "height": "500px",
+    "form_class": "",
+    "form_id": "form_formIndicaciones",
+    "type":"documento",
+    "col": [
+     
+      {
+        "campo": "conreq",
+        "label": "Requerimiento",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta01",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conrep",
+        "label": "Reposo",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta01",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "contto",
+        "label": "TTO",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta01",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conmdm",
+        "label": "Medicamentos",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta01",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }, {
+        "campo": "conlab",
+        "label": "Laboratorios",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta01",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "concit",
+        "label": "Prroxima cita",
+        "size": "6",
+        "type": "date",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_formIndicaciones_confirm",
+        "id": "submit_form_formIndicaciones_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_formIndicaciones_confirm','#submit_form_formIndicaciones');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_formIndicaciones",
+        "id": "submit_form_formIndicaciones",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_formIndicaciones_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

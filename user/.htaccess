@@ -1,0 +1,9 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+
+RewriteRule ^user/create/$   RestController.php?page_key=create [L]
+RewriteRule ^user/create$   user/create/ [L,R=301]
+

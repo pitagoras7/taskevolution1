@@ -1,0 +1,614 @@
+{
+  "config": {
+    "table": "mesa",
+    "view": "mesa",
+    "col": [
+      {
+        "campo": "mesid",
+        "label": "mesid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mesmscid",
+        "label": "mesmscid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "messalid",
+        "label": "messalid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mesden",
+        "label": "mesden",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mesreg",
+        "label": "mesreg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mesest",
+        "label": "mesest",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mestam",
+        "label": "mestam",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mespsx",
+        "label": "mespsx",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mespsy",
+        "label": "mespsy",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "mescoo",
+        "label": "mescoo",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "cardsimple": {
+    "style": "margin:10px",
+    "class": "btn  btn-app radius-4",
+    "class_icon": "",
+    "campo_label": "mesid",
+    "campo_label_superior": "mesden",
+    "select_conditional": "mesest in ('t') ",
+    "estatu": {
+      "from": "mesa m , activityMesa a",
+      "id": "mesid",
+      "where": "a.acmest in ('t')  and acmmesid = mesid",
+      "parametro": "acmmesid",
+      "istrue": {
+        "class_color": "btn-danger",
+        "href": "#modal-form",
+        "data-toggle": "modal",
+        "role": "button",
+        "onclick": "new_modal_acmest_click",
+        "onclick_parametro": "mesid_code"
+      },
+      "isfalse": {
+        "class_color": "btn-warning",
+        "href": "#modal-acm",
+        "data-toggle": "modal",
+        "role": "button",
+        "onclick": "new_modal_acm_click",
+        "onclick_parametro": "mesid_code"
+      }
+    }
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "mesid  not in (0)",
+    "th": [
+      {
+        "value": "ID",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Denomination",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Category",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Ubication",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "created",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Estatu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Size",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Location pedr",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Location Y",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "mescoo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "mesid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "mesden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": ""
+      },
+      {
+        "value": "mesmscid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "messalid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "mesreg",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "mesest_fk_combo_fijo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "mestam",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "mespsx",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "mespsy",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "mescoo",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-cog bigger-120'></i>",
+            "funcion": "submit_modal_mes_click",
+            "parametro": "mesid",
+            "href": "#modal-mes",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "mesreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "mesid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "mesxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "mesest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_mesa",
+    "name": "modal_new_mesa",
+    "class": "",
+    "title": "Settings Mesa",
+    "height": "300px",
+    "form_class": "",
+    "form_id": "form_mes",
+    "col": [
+      {
+        "campo": "mesid",
+        "label": "mesid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mesmscid_combo",
+        "label": "Category",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "messalid_combo",
+        "label": "Ubication ( Salon )",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mesden",
+        "label": "Denomination",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mesreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "readonly",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mesest_combo_fijo",
+        "label": "mesest",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mestam",
+        "label": "Size",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mespsx",
+        "label": "mespsx",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mespsy",
+        "label": "mespsy",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "mescoo",
+        "label": "mescoo",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_mes_confirm",
+        "id": "submit_form_mes_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_mes_confirm','#submit_form_mes');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_mes",
+        "id": "submit_form_mes",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_mes_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "messalid",
+      "fk_table": "salon",
+      "fk_table_id": "salid",
+      "fk_table_campo": "salden",
+      "fk_table_where": "salest = 't'"
+    },
+    {
+      "fk_id": "mesmscid",
+      "fk_table": "mesaCategory",
+      "fk_table_id": "mscid",
+      "fk_table_campo": "mscden",
+      "fk_table_where": "mscest = 't'"
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "mesid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "mesest='t' and mesid > 0",
+      "fk_id2": "mesid",
+      "fk_table2": "mesa",
+      "fk_table_id2": "mesid",
+      "fk_table_id3": "mesid",
+      "fk_table_est": "mesest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "mesest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "config": {
+    "table": "service",
+    "view": "service",
+    "col": [
+      {
+        "campo": "srvid",
+        "label": "srvid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvcanid",
+        "label": "srvcanid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvsrcid",
+        "label": "srvsrcid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvden",
+        "label": "srvden",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvcod",
+        "label": "srvcod",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvava",
+        "label": "srvava",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvico",
+        "label": "srvico",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvobs",
+        "label": "srvobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvpvp",
+        "label": "srvpvp",
+        "size": "12",
+        "type": "double",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvexe",
+        "label": "srvexe",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvest",
+        "label": "srvest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvreg",
+        "label": "srvreg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srvuse",
+        "label": "srvuse",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "srvid not in (0)",
+    "th": [
+      {
+        "value": "srvid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Service Name",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Destiny",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Service Category",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Code Service",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Avatar",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Icon",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Details",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Price",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Exento",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srvest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srvreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srvuse",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "srvid",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "value": "srvden",
+        "visible": "true",
+        "class": ""
+      },
+      {
+        "value": "srvcanid_fk",
+        "visible": "",
+        "class": ""
+      },
+      {
+        "value": "srvsrcid_fk",
+        "visible": "true",
+        "class": ""
+      },
+      {
+        "value": "srvcod",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "value": "srvava_format_img",
+        "visible": "true",
+        "class": ""
+      },
+      {
+        "value": "srvico",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "value": "srvobs",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "value": "srvpvp_format",
+        "visible": "true",
+        "class": ""
+      },
+      {
+        "value": "srvexe_fk_value_fijo",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "value": "srvest",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "value": "srvreg",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "value": "srvuse",
+        "visible": "false",
+        "class": ""
+      },
+      {
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "funcion": "submit_modal_srv_click",
+            "class": "btn btn-xs btn-warning",
+            "parametro": "srvid",
+            "href": "#modal-srv"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "funcion": "",
+            "class": "btn btn-xs btn-success",
+            "parametro": "srvid",
+            "href": "?opcion=moduleService&code=",
+            "mode": "href"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "class": "btn btn-xs btn-primary",
+            "funcion": "",
+            "parametro": "srvid",
+            "href": "?opcion=dualServiceSuggestion&code=",
+            "mode": "href"
+          },  {
+            "icon": "<i class='ace-icon fa fa-photo bigger-120'></i>",
+            "funcion": "submit_modal_srvavatar_click",
+            "parametro": "srvid",
+            "href": "#modal-srvavatar",
+            "class": "btn btn-xs btn-warning"
+          }
+        ],
+        "width": "150px",
+        "visible": "true"
+      }
+    ]
+  },
+  "cardsimple": {
+    "style": "margin:0 auto; text-align:center; width:140px; font-size:14px; border:3px solid #fff; font-weight:bold; border-radius:1px",
+    "class": "btn  btn-app radius-0",
+    "class_icon": "ace-icon fa fa-user bigger-230",
+    "campo_label": "srvden",
+    "campo_label_superior": "srvpvp",
+    "select_conditional": "srvest in ('t')",
+    "estatu": {
+      "from": "service s , serviceCategory c",
+      "id": "srvid",
+      "where": "s.srvest in ('t')  and s.srvsrcid = c.srcid",
+      "parametro": "srvid",
+      "istrue": {
+        "class_color": "btn-info",
+        "href": "#modal-odd",
+        "data-toggle": "modal",
+        "role": "button",
+        "onclick": "new_modal_odd_click",
+        "onclick_parametro": "srvid_code"
+      },
+      "isfalse": {
+        "class_color": "btn-success",
+        "href": "#modal-acm",
+        "data-toggle": "modal",
+        "role": "button",
+        "onclick": "new_modal_acm_click",
+        "onclick_parametro": "mesid_code"
+      }
+    }
+  },"grafica": {
+    "showInLegend": "true",
+    "id":"grafico",
+    "text": "Services Category",
+    "type": "pie",
+    "plotShadow": "true",
+    "series_name": "cluuf 7",
+    "sql":"select count(srcden) as value,srcden as name from service s , serviceCategory c where s.srvsrcid = c.srcid and srcest in ('t') and c.srcid not in (1) group by srcden"
+    },
+  "type_date": [
+    {
+      "campo": "srvreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "srvid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "srvpvp",
+      "type": "$"
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "srvxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "srvava",
+      "url": "distXP/img/services/",
+      "class": "",
+      "width": "",
+      "style": "width:50px; border-radius:50px"
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "srvest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_service",
+    "name": "modal_new_service",
+    "class": "",
+    "title": "Service Setting",
+    "height": "350px",
+    "form_class": "",
+    "form_id": "form_srv",
+    "col": [
+      {
+        "campo": "srvid",
+        "label": "srvid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvcanid_combo",
+        "label": "Destiny",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvsrcid_combo",
+        "label": "Category Service",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvden",
+        "label": "Service Name",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvcod",
+        "label": "Service Code",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvava",
+        "label": "Avatar",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvico",
+        "label": "Icon",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvpvp",
+        "label": "PVP",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvobs",
+        "label": "Observation",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvexe_combo_fijo",
+        "label": "Exento",
+        "size": "12",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvest_combo_fijo",
+        "label": "srvest",
+        "size": "12",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvreg",
+        "label": "srvreg",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srvuse",
+        "label": "User",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_srv_confirm",
+        "id": "submit_form_srv_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_srv_confirm','#submit_form_srv');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_srv",
+        "id": "submit_form_srv",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_srv_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "srvcanid",
+      "fk_table": "config",
+      "fk_table_id": "cfgid",
+      "fk_table_campo": "cfgden",
+      "fk_table_where": "cfgest='t' and cfgpad in (14)"
+    },
+    {
+      "fk_id": "srvsrcid",
+      "fk_table": "serviceCategory",
+      "fk_table_id": "srcid",
+      "fk_table_campo": "srcden",
+      "fk_table_where": "srcest='t' and srcid not in (0)"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "srvest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    },
+    {
+      "campo": "srvexe",
+      "option": [
+        {
+          "value": "t",
+          "name": "EXENTO"
+        },
+        {
+          "value": "f",
+          "name": "NO EXENTO"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "config": {
+    "table": "serviceCategory",
+    "view": "serviceCategory",
+    "col": [
+      {
+        "campo": "srcid",
+        "label": "srcid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srcden",
+        "label": "srcden",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srcest",
+        "label": "srcest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srcreg",
+        "label": "srcreg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srcuse",
+        "label": "srcuse",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "srcobs",
+        "label": "srcobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "srcid not in (0) and srcest='t'",
+    "th": [
+      {
+        "value": "srcid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Denomination",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Estatu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Created",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "User",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Details",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Options",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "srcid",
+        "visible": "true",
+        "hidden_desktop": "fase",
+        "hidden_tablet": "fale",
+        "hidden_mobil": ""
+      },
+      {
+        "value": "srcden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": ""
+      },
+      {
+        "value": "srcest",
+        "visible": "false",
+        "hidden_desktop": false,
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "value": "srcreg",
+        "visible": "false",
+        "hidden_desktop": false,
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "value": "srcuse",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "value": "srcobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-edit bigger-120'></i>",
+            "funcion": "submit_modal_src_click",
+            "parametro": "srcid",
+            "class": "btn btn-xs btn-success",
+            "href": "#modal-src"
+          },
+          {
+            "icon": "",
+            "funcion": "submit_modal_srcxxx_click",
+            "parametro": "usuid",
+            "href": "#modal-usuimg"
+          },
+          {
+            "icon": "",
+            "funcion": "submit_modal_src_report_click",
+            "parametro": "srcid",
+            "href": "#modal-src-report"
+          }
+        ],
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": false,
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "srcreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "srcid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "srcxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "srcest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_serviceCategory",
+    "name": "modal_new_serviceCategory",
+    "class": "",
+    "title": "Service's Category",
+    "height": "250px",
+    "form_class": "",
+    "form_id": "form_src",
+    "col": [
+      {
+        "campo": "srcid",
+        "label": "srcid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcden",
+        "label": "Denomination",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcest",
+        "label": "srcest",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcreg",
+        "label": "created",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcuse",
+        "label": "User",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcobs",
+        "label": "Details",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_src_confirm",
+        "id": "submit_form_src_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_src_confirm','#submit_form_src');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_src",
+        "id": "submit_form_src",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_src_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "",
+      "fk_table": "",
+      "fk_table_id": "",
+      "fk_table_campo": "",
+      "fk_table_where": ""
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "srcsupid",
+      "fk_table": "supplies",
+      "fk_table_id": "supid",
+      "fk_table_campo": "supden",
+      "fk_table_where": "srcest='t' and srcid > 0",
+      "fk_id2": "srcid",
+      "fk_table2": "serviceCategory",
+      "fk_table_id2": "srcsupid",
+      "fk_table_id3": "srcsrvid",
+      "fk_table_est": "srcest",
+      "fk_table_where2": "supest='t' and supid>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "srcest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ],
+  "form_xxx": {
+    "id": "modal_new_serviceCategory",
+    "name": "modal_new_serviceCategory",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_src",
+    "col": [
+      {
+        "campo": "srcid",
+        "label": "srcid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcden",
+        "label": "srcden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcest",
+        "label": "srcest",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcreg",
+        "label": "srcreg",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcuse",
+        "label": "srcuse",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcobs",
+        "label": "srcobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_src_confirm",
+        "id": "submit_form_src_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_src_confirm','#submit_form_src');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_src",
+        "id": "submit_form_src",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_src_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "form_yyy": {
+    "id": "modal_new_serviceCategory",
+    "name": "modal_new_serviceCategory",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_src",
+    "col": [
+      {
+        "campo": "srcid",
+        "label": "srcid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcden",
+        "label": "srcden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcest",
+        "label": "srcest",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcreg",
+        "label": "srcreg",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcuse",
+        "label": "srcuse",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "srcobs",
+        "label": "srcobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_src_confirm",
+        "id": "submit_form_src_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_src_confirm','#submit_form_src');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_src",
+        "id": "submit_form_src",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_src_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+      "config": {
+          
+        "table":"factura",
+        "view":"factura",
+        "col": [	 {"campo": "facid","label": "facid","size":"12","type":"int(11)","key":"PRI" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facusuid","label": "facusuid","size":"12","type":"int(11)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "faccod","label": "faccod","size":"12","type":"varchar(200)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "factyp","label": "factyp","size":"12","type":"varchar(20)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facced","label": "facced","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facnom","label": "facnom","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facdir","label": "facdir","size":"12","type":"text","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "faccor","label": "faccor","size":"12","type":"varchar(100)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "factel","label": "factel","size":"12","type":"varchar(100)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "faccon","label": "faccon","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facemi","label": "facemi","size":"12","type":"varchar(20)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "factot","label": "factot","size":"12","type":"double","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "factax","label": "factax","size":"12","type":"double","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facdes","label": "facdes","size":"12","type":"double","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facest","label": "facest","size":"12","type":"varchar(1)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "facobs","label": "facobs","size":"12","type":"text","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" }
+]
+      },
+      "datatable": {
+
+         
+            "id":"table",
+            "style":"",
+            "class":"",  
+            "select_conditional":"facid  not in (0)",
+            "th": [ {"value": "facid","style":"","class":""} ,
+ {"value": "facusuid","style":"","class":""} ,
+ {"value": "faccod","style":"","class":""} ,
+ {"value": "factyp","style":"","class":""} ,
+ {"value": "facced","style":"","class":""} ,
+ {"value": "facnom","style":"","class":""} ,
+ {"value": "facdir","style":"","class":""} ,
+ {"value": "faccor","style":"","class":""} ,
+ {"value": "factel","style":"","class":""} ,
+ {"value": "faccon","style":"","class":""} ,
+ {"value": "facemi","style":"","class":""} ,
+ {"value": "factot","style":"","class":""} ,
+ {"value": "factax","style":"","class":""} ,
+ {"value": "facdes","style":"","class":""} ,
+ {"value": "facest","style":"","class":""} ,
+ {"value": "facobs","style":"","class":""} 
+ ,{
+                "value": "Edit",
+                "visible": "true"
+            }],
+            "tr": [ {
+                            "value": "facid",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                        "value": "facusuid_fk",
+                        "visible": "true",
+                        "hidden_desktop": "",
+                        "hidden_tablet": "true",
+                        "hidden_mobil": "true",
+                        "class": ""},
+ {
+                            "value": "faccod",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "factyp",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "facced",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "facnom",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "facdir",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "faccor",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "factel",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "faccon",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "facemi",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "factot",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "factax",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "facdes",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "facest",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""},
+ {
+                            "value": "facobs",
+                            "visible": "true",
+                            "hidden_desktop": "",
+                            "hidden_tablet": "true",
+                            "hidden_mobil": "true",
+                            "class": ""}
+ ,{
+
+                        "width": "100px",
+                        "visible": "true",
+                        "hidden_desktop": "",
+                        "hidden_tablet": "true",
+                        "hidden_mobil": "true",
+                        "edit": [
+                        {
+                            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+                            "funcion": "submit_modal_fac_click",
+                            "parametro": "facid",
+                            "href": "#modal-fac",
+                            "class": "btn btn-xs btn-primary"
+                        },
+                        {
+                            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+                            "funcion": "submit_modal_facxxx_click",
+                            "parametro": "usuid",
+                            "href": "#modal-usuimg",
+                            "class": "btn btn-xs btn-primary"
+                        },
+                        {
+                            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+                            "funcion": "submit_modal_fac_report_click",
+                            "parametro": "facid",
+                            "href": "#modal-fac-report",
+                            "class": "btn btn-xs btn-primary"
+                        }
+                        ]
+                    }]	
+
+     },
+     "type_date": [
+     {
+      "campo": "facreg"
+  }
+  ],
+  "type_pk": [
+  {
+      "campo": "facid"
+  }
+  ],
+  "type_moneda": [
+  {
+      "campo": "",
+      "type": ""
+  }
+  ],
+  "type_numeric": [
+  {
+      "campo": "facxxx",
+      "length": 1000
+  }
+  ],
+  "type_sec": [
+  {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+  }
+  ],
+  "type_img": [
+  {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+  }
+  ],
+  "type_delete": [
+  {
+      "campo": "facest"
+  }
+  ],
+  "form_": { 
+                    "id":"modal_new_factura",
+                    "name":"modal_new_factura",
+                    "class":"",
+                    "title":"Nuevo Registro",		
+                    "height":"400px",
+                    "form_class":"",
+                    "form_id":"form_fac",                
+                    "col": [		  {"campo": "facid","label": "","size":"6" , "type":"select" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"display:none","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facusuid_combo","label": "facusuid","size":"6" , "type":"select" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "faccod","label": "faccod","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "factyp","label": "factyp","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facced","label": "facced","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facnom","label": "facnom","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facdir","label": "facdir","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "faccor","label": "faccor","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "factel","label": "factel","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "faccon","label": "faccon","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facemi","label": "facemi","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "factot","label": "factot","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "factax","label": "factax","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facdes","label": "facdes","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facest_combo_fijo","label": "Estatu","size":"6" , "type":"select" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "facobs","label": "facobs","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ],"button_footer": [ {"name": "submit_form_fac_confirm","id":"submit_form_fac_confirm","value": "Guardar Como","color":"success","title":"Save","style":"","onclick":"return validar_submit('#submit_form_fac_confirm','#submit_form_fac');","data-dismiss":""} , {"name": "submit_form_fac","id":"submit_form_fac","value": "Guardar Como","color":"success","title":"Confirma los cambios?","style":"display:none","onclick":"submit_form_fac_click();","data-dismiss":"modal"}]	 },
+  
+
+    "type_combo": [{
+            "fk_id": "facusuid",
+            "fk_table": "usu",
+            "fk_table_id": "usuid",
+            "fk_table_campo": "usuden",
+            "fk_table_where": " usuest ='t'  "
+        }]
+  ,
+  "type_combo_multiple": [
+  {
+      "fk_id": "facid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "facest='t' and facid > 0",
+      "fk_id2": "facid",
+      "fk_table2": "factura",
+      "fk_table_id2": "facid",
+      "fk_table_id3": "facid",
+      "fk_table_est": "facest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+  }
+  ],
+  "type_combo_fijo": [
+  {
+      "campo": "facest",
+      "option": [
+      {
+          "value": "t",
+          "name": "Activo"
+      },
+      {
+          "value": "f",
+          "name": "Inactivo"
+      }
+      ]
+  }
+  ],
+  "menu_top": [
+  {
+      "icon": "",
+      "url": "",
+      "label": "New"
+  }
+  ]
+}

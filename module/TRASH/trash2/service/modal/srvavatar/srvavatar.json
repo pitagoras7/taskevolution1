@@ -1,0 +1,59 @@
+{ "srvavatar": { 
+    "id": "modal_srvavatar",
+    "name": "modal_srvavatar",
+    "title": "Nueva imagen de perfil",
+    "class": "class-lsd",
+    "height": "250px",
+    "form_id": "form_srvavatar",
+    "form_class": "form-class-lsd",
+    "form_action": "index.php",
+    "form_name": "form_srvavatar",
+    "form_enctype":"true",    
+    "col": [
+      {
+        "campo": "srvid_code",
+        "label": "srvid",
+        "size": "6",
+        "type": "hidden",
+        "style_modal_row": "display:none",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "srvavatar",
+        "label": "Foto de perfil",
+        "size": "12",
+        "type": "file",
+        "class": "  ",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": "70000",
+        "url": "/var/www/skydiners/distXP/img/services/"
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_srvavatar_confirm",
+        "id": "submit_form_srvavatar_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Guardar Como",
+        "style": "",
+        "onclick": " return validar_submit('#submit_form_srvavatar_confirm','#submit_form_srvavatar');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_srvavatar",
+        "id": "submit_form_srvavatar",
+        "value": "Esta seguro ?",
+        "color": "primary",
+        "title": "Confirma los cambios ?",
+        "style": "display:none",
+        "onclick": " submit_form_srvavatar_click(); ",
+        "data-dismiss": "modal"
+      }
+    ]
+    
+  
+                  } }

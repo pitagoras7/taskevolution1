@@ -1,0 +1,63 @@
+{
+  "pagomonto": {
+    "id": "modal_new_pagomonto",
+    "name": "modal_new_pagomonto",
+    "class": "",
+    "title": "Settings 7",
+    "height": "200px",
+    "form_class": "",
+    "form_id": "form_pagomonto",
+    "col": [
+      {
+        "campo": "pagid",
+        "label": "",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "pagmon",
+        "label": "Monto",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "font-size:40px; font-weight:bold; height:100px",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_pagomonto_confirm",
+        "id": "submit_form_pagomonto_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_pagomonto_confirm','#submit_form_pagomonto');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_pagomonto",
+        "id": "submit_form_pagomonto",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_pagomonto_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

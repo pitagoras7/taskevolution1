@@ -1,0 +1,3360 @@
+{
+  "config": {
+    "table": "consulta",
+    "view": "consulta",
+    "col": [
+      {
+        "campo": "conid",
+        "label": "conid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conusuid",
+        "label": "conusuid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conpacid",
+        "label": "conpacid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conubiid",
+        "label": "conubiid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "condocid",
+        "label": "condocid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "contyp",
+        "label": "contyp",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conreg",
+        "label": "conreg",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conest",
+        "label": "conest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conobs",
+        "label": "conobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conlab",
+        "label": "conlab",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conexf",
+        "label": "conexf",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conpla",
+        "label": "conpla",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conreq",
+        "label": "conreq",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conidx",
+        "label": "conidx",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "confdx",
+        "label": "confdx",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conhis",
+        "label": "conhis",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conrep",
+        "label": "conrep",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "contto",
+        "label": "contto",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conesp",
+        "label": "conesp",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "consug",
+        "label": "consug",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "condoc",
+        "label": "condoc",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conmdm",
+        "label": "conmdm",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "concit",
+        "label": "concit",
+        "size": "12",
+        "type": "varchar(50)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "concau",
+        "label": "concau",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conrfm",
+        "label": "conrfm",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conpad",
+        "label": "conpad",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conpdo",
+        "label": "conpdo",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "concpt",
+        "label": "concpt",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "concmp",
+        "label": "concmp",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "contst",
+        "label": "contst",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conevo",
+        "label": "conevo",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "confin",
+        "label": "confin",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "consst",
+        "label": "consst",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "concie",
+        "label": "concie",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefa",
+        "label": "conefa",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefb",
+        "label": "conefb",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefc",
+        "label": "conefc",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefd",
+        "label": "conefd",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefe",
+        "label": "conefe",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "coneff",
+        "label": "coneff",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefg",
+        "label": "conefg",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefh",
+        "label": "conefh",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefi",
+        "label": "conefi",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefj",
+        "label": "conefj",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conefk",
+        "label": "conefk",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conind",
+        "label": "conind",
+        "size": "12",
+        "type": "textarea",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conref",
+        "label": "conref",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "conpos",
+        "label": "conpos",
+        "size": "12",
+        "type": "textarea",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "conid  not in (0)",
+    "th": [
+      {
+        "value": "conid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conidx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consst",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "conid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conest",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conidx",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consst",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_con_click",
+            "parametro": "conid",
+            "href": "#modal-con",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_informeAdjunto": {
+    "id": "table",
+    "style": "",
+    "class": "datatable_informeAdjunto",
+    "select_conditional": "conid  not in (0)",
+    "th": [
+      {
+        "value": "conid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conidx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Motivo Consulta",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "conid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "hidden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conest",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "hidden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conidx",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "hidden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consst",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "hidden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-check  bigger-120'></i>",
+            "funcion": "addConsulta",
+            "parametro": "conid",
+            "parametro2": "this",
+            "href": "",
+            "class": "btn btn-xs btn-danger",
+            "mode": "directo"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_dashboardPaciente": {
+    "id": "table",
+    "style": "color:#333",
+    "class": "datatable_informeAdjunto",
+    "select_conditional": "conid  not in (0)",
+    "version": 2,
+    "th": [
+      {
+        "value": "conid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conidx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consst",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "conid",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "visible": "true",
+        "date":true,        
+        "label": "Registro ",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "hidden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conest",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "visible": "",
+        "label": "PLAN",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conidx",
+        "visible": "true",
+        "label": "IDX",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consst",
+        "visible": "true",
+        "label": "Motivo de la Consulta",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-eye  bigger-120'></i>",
+            "funcion": "addConsulta",
+            "parametro": "conid",
+            "parametro2": "this",
+            "href": "",
+            "class": "btn btn-xs btn-success",
+            "mode": "directo"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_dashboardConsulta": {
+    "id": "table",
+    "style": "",
+    "class": "datatable_informeAdjunto datatable0001" ,
+    "select_conditional": "conid  not in (0) and conest in ('t')",
+    "version": 2,
+    "th": [
+      {
+        "value": "conid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conidx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consst",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "conid",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conusuid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conubiid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condocid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contyp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreg",
+        "visible": "true",
+        "label": "Registro",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "hidden",
+        "style": "",
+        "class": "",
+        "date":true       
+      },
+      {
+        "value": "conest",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conobs",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conlab",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conexf",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpla",
+        "visible": "",
+        "label": "PLAN",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conreq",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpacid_fk#conidx",
+        "fin":" :: ",
+        "visible": "true",
+        "label": "PACIENTE / IDX ",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "type": "",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "confdx",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conhis",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrep",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contto",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conesp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consug",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "condoc",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conmdm",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concit",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concau",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conrfm",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpad",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conpdo",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concpt",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "concmp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "contst",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "conevo",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "consst",
+        "visible": "",
+        "label": "Motivo de la Consulta",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+    "icon": "<i class='ace-icon fa fa-eye bigger-120'></i>",
+    "funcion": "submit_modal_consultaReporteIndividual_click",
+    "parametro": "conid",
+    "href": "#modal-consultaReporteIndividual",
+    "class":  "btn btn-xs btn-primary"
+          },  {
+    "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+    "funcion": "submit_modal_consultaRecipeIndividual_click",
+    "parametro": "conid",
+    "href": "#modal-consultaRecipeIndividual",
+    "class":  "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "conreg"
+    },
+    {
+      "campo": "confdx"
+    },
+    {
+      "campo": "concit"
+    },
+    {
+      "campo": "confin"
+    }
+  ],
+  "type_textarea": [
+    {
+      "campo": "conpla"
+    },
+    {
+      "campo": "conidx"
+    },
+    {
+      "campo": "conreq"
+    },
+    {
+      "campo": "conpos"
+    },{
+      "campo": "conind"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "conid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "conxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "conest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_consulta",
+    "name": "modal_new_consulta",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_con",
+    "col": [
+      {
+        "campo": "conid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conusuid_combo",
+        "label": "conusuid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conpacid_combo",
+        "label": "conpacid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conubiid_combo",
+        "label": "conubiid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "condocid_combo",
+        "label": "condocid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "contyp",
+        "label": "contyp",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "Readonly",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conobs",
+        "label": "conobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conlab",
+        "label": "conlab",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conexf",
+        "label": "conexf",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conpla",
+        "label": "conpla",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conreq",
+        "label": "conreq",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conidx",
+        "label": "conidx",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "confdx",
+        "label": "confdx",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conhis",
+        "label": "conhis",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conrep",
+        "label": "conrep",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "contto",
+        "label": "contto",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conesp",
+        "label": "conesp",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "consug",
+        "label": "consug",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "condoc",
+        "label": "condoc",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conmdm",
+        "label": "conmdm",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "concit",
+        "label": "concit",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "concau",
+        "label": "concau",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conrfm",
+        "label": "conrfm",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conpad",
+        "label": "conpad",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conpdo",
+        "label": "conpdo",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "concpt",
+        "label": "concpt",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "concmp",
+        "label": "concmp",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "contst",
+        "label": "contst",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conevo",
+        "label": "conevo",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "consst",
+        "label": "consst",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_con_confirm",
+        "id": "submit_form_con_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_con_confirm','#submit_form_con');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_con",
+        "id": "submit_form_con",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_con_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "conusuid",
+      "fk_table": "usu",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usuden",
+      "fk_table_where": " usuest ='t'  "
+    },
+    {
+      "fk_id": "conpacid",
+      "fk_table": "paciente",
+      "fk_table_id": "pacid",
+      "fk_table_campo": "pacfnm",
+      "fk_table_where": " pacest ='t'  "
+    },
+    {
+      "fk_id": "conubiid",
+      "fk_table": "ubi",
+      "fk_table_id": "ubiid",
+      "fk_table_campo": "ubiden",
+      "fk_table_where": " ubiest ='t'  "
+    },
+    {
+      "fk_id": "condocid",
+      "fk_table": "doc",
+      "fk_table_id": "docid",
+      "fk_table_campo": "docden",
+      "fk_table_where": " docest ='t'  "
+    },
+    {
+      "fk_id": "condocid",
+      "fk_table": "doc",
+      "fk_table_id": "docid",
+      "fk_table_campo": "docden",
+      "fk_table_where": " docest ='t'  "
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "conid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "conest='t' and conid > 0",
+      "fk_id2": "conid",
+      "fk_table2": "consulta",
+      "fk_table_id2": "conid",
+      "fk_table_id3": "conid",
+      "fk_table_est": "conest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "conest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    },
+    {
+      "campo": "conevo",
+      "option": [
+        {
+          "value": "1 a 3 Meses",
+          "name": "1 a 3 Meses"
+        },
+        {
+          "value": "3 a 6 Meses",
+          "name": "3 a 6 Meses"
+        },
+        {
+          "value": "6 a 9 Meses",
+          "name": "6 a 9 Meses"
+        },
+        {
+          "value": "9 a 12 Meses",
+          "name": "9 a 12 Meses"
+        },
+        {
+          "value": "+ 12 Meses",
+          "name": "+ 12 Meses"
+        }
+      ]
+    },
+    {
+      "campo": "concau",
+      "option": [
+        {
+          "value": "Prevención",
+          "name": "Prevención"
+        },
+        {
+          "value": "Embarazo",
+          "name": "Embarazo"
+        },
+        {
+          "value": "Enfermedad",
+          "name": "Enfermedad"
+        },
+        {
+          "value": "Accidente",
+          "name": "Accidente"
+        }
+      ]
+    },
+    {
+      "campo": "conpad",
+      "option": [
+        {
+          "value": "Congenito",
+          "name": "Congenito"
+        },
+        {
+          "value": "Adquirido",
+          "name": "Adquirido"
+        },
+        {
+          "value": "Agudo",
+          "name": "Agudo"
+        },
+        {
+          "value": "Crónico",
+          "name": "Crónico"
+        }
+      ]
+    },
+    {
+      "campo": "contst",
+      "option": [
+        {
+          "value": "Urgencia",
+          "name": "Urgencia"
+        },
+        {
+          "value": "Hospitalaria",
+          "name": "Hospitalaria"
+        },
+        {
+          "value": "Ambulatoria",
+          "name": "Ambulatoria"
+        }
+      ]
+    },
+    {
+      "campo": "contyp",
+      "option": [
+        {
+          "value": "Programación Cirugía",
+          "name": "Programación Cirugía"
+        },
+        {
+          "value": "Tratamiento Médico",
+          "name": "Tratamiento Médico"
+        },
+        {
+          "value": "Reembolso",
+          "name": "Reembolso"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

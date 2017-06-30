@@ -1,0 +1,472 @@
+{
+  "config": {
+    "table": "orderDetailEstatu",
+    "view": "orderDetailEstatu",
+    "col": [
+      {
+        "campo": "odeid",
+        "label": "odeid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "odeusuid",
+        "label": "odeusuid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "odeoddid",
+        "label": "odeoddid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "odetipid",
+        "label": "odetipid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "odereg",
+        "label": "odereg",
+        "size": "12",
+        "type": "date",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "odeest",
+        "label": "odeest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "odeobs",
+        "label": "odeobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "odeid  not in (0)",
+    "th": [
+      {
+        "value": "odeid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "odeusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "odeoddid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "odetipid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "odereg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "odeest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "odeobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "odeid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "odeusuid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "odeoddid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "odetipid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "odereg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "odeest",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "odeobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-cogs bigger-120'></i>",
+            "funcion": "submit_modal_ode_click",
+            "parametro": "odeid",
+            "href": "#modal-ode",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "odereg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "odeid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "odexxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "odeest"
+    }
+  ],"type_oddsrvid": [
+    {
+      "campo": "odeoddid"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_orderDetailEstatu",
+    "name": "modal_new_orderDetailEstatu",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_ode",
+    "col": [
+      {
+        "campo": "odeid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "odeusuid_combo",
+        "label": "odeusuid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "odeoddid_combo",
+        "label": "odeoddid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "odetipid_combo",
+        "label": "odetipid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "odereg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "Readonly",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "odeest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "odeobs",
+        "label": "odeobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_ode_confirm",
+        "id": "submit_form_ode_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_ode_confirm','#submit_form_ode');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_ode",
+        "id": "submit_form_ode",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_ode_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "odeusuid",
+      "fk_table": "user",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usuden",
+      "fk_table_where": " usuest ='t'  "
+    },
+    {
+      "fk_id": "odeoddid",
+      "fk_table": "orderDetail",
+      "fk_table_id": "oddid",
+      "fk_table_campo": "oddid",
+      "fk_table_where": " oddest ='t'  "
+    },
+    {
+      "fk_id": "odetipid",
+      "fk_table": "config",
+      "fk_table_id": "cfgid",
+      "fk_table_campo": "cfgden",
+      "fk_table_where": "cfgest in ('t') and cfgpad in (55)"
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "odeid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "odeest='t' and odeid > 0",
+      "fk_id2": "odeid",
+      "fk_table2": "orderDetailEstatu",
+      "fk_table_id2": "odeid",
+      "fk_table_id3": "odeid",
+      "fk_table_est": "odeest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "odeest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

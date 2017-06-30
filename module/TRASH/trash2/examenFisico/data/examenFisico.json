@@ -1,0 +1,383 @@
+{
+    "config": {
+      
+           "table":"examenFisico",
+           "view":"examenFisico",
+           "col": [    {"campo": "exfid","label": "exfid","size":"12","type":"int(11)","key":"PRI" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfconid","label": "exfconid","size":"12","type":"int(11)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exftal","label": "exftal","size":"12","type":"varchar(100)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exffcf","label": "exffcf","size":"12","type":"varchar(100)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exffrf","label": "exffrf","size":"12","type":"varchar(100)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exften","label": "exften","size":"12","type":"varchar(100)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfobs","label": "exfobs","size":"12","type":"text","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exffec","label": "exffec","size":"12","type":"varchar(20)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfest","label": "exfest","size":"12","type":"varchar(1)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfemi","label": "exfemi","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdaa","label": "exfdaa","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdab","label": "exfdab","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdac","label": "exfdac","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdad","label": "exfdad","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdae","label": "exfdae","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdaf","label": "exfdaf","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdag","label": "exfdag","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdah","label": "exfdah","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdai","label": "exfdai","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdaj","label": "exfdaj","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdak","label": "exfdak","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdal","label": "exfdal","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdam","label": "exfdam","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" },
+ {"campo": "exfdan","label": "exfdan","size":"12","type":"varchar(140)","key":"" ,"default":"" ,"fijo":"false" ,"data":""  ,"password":"false", "correlativo":"false"  , "input_type":"text" , "input_class":"" }
+]
+    },
+    "datatable": {
+      
+             "id":"table",
+             "style":"",
+             "class":"",  
+             "select_conditional":"exfid  not in (0)",
+             "th": [ {"value": "exfid","style":"","class":""} ,
+ {"value": "exfconid","style":"","class":""} ,
+ {"value": "exftal","style":"","class":""} ,
+ {"value": "exffcf","style":"","class":""} ,
+ {"value": "exffrf","style":"","class":""} ,
+ {"value": "exften","style":"","class":""} ,
+ {"value": "exfobs","style":"","class":""} ,
+ {"value": "exffec","style":"","class":""} ,
+ {"value": "exfest","style":"","class":""} ,
+ {"value": "exfemi","style":"","class":""} ,
+ {"value": "exfdaa","style":"","class":""} ,
+ {"value": "exfdab","style":"","class":""} ,
+ {"value": "exfdac","style":"","class":""} ,
+ {"value": "exfdad","style":"","class":""} ,
+ {"value": "exfdae","style":"","class":""} ,
+ {"value": "exfdaf","style":"","class":""} ,
+ {"value": "exfdag","style":"","class":""} ,
+ {"value": "exfdah","style":"","class":""} ,
+ {"value": "exfdai","style":"","class":""} ,
+ {"value": "exfdaj","style":"","class":""} ,
+ {"value": "exfdak","style":"","class":""} ,
+ {"value": "exfdal","style":"","class":""} ,
+ {"value": "exfdam","style":"","class":""} ,
+ {"value": "exfdan","style":"","class":""} 
+ ,{
+               "value": "Edit",
+               "visible": "true"
+             }],
+             "tr": [ {
+                             "value": "exfid",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfconid_fk",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exftal",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exffcf",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exffrf",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exften",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfobs",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exffec",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfest",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfemi",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdaa",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdab",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdac",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdad",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdae",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdaf",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdag",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdah",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdai",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdaj",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdak",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdal",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdam",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""},
+ {
+                             "value": "exfdan",
+                             "visible": "true",
+                             "hidden_desktop": "",
+                             "hidden_tablet": "true",
+                             "hidden_mobil": "true",
+                             "style": "",                   
+                             "class": ""}
+ ,{
+
+                   "width": "100px",
+                   "visible": "true",
+                   "hidden_desktop": "",
+                   "hidden_tablet": "true",
+                   "hidden_mobil": "true",
+                   "style": "",                   
+
+                   "edit": [
+                   {
+                     "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+                     "funcion": "submit_modal_exf_click",
+                     "parametro": "exfid",
+                     "href": "#modal-exf",
+                     "class": "btn btn-xs btn-primary"
+                   }
+                   ]
+                 }]   
+    },
+    "type_date": [
+    {
+      "campo": "exfreg"
+    }
+    ],
+    "type_pk": [
+    {
+      "campo": "exfid"
+    }
+    ],
+    "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+    ],
+    "type_numeric": [
+    {
+      "campo": "exfxxx",
+      "length": 1000
+    }
+    ],
+    "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+    ],
+    "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+    ],
+    "type_delete": [
+    {
+      "campo": "exfest"
+    }
+    ],
+    "form_": { 
+                 "id":"modal_new_examenFisico",
+                 "name":"modal_new_examenFisico",
+                 "class":"",
+                 "title":"Nuevo Registro",        
+                 "height":"400px",
+                 "form_class":"",
+                 "form_id":"form_exf",                
+                 "col": [         {"campo": "exfid","label": "","size":"6" , "type":"select" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"display:none","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfconid_combo","label": "exfconid","size":"6" , "type":"select" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exftal","label": "exftal","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exffcf","label": "exffcf","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exffrf","label": "exffrf","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exften","label": "exften","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfobs","label": "exfobs","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exffec","label": "exffec","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfest_combo_fijo","label": "Estatu","size":"6" , "type":"select" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfemi","label": "exfemi","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdaa","label": "exfdaa","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdab","label": "exfdab","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdac","label": "exfdac","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdad","label": "exfdad","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdae","label": "exfdae","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdaf","label": "exfdaf","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdag","label": "exfdag","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdah","label": "exfdah","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdai","label": "exfdai","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdaj","label": "exfdaj","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdak","label": "exfdak","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdal","label": "exfdal","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdam","label": "exfdam","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ,  {"campo": "exfdan","label": "exfdan","size":"6" , "type":"text" , "class":"",  "style":"", "externo":"","class_modal_row":"","style_modal_row":"","placeholder":"", "maxlength":"", "maxfilesize":""  } ],"button_footer": [ {"name": "submit_form_exf_confirm","id":"submit_form_exf_confirm","value": "Guardar Como","color":"success","title":"Save","style":"","onclick":"return validar_submit('#submit_form_exf_confirm','#submit_form_exf');","data-dismiss":""} , {"name": "submit_form_exf","id":"submit_form_exf","value": "Guardar Como","color":"success","title":"Confirma los cambios?","style":"display:none","onclick":"submit_form_exf_click();","data-dismiss":"modal"}]     },
+    
+          "type_combo": [{
+                "fk_id": "exfconid",
+                "fk_table": "con",
+                "fk_table_id": "conid",
+                "fk_table_campo": "conden",
+                "fk_table_where": " conest ='t'  "
+              }]
+    ,
+    "type_combo_multiple": [
+    {
+      "fk_id": "exfid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "exfest='t' and exfid > 0",
+      "fk_id2": "exfid",
+      "fk_table2": "examenFisico",
+      "fk_table_id2": "exfid",
+      "fk_table_id3": "exfid",
+      "fk_table_est": "exfest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+    ],
+    "type_combo_fijo": [
+    {
+      "campo": "exfest",
+      "option": [
+      {
+        "value": "t",
+        "name": "Activo"
+      },
+      {
+        "value": "f",
+        "name": "Inactivo"
+      }
+      ]
+    }
+    ],
+    "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+    ]
+  }

@@ -1,0 +1,83 @@
+{
+  "tskest": {
+    "id": "modal_new_tskest",
+    "name": "modal_new_tskest",
+    "class": "",
+    "style": "",
+    "title": "<i class='fa fa-trash'></i> ",
+    "height": "200px",
+    "form_class": "",
+    "enctype": "",
+    "action": "",
+    "version": "",
+    "form_submmit": "tskest",
+    "method": "",
+    "type": "",
+    "form_name": "form_formtskest",
+    "form_id": "form_tskest",
+    "col": [
+      {
+        "campo": "tskid",
+        "class_label": "",
+        "class_value": "",
+        "style_label": "",
+        "style_value": "",
+        "groupid": "element-tskid",
+        "id": "element-form-tskid",
+        "label": "",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "display:none",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "tskest_combo_fijo",
+        "class_label": "",
+        "class_value": "",
+        "style_label": "",
+        "style_value": "",
+        "groupid": "element-tskest",
+        "id": "element-form-tskest",
+        "label": "Do you want to delete the task?",
+        "size": "12",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_tskest_confirm",
+        "id": "submit_form_tskest_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_tskest_confirm','#submit_form_tskest');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_tskest",
+        "id": "submit_form_tskest",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_tskest_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

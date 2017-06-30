@@ -1,0 +1,7 @@
+[ 
+  {"name": "Cardiología", "code": "AF"}, 
+  {"name": "Medicina Interna", "code": "AX"}, 
+  {"name": "Dermatología", "code": "AL"}, 
+  {"name": "Gastroenterología", "code": "DZ"}, 
+  {"name": "Oftalmología", "code": "AS"}
+ ]

@@ -1,0 +1,1008 @@
+{
+  "config": {
+    "table": "user",
+    "view": "user",
+    "col": [
+      {
+        "campo": "usuid",
+        "label": "usuid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usunom",
+        "label": "usunom",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usuced",
+        "label": "usuced",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usucar",
+        "label": "usucar",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usugen",
+        "label": "usugen",
+        "size": "12",
+        "type": "varchar(3)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usucor",
+        "label": "usucor",
+        "size": "12",
+        "type": "varchar(100)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usulog",
+        "label": "usulog",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usupas",
+        "label": "usupas",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "password",
+        "input_class": "x"
+      },
+      {
+        "campo": "usureg",
+        "label": "usureg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usuest",
+        "label": "usuest",
+        "size": "12",
+        "type": "char(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": [
+          {
+            "name": "t"
+          },
+          {
+            "name": "f"
+          }
+        ],
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usuusuid",
+        "label": "usuusuid",
+        "size": "12",
+        "type": "int",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usugruid",
+        "label": "usugruid",
+        "size": "12",
+        "type": "select",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usudir",
+        "label": "usudir",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usuing",
+        "label": "usuing",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "usuimg",
+        "label": "usuimg",
+        "size": "140",
+        "type": "varchar(145)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "file",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "font-size": "13px",
+    "select_conditional": " usuest = 't' ",
+    "style": " text-transform: uppercase; font-size:13px ",
+    "th": [
+      {
+        "value": "ID",
+        "class": "hidden-md"
+      },
+      {
+        "value": "FirstName",
+        "class": " "
+      },
+      {
+        "value": "# ID",
+        "class": ""
+      },
+      {
+        "value": "Cargo",
+        "class": ""
+      },
+      {
+        "value": "Gender",
+        "class": ""
+      },
+      {
+        "value": "Email",
+        "class": ""
+      },
+      {
+        "value": "Login",
+        "class": ""
+      },
+      {
+        "value": "Password",
+        "class": ""
+      },
+      {
+        "value": "Created",
+        "class": ""
+      },
+      {
+        "value": "Estatu",
+        "class": ""
+      },
+      {
+        "value": "usuusuid",
+        "class": ""
+      },
+      {
+        "value": "Grup",
+        "class": ""
+      },
+      {
+        "class": "",
+        "value": "usudir"
+      },
+      {
+        "value": "usuing",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "usuid",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": "",
+        "hidden_tablet": " ",
+        "hidden_mobil": " "
+      },
+      {
+        "value": "usunom",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": true,
+        "hidden_tablet": "",
+        "hidden_mobil": " "
+      },
+      {
+        "value": "usuced",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": "",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usucar",
+        "visible": "true",
+        "class": "",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usugen_fk_value_fijo",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usucor",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usulog",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usupas",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": "",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usureg",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usuest_fk_value_fijo",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usuusuid",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usugruid_fk",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usudir",
+        "visible": "false",
+        "class": "",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usuing",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "width": "",
+        "visible": "true",
+        "class": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": false,
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-edit bigger-120'></i>",
+            "funcion": "submit_modal_usu_click",
+            "parametro": "usuid",
+            "href": "#modal-usu",
+            "class": "btn btn-xs btn-success"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "funcion": "submit_modal_usu_report_click",
+            "parametro": "usuid",
+            "href": "#modal-usu-report",
+            "class": "btn btn-xs btn-warning"
+          },   {
+            "icon": "<i class='ace-icon fa fa-photo bigger-120'></i>",
+            "funcion": "submit_modal_avatar_click",
+            "parametro": "usuid",
+            "href": "#modal-avatar",
+            "class": "btn btn-xs btn-warning"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_userOrder": {
+    "id": "table",
+    "font-size": "13px",
+    "select_conditional": " usuest = 't' ",
+    "style": " text-transform: uppercase; font-size:13px ",
+    "class": " display dataTable",
+    "th": [
+      {
+        "value": "ID",
+        "class": "hidden-md"
+      },
+      {
+        "value": "FirstName",
+        "class": " "
+      },
+      {
+        "value": "# ID",
+        "class": ""
+      },
+      {
+        "value": "Cargo",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "usuid",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": " "
+      },
+      {
+        "value": "usunom",
+        "visible": "true",
+        "class": "  ",
+        "hidden_desktop": true,
+        "hidden_tablet": "",
+        "hidden_mobil": " "
+      },
+      {
+        "value": "usuced",
+        "visible": "true",
+        "class": " hide-on-med-and-down ",
+        "hidden_desktop": "",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "value": "usucar",
+        "visible": "true",
+        "class": " hide-on-med-and-down ",
+        "hidden_desktop": " ",
+        "hidden_tablet": " ",
+        "hidden_mobil": true
+      },
+      {
+        "width": "",
+        "visible": "true",
+        "class": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": false,
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-cogs bigger-120'></i>",
+            "funcion": "submit_modal_userOrder_click",
+            "parametro": "usuid",
+            "href": "#modal-userOrder",
+            "class": "btn btn-xs btn-primary",
+            "externo": " data-dismiss=\"modal\" "
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "usureg"
+    },
+    {
+      "campo": "usuing"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "usuid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "",
+      "length": ""
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "usuimg",
+      "url": "distXP/img/",
+      "class": "",
+      "width": "200px",
+      "style": "border:2px solid gray; padding:5px"
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "usuest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_usu",
+    "name": "modal_new_usu",
+    "title": "<i class='fa fa-users'>  </i> User Setting",
+    "class": "class-lsd",
+    "height": "400px",
+    "form_id": "form_usu",
+    "form_class": "form-class-lsd",
+    "col": [
+      {
+        "campo": "usuid",
+        "label": "usuid",
+        "size": "6",
+        "type": "readonly",
+        "style_modal_row": "display:none",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usunom",
+        "label": "First Name",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuced",
+        "label": "Document ID",
+        "size": "6",
+        "type": "text",
+        "class": "100_form",
+        "placeholder": "",
+        "maxlength": "",
+        "externo": "  "
+      },
+      {
+        "campo": "usucar",
+        "label": "Employment",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usugen_combo_fijo",
+        "label": "Gender",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usucor",
+        "label": "Email",
+        "size": "6",
+        "type": "text",
+        "class": "email_form",
+        "placeholder": "",
+        "maxlength": "",
+        "externo": " "
+      },
+      {
+        "campo": "usulog",
+        "label": "Login",
+        "size": "6",
+        "type": "text",
+        "class": " ",
+        "style": " float:none",
+        "id": "",
+        "placeholder": "",
+        "maxlength": "",
+        "externo": "  "
+      },
+      {
+        "campo": "usupas",
+        "label": "Password",
+        "size": "6",
+        "type": "password",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usureg",
+        "label": "usureg",
+        "size": "6",
+        "type": "text",
+        "class": " date ",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "style": " ",
+        "externo": "",
+        "edit": "false"
+      },
+      {
+        "campo": "usuest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuusuid",
+        "label": "usuusuid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usugruid_combo",
+        "label": "usugruid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usudir",
+        "label": "Address",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuing",
+        "label": "usuing",
+        "size": "6",
+        "type": "text",
+        "class": " date ",
+        "placeholder": "",
+        "maxlength": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_usu_confirm",
+        "id": "submit_form_usu_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Guardar Como",
+        "style": "",
+        "onclick": " return validar_submit('#submit_form_usu_confirm','#submit_form_usu');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_usu",
+        "id": "submit_form_usu",
+        "value": "",
+        "color": "primary",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_usu_click(); ",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "form_001": {
+    "id": "modal_new_usu",
+    "name": "modal_new_usu",
+    "title": "Nuevo Usuario",
+    "class": "class-lsd",
+    "height": "550px",
+    "form_id": "form_usu",
+    "form_class": "form-class-lsd",
+    "col": [
+      {
+        "campo": "usuid",
+        "label": "usuid",
+        "size": "6",
+        "type": "readonly",
+        "style_modal_row": "display:none",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usunom",
+        "label": "usunom",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuced",
+        "label": "usuced",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usucar",
+        "label": "usucar",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usugen_fk_value_fijo",
+        "label": "usugen",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usucor",
+        "label": "usucor",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usulog",
+        "label": "usulog",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usureg",
+        "label": "usureg",
+        "size": "6",
+        "type": "readonly",
+        "class": "label_text2",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "style": " padding:10px; border:1px solid gray;",
+        "externo": "readonly"
+      },
+      {
+        "campo": "usuest_fk_value_fijo",
+        "label": "usuest",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuusuid_fk",
+        "label": "usuusuid",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usugruid_fk",
+        "label": "usugruid",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usudir",
+        "label": "usudir",
+        "size": "6",
+        "type": "readonly",
+        "class": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuing",
+        "label": "usuing",
+        "size": "6",
+        "type": "readonly",
+        "class": "  ",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuimg_format_img",
+        "label": "Foto de perfil",
+        "size": "12",
+        "type": "readonly",
+        "class": "  ",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": "70000"
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_usu_confirm",
+        "id": "submit_form_usu_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Guardar Como",
+        "style": "",
+        "onclick": " return validar_submit('#submit_form_usu_confirm','#submit_form_usu');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_usu",
+        "id": "submit_form_usu",
+        "value": "",
+        "color": "primary",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_usu_click(); ",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "form_usuimg": {
+    "id": "modal_usuimg",
+    "name": "modal_usuimg",
+    "title": "Nueva imagen de perfil",
+    "class": "class-lsd",
+    "height": "250px",
+    "form_id": "form_usuimg",
+    "form_class": "form-class-lsd",
+    "form_action": "index.php",
+    "form_name": "form_usuimg",
+    "form_enctype":"true",
+    "col": [
+      {
+        "campo": "usuid_code",
+        "label": "usuid",
+        "size": "6",
+        "type": "hidden",
+        "style_modal_row": "display:none",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "usuimg",
+        "label": "Foto de perfil",
+        "size": "12",
+        "type": "file",
+        "class": "  ",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": "70000",
+        "url": "/var/www/skydiners/distXP/img/"
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_usuimg_confirm",
+        "id": "submit_form_usuimg_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Guardar Como",
+        "style": "",
+        "onclick": " return validar_submit('#submit_form_usuimg_confirm','#submit_form_usuimg');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_usuimg",
+        "id": "submit_form_usuimg",
+        "value": "Esta seguro ?",
+        "color": "primary",
+        "title": "Confirma los cambios ?",
+        "style": "display:none",
+        "onclick": " submit_form_usuimg_click(); ",
+        "data-dismiss": "modal"
+      }
+    ],
+    "javascript": " <script >   </script>  <div id='respuesta'></div>"
+  },
+  "type_combo": [
+    {
+      "fk_id": "usugruid",
+      "fk_table": "grupoUser",
+      "fk_table_id": "gruid",
+      "fk_table_campo": "grunom",
+      "fk_table_where": " gruest='t' "
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "usuest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    },
+    {
+      "campo": "usugen",
+      "option": [
+        {
+          "value": "f",
+          "name": "Femenino"
+        },
+        {
+          "value": "m",
+          "name": "Masculino"
+        },
+        {
+          "value": "n",
+          "name": "No especifica"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

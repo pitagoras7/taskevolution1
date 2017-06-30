@@ -1,0 +1,59 @@
+{ "avatar": { 
+    "id": "modal_avatar",
+    "name": "modal_avatar",
+    "title": "Avatar",
+    "class": "class-lsd",
+    "height": "250px",
+    "form_id": "form_avatar",
+    "form_class": "form-class-lsd",
+    "form_action": "index.php",
+    "form_name": "form_avatar",
+    "form_enctype":"true",    
+    "col": [
+      {
+        "campo": "usuid_code",
+        "label": "usuid",
+        "size": "6",
+        "type": "hidden",
+        "style_modal_row": "display:none",
+        "class": "",
+        "placeholder": "",
+        "maxlength": ""
+      },
+      {
+        "campo": "avatar",
+        "label": "Cargue una imagen ",
+        "size": "12",
+        "type": "file",
+        "class": "  ",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": "70000",
+        "url": "distXP/img/"
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_avatar_confirm",
+        "id": "submit_form_avatar_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Guardar Como",
+        "style": "",
+        "onclick": " return validar_submit('#submit_form_avatar_confirm','#submit_form_avatar');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_avatar",
+        "id": "submit_form_avatar",
+        "value": "Esta seguro ?",
+        "color": "primary",
+        "title": "Confirma los cambios ?",
+        "style": "display:none",
+        "onclick": " submit_form_avatar_click(); ",
+        "data-dismiss": "modal"
+      }
+    ]
+    
+  
+                  } }

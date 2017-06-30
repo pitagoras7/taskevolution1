@@ -1,0 +1,689 @@
+{
+  "config": {
+    "table": "historia",
+    "view": "historia",
+    "col": [
+      {
+        "campo": "hisid",
+        "label": "hisid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "hisusuid",
+        "label": "hisusuid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "hischsid",
+        "label": "hischsid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "hiscod",
+        "label": "hiscod",
+        "size": "12",
+        "type": "varchar(200)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "hisden",
+        "label": "hisden",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "hisval",
+        "label": "hisval",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "hisopc",
+        "label": "hisopc",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "hisobs",
+        "label": "hisobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "histyp",
+        "label": "histyp",
+        "size": "12",
+        "type": "varchar(45)",
+        "key": "",
+        "default": "0",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "hisid  not in (0)",
+    "th": [
+      {
+        "value": "hisid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hischsid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hiscod",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisval",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisopc",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "histyp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "hisid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisusuid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hischsid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hiscod",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisval",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisopc",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "histyp",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_his_click",
+            "parametro": "hisid",
+            "href": "#modal-his",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_consulta": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "hisid  not in (0)",
+    "th": [
+      {
+        "value": "hisid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hischsid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hiscod",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisval",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisopc",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "histyp",
+        "style": "",
+        "class": ""
+      }
+    ],
+    "tr": [
+      {
+        "value": "hisid",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisusuid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hischsid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hiscod",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisval",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisopc",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "hisobs",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "histyp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "hisreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "hisid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "hisxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "hisest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_historia",
+    "name": "modal_new_historia",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_his",
+    "col": [
+      {
+        "campo": "hisid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "hisusuid_combo",
+        "label": "hisusuid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "hischsid_combo",
+        "label": "hischsid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "hiscod",
+        "label": "hiscod",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "hisden",
+        "label": "hisden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "hisval",
+        "label": "hisval",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "hisopc",
+        "label": "hisopc",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "hisobs",
+        "label": "hisobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "histyp",
+        "label": "histyp",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_his_confirm",
+        "id": "submit_form_his_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_his_confirm','#submit_form_his');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_his",
+        "id": "submit_form_his",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_his_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "hisusuid",
+      "fk_table": "usu",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usuden",
+      "fk_table_where": " usuest ='t'  "
+    },
+    {
+      "fk_id": "hischsid",
+      "fk_table": "chs",
+      "fk_table_id": "chsid",
+      "fk_table_campo": "chsden",
+      "fk_table_where": " chsest ='t'  "
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "hisid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "hisest='t' and hisid > 0",
+      "fk_id2": "hisid",
+      "fk_table2": "historia",
+      "fk_table_id2": "hisid",
+      "fk_table_id3": "hisid",
+      "fk_table_est": "hisest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "hisest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

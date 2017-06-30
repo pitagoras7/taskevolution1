@@ -1,0 +1,140 @@
+{
+  "armarpedido": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "oddid  not in (0)",
+    "th": [
+      {
+        "value": "oddid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddordid",
+        "style": "",
+        "class": ""
+      },{
+        "value": "Unit",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Name Service",
+        "style": "",
+        "class": ""
+      },
+      
+      {
+        "value": "oddest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "oddid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddordid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      }, {
+        "value": "oddcan",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddid_srpden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+     
+      {
+        "value": "oddest",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "120px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-user bigger-120'></i>",
+            "funcion": "submit_modal_odd_click",
+            "parametro": "oddid",
+            "href": "#modal-odd",
+            "class": "btn btn-xs btn-primary"
+          },   {
+            "icon": "<i class='ace-icon fa fa-trash bigger-120'></i>",
+          "funcion": " ajax",  
+            "ajax_code": "oddest", 
+            "ajax_parametro": "oddid", 
+            "ajax_view": "view_orderDetail", 
+            "href": "",
+            "class":  "btn btn-xs btn-danger",
+            "mode":"ajax-directo"
+          },{
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "class": "btn btn-xs btn-primary",
+            "funcion": "",
+            "parametro": "oddid",
+            "href": "?opcion=servicePreferenceOrderDetails&code=",
+            "mode": "href"
+}
+
+        ]
+      }
+    ]
+  }
+}

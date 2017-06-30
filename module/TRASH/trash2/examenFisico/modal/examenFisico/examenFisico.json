@@ -1,0 +1,107 @@
+{
+  "examenFisico": {
+    "id": "modal_new_examenFisico",
+    "name": "modal_new_examenFisico",
+    "class": "",
+    "style": "",
+    "title": "Examen Fisico",
+    "height": "300px",
+    "form_class": "",
+    "form_id": "form_examenFisico",
+    "type": "documento",
+    "col": [
+      {
+        "campo": "exftal",
+        "label": "Talla",
+        "size": "3",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "exffcf",
+        "label": "FC",
+        "size": "3",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "exffrf",
+        "label": "FR",
+        "size": "3",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "exften",
+        "label": "T",
+        "size": "3",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "exfobs",
+        "label": "Observación",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_examenFisico_confirm",
+        "id": "submit_form_examenFisico_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_examenFisico_confirm','#submit_form_examenFisico');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_examenFisico",
+        "id": "submit_form_examenFisico",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_examenFisico_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

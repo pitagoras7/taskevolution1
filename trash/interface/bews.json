@@ -1,0 +1,134 @@
+{
+  "bews": [
+    {
+      "name": "Coke",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400001
+
+    },
+    {
+      "name": "Orange soda ",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400002
+
+    },
+    {
+      "name": " Lemon soda ",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400003
+
+    },
+    {
+      "name": "Lemonade",
+      "ico": "",
+      "category": "bews_product hot",
+      "price": "3.00",
+      "color": "",
+      "code":400004
+
+    },
+    {
+      "name": "Milk",
+      "ico": "",
+      "category": "bews_product hot",
+      "price": "3.00",
+      "color": "",
+      "code":400005
+
+    },
+    {
+      "name": "Orange juice. ",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400006
+
+    },
+    {
+      "name": "Pineapple juice.",
+      "ico": "",
+      "category": "bews_product hot",
+      "price": "3.00",
+      "color": "",
+      "code":400007
+
+    },
+    {
+      "name": "Tomato juice.",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400008
+
+    },
+    {
+      "name": "Milkshake",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400009
+
+    },
+    {
+      "name": " Fruit milkshake.",
+      "ico": "",
+      "category": "bews_product hot",
+      "price": "3.00",
+      "color": "",
+      "code":400010
+
+    },
+    {
+      "name": "  Strawberry milkshake.",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400011
+    },
+    {
+      "name": "  Coffee",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400012
+    },
+    {
+      "name": " Coffee with cream ",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400013
+    },
+    {
+      "name": " Coffee with a dash of milk.",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400014
+    },
+    {
+      "name": "Decaffeinated coffee.",
+      "ico": "",
+      "category": "bews_product cold",
+      "price": "3.00",
+      "color": "",
+      "code":400015
+    }
+  ]
+}

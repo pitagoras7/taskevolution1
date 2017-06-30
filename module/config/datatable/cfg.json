@@ -1,0 +1,170 @@
+{
+"cfg": {
+    "id": "table",
+    "style": "text-transform:uppercase",
+    "class": "",
+    "select_conditional": "cfgest='t' and cfgid not in (0) and cfgpad not in (0)",
+    "th": [
+      {
+        "value": "cfgid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Root",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Parameter name",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Extra Parameter",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Number Parameter",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Register",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "User",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Obs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Estatu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "cfgid",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": true,
+        "hidden_tablet": "",
+        "hidden_mobil": " "
+      },
+      {
+        "value": "cfgpad_fk",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": true
+      },
+      {
+        "value": "cfgden",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": false,
+        "hidden_tablet": "",
+        "hidden_mobil": " "
+      },
+      {
+        "value": "cfgext",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": false,
+        "hidden_tablet": "",
+        "hidden_mobil": true
+      },
+      {
+        "value": "cfgnum",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": false,
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "value": "cfgreg",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": false,
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "value": "cfguse",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": false,
+        "hidden_tablet": "",
+        "hidden_mobil": " "
+      },
+      {
+        "value": "cfgobs",
+        "visible": "false",
+        "class": " ",
+        "hidden_desktop": false,
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "value": "cfgest",
+        "visible": "false",
+        "class": "",
+        "hidden_desktop": true,
+        "hidden_tablet": true,
+        "hidden_mobil": true
+      },
+      {
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-edit bigger-120'></i>",
+            "funcion": "submit_modal_cfg_click",
+            "parametro": "cfgid",
+            "class": "btn btn-xs btn-success",
+            "href": "#modal-cfg"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa-plus bigger-120'></i>",
+            "funcion": "submit_modal_cfgpad_click",
+            "parametro": "cfgid",
+            "href": "#modal-cfgpad",
+            "class": "btn btn-xs btn-danger"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa-trash bigger-120'></i>",
+            "funcion": "submit_modal_eliminacion_click",
+            "parametro": "cfgid",
+            "href": "#modal-eliminacion",
+            "class": "btn btn-xs btn-danger"
+          },{
+            "icon": "<i class='ace-icon fa fa-user bigger-120'></i>",
+            "funcion": "submit_modal_cfgnum_click",
+            "parametro": "cfgid",
+            "href": "#modal-cfgnum",
+            "class": "btn btn-xs btn-primary"
+          }
+        ],
+        "width": "150px",
+        "visible": "true",
+        "class": " ",
+        "hidden_desktop": false,
+        "hidden_tablet": false,
+        "hidden_mobil": false
+      }
+    ]
+  }
+}

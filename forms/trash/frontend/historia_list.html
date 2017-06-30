@@ -1,0 +1,88 @@
+{% extends "baseXP.html" %}
+      {% block menuTop %}{% endblock %}
+      {% block content_menu %}{% endblock %}
+      {% block content_wrapper %}
+      <div class="row" >
+      <div class="col-xs-12 barra_superior_datatable" >
+      <span class="livicon"    data-hovercolor="white"
+      data-color="white" data-name="settings" data-size="24">
+      </span>
+      historia
+      <a class="btn btn-success pull-right bolder" href="#modal-his" role="button" data-toggle="modal" onclick="new_modal_his_click()" >  <span class="livicon"    data-hovercolor="white"
+      data-color="white" data-name="plus-alt" data-size="18"></span>   historia 
+      </a>
+      </div>
+      </div>
+      <div class="row" >
+      <div class="col-xs-12">
+      <div class="clearfix options-print-datatable" >
+      <div class="pull-right tableTools-container"></div>
+      </div>
+      <div id="view">
+      {{ dato.datatable|raw }} 
+      </div>
+      </div>
+      </div>
+      <div id = "modal-his" class="modal fade" tabindex="-1">
+      <div id="content-modal-his"></div>
+      </div>
+      {% endblock %}
+      {% block javascript %}
+      <script type="text/javascript">
+      function new_modal_his_click(x) {
+       goto_lsdajax001('new_his', [x], 'content-modal-his','module/historia/his_AJAX.php');
+     }
+
+     function submit_modal_his_click(x) {
+       goto_lsdajax001('edit_his', [x], 'content-modal-his','module/historia/his_AJAX.php');
+     }
+
+
+
+     function submit_form_his_click() {
+
+       var vista = 'view';
+       var data = $('#form_his').serialize();
+       goto_lsdajax002('save_his', [data], vista,'module/historia/his_AJAX.php');
+
+     }
+
+
+     function response_lsdajax001(){
+       validation_form();
+     }
+
+
+     function response_lsdajax002(){
+       initDatatable();
+     }
+
+
+
+
+     initDatatable();
+
+
+
+     function refresh_JS() {
+
+
+       $(".date").datepicker({
+         format: 'dd/mm/yyyy',
+         showOtherMonths: true,
+         selectOtherMonths: false
+
+       });
+
+
+$('.date').mask('99/99/2999');
+
+
+}
+
+
+
+</script>  
+{% endblock %}
+{% block css %}
+{% endblock %}

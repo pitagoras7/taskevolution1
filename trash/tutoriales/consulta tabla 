@@ -1,0 +1,36 @@
+CREATE TABLE `consulta` (
+  `conid` int(11) NOT NULL AUTO_INCREMENT,
+  `conusuid` int(11) DEFAULT NULL,
+  `conpacid` int(11) DEFAULT NULL,
+  `conubiid` int(11) DEFAULT NULL,
+  `condocid` int(11) DEFAULT NULL,
+  `contyp` varchar(20) DEFAULT NULL,   TYPO DE LA CONSULTA
+  `conreg` varchar(20) DEFAULT NULL,
+  `conest` varchar(1) DEFAULT NULL,   
+  `conobs` text,					   OBSERVACION
+  `conlab` text,					   LABORATORIOS
+  `conexf` text,					   EXAMEN FISICO
+  `conpla` text,					   PLAN
+  `conreq` text,					   REQUISITOS
+  `conidx` text,					   DIAGNOSTICO
+  `confdx` text,  					 FECHA DIAGNOSTICA
+  `conhis` text,					   HISTORIA
+  `conrep` text,					   REPOSO
+  `contto` text,					   TRATAMIENTO
+  `conesp` text,					   SUGERENCIA A OTRO ESPECIALISTA
+  `consug` text,					   SUGERENCIA OBSERVACION
+  `condoc` text,					   DOCTORES QUE PARTICIPARON
+  `conmdm` text, 				     MEDICAMENTOS
+  `concit` varchar(50)       DEFAULT NULL,   PROXIMA CITA
+  `concau` text, 					   CAUSA ( ATENNCION )
+  `conrfm` text,					   REFERIDO POR 
+  `conpad` varchar(140) DEFAULT NULL,  PADECIMIENTO
+  `conpdo` text,  					           OTRO PADECIMIENTO
+  `concpt` text,					             DIAGNOSTICO CPT
+  `concmp` text,	                     COMPLICACIONES
+  `contst` varchar(140) DEFAULT NULL,  TIPO ESTANCIA
+  `conevo` varchar(140) DEFAULT NULL,  CON EVOLUCION
+  `consst` text DEFAULT NULL,          SIGNOS Y SINTOMAS
+  `confin`archar(50) DEFAULT NULL,     FECHA DE INICIO DEL PADECIMIENTO
+  PRIMARY KEY (`conid`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

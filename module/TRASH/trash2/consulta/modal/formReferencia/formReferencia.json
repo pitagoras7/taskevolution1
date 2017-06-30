@@ -1,0 +1,93 @@
+{
+  "formReferencia": {
+    "id": "modal_new_formReferencia",
+    "name": "modal_new_formReferencia",
+    "class": "",
+    "style": "",
+    "type": "documento",
+    "title": "Referencias",
+    "height": "350px",
+    "form_class": "",
+    "form_id": "form_formReferencia",
+    "col": [
+      {
+        "campo": "conhis",
+        "label": "conhis",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta02",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "conesp",
+        "label": "conesp",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta02",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "consug",
+        "label": "consug",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta02",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "condoc",
+        "label": "condoc",
+        "size": "6",
+        "type": "textarea",
+        "class": "textareaConsulta02",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_formReferencia_confirm",
+        "id": "submit_form_formReferencia_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_formReferencia_confirm','#submit_form_formReferencia');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_formReferencia",
+        "id": "submit_form_formReferencia",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_formReferencia_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

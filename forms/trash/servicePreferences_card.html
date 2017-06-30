@@ -1,0 +1,103 @@
+{% extends "baseXP.html" %}
+
+{% block menuTop2 %}
+
+        {{ dato.menu_|raw }}
+
+
+{% endblock %}
+
+
+
+{% block content_menu %}
+
+{% endblock %}
+
+
+
+
+{% block content_wrapper %}
+
+  <div class="row" >
+
+      <div class="col-xs-12 col-md-8 ">
+
+
+          <div id="view">
+              {{ dato.cardsimple|raw }}
+          </div>
+
+
+
+          <div id = "modal-odd" class="modal fade" tabindex="-1">
+              <div id="content-modal-odd"></div>
+          </div>
+
+
+          <div id="modal-form" class="modal in" tabindex="-1" style="display: none; padding-right: 15px;">
+
+          </div>
+
+      </div>
+
+      <div class="col-xs-12 col-md-4">
+
+
+          <div id="view_orderDetail">
+              {{ dato.datatable|raw }}
+          </div>
+
+
+      </div>
+
+  </div>
+
+{% endblock %}
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+  function response_lsdajax001(){
+      validation_form();
+  }
+
+
+  function response_lsdajax002(){
+  }
+
+
+
+  function filter_cards_srv(x) {
+      goto_lsdajax001('filter_cards_srv', [x], 'view','module/orderDetail/modal/odd/odd_AJAX.php');
+  }
+
+
+
+
+$(document).ready(function(){
+  $('input').each(function(){
+    var self = $(this),
+      label = self.next(),
+      label_text = label.text();
+
+    label.remove();
+    self.iCheck({
+      checkboxClass: 'icheckbox_line-blue',
+      radioClass: 'iradio_line-blue',
+      insert: '<div class="icheck_line-icon"></div>' + label_text
+    });
+  });
+});
+</script>
+
+
+{% endblock %}
+
+
+{% block css %}
+
+
+
+{% endblock %}

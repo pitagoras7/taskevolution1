@@ -1,0 +1,261 @@
+{% extends "base_consulta_blank.html" %}
+
+
+
+{% block categoria2 %} 
+<div id="categoria2" >
+
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block visor1 %}
+
+
+<div id="visor1"  class="col-md-3" style="background:#333; height:600px; border-radius:5px; padding-top:10px; color:#fff">
+
+
+    <div class="col-md-12" style="background:#F5F5F5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+        <table style="width:100%; height:60px; font-size:14px;">
+            <tr>
+                <td >
+
+                    <img src="distXP/img/pdro2.jpg" style="width:80px; margin-top:5px; border-radius:5px">
+
+                </td>
+
+                <td > <div style="margin-top:5px; margin-left:10px;  font-size:14px">
+                   <span style="font-size:16px; font-weight:bold">
+                    Rojas Garcia Pedro Alejandro  </span>
+                    <br>  29 años | Soltero 
+                </div></td>
+            </tr>
+
+        </table>
+    </div>
+
+
+
+
+    <!-- ULTIMA VISITA -->
+    <div class="col-md-12" style="background:#f5f5f5; color:#333; margin-top:10px; border-radius:5px">
+
+        <table style="width:100%; height:60px; font-size:14px;">
+            <tr>
+                <td ><i style="font-size:33px; margin-top:5px; margin-right:5px;" class="fa fa-calendar"></i></td>
+                <td > <div style="margin-top:5px; font-size:14px">
+                   <span style="font-size:16px; font-weight:bold"> Ultima Visita </span>
+                   <br> 12 / 09 / 2016 Hace 28 días </div></td>
+               </tr>
+
+           </table>
+
+       </div>
+       <!-- ULTIMA VISITA -->
+
+
+       <!-- DIAGNOSTICO -->
+       <div class="col-md-12" style="background:#f5f5f5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+        <table style="width:100%; height:60px; font-size:14px;">
+            <tr>
+                <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-stethoscope"></i></td>
+                <td > <div style="margin-top:5px;font-size:14px">
+                   <span style="font-size:16px; font-weight:bold"> Ultimo Diagnostico </span>
+                   <br> Queratitis Hermeticamente Solida  </div></td>
+               </tr>
+
+           </table>
+       </div>
+       <!-- DIAGNOSTICO -->
+
+
+       <!-- ALERGIA -->
+       <div class="col-md-12" style="background:#F3F781; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+        <table style="width:100%; height:60px; font-size:14px;">
+            <tr>
+                <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-exclamation-circle"></i></td>
+                <td > <div style="margin-top:5px;  font-size:14px">
+                   <span style="font-size:16px; font-weight:bold">  Alergías </span>
+                   <br> Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  </div></td>
+               </tr>
+
+           </table>
+       </div>
+       <!-- ALERGIA -->
+
+
+       <!-- OBSERVACION -->
+       <div class="col-md-12" style="background:#F5F5F5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+        <table style="width:100%; height:60px; font-size:14px;">
+            <tr>
+                <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-pencil-square"></i></td>
+                <td > <div style="margin-top:5px;  font-size:14px">
+                   <span style="font-size:16px; font-weight:bold">  Nota importante  </span>
+                   <br> Vamos pedro tu puedes hermanoooo por tu futuro no te rindas  </div></td>
+               </tr>
+
+           </table>
+       </div>
+       <!-- OBSERVACION -->
+
+       <!-- OBSERVACION -->
+       <div class="col-md-12" style="text-align:center; margin-top:25px; padding-bottom:10px; border-radius:5px">
+
+        <a style=" width:80%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-primary" data-toggle="modal" href="#modal-reportePacienteIndividual" onclick="submit_modal_reportePacienteIndividual_click()">
+          <span class="menu-text">Ver Historia Completa </span>
+      </a>
+
+      <!--
+    <div class="col-md-12" style=" height:50px">
+     {{ dato.menu_filter_cards|raw }}
+ </div>-->
+</div>
+<!-- OBSERVACION -->
+
+
+</div>
+
+<div id="visor2"  class="col-md-9" style="margin-top: -30px;">
+{{ dato.visor1|raw }}
+</div>
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+function response_lsdajax001(){
+  validation_form();
+}
+
+
+function response_lsdajax002(){
+}
+
+
+
+  ver_general();
+  
+  function ocultarformEvolucionMedica(){
+  $(".element-formEvolucionMedica").fadeOut();
+  }
+
+
+
+
+$( "#element-conpos" ).append( "<a  onclick=\"openConsultaMedicamento(0)\" data-toggle=\"modal\"  href=\"#modal-consultaMedicamento\"><i style='font-size:20px; color:#333; position: absolute;top:5%;left: 5%;' class='fa fa-search'></i></a>" );
+
+
+
+  function ver_general(){
+  $(".element-formEvolucionMedica").fadeIn();
+  $("#element-conind").css('display','none');
+  $("#element-conpla").css('display','none');
+  $("#element-conref").css('display','none');
+  $("#element-conreq").css('display','none');
+  $("#element-conpos").css('display','none');  
+  $("#element-conmedicamento").css('display','none');
+  $("#element-conposologia").css('display','none');
+  }
+
+
+
+  function ver_indicaciones(){
+  ocultarformEvolucionMedica();  
+  $("#element-conind").fadeIn();
+  $("#element-conpos").fadeIn();
+  $("#element-conmedicamento").fadeIn();
+  $("#element-conposologia").fadeIn();
+  }
+
+  function ver_referencia(){
+  ocultarformEvolucionMedica();  
+  $("#element-conref").fadeIn();
+  }
+
+  function ver_plan(){
+  ocultarformEvolucionMedica();  
+  $("#element-conpla").fadeIn();
+  }
+
+  function ver_requerimientos(){
+  ocultarformEvolucionMedica();  
+  $("#element-conreq").fadeIn();
+  }
+
+
+  $( "#element-form-conposologia" ).change(function() {
+
+        valor = ' - '+$("#element-form-conmedicamento").val();
+
+        valor1 = ' - '+$("#element-form-conmedicamento").val()+' <br><br>        '+$("#element-form-conposologia").val()+' \n ';
+
+
+        $("#jqte-conind").val(valor+'\n'+$("#jqte-conind").val());
+        $("#jqte-conpos").val(valor1+'\n'+$("#jqte-conpos").val());
+
+
+        $("#element-form-conmedicamento").val('');
+        $("#element-form-conposologia").val('');
+        $("#element-form-conmedicamento").focus();
+    
+  });
+
+
+</script>
+<link type="text/css" rel="stylesheet" href="jQuery-TE/jquery-te-1.4.0.css">
+<script type="text/javascript" src="jQuery-TE/jquery-te-1.4.0.min.js" charset="utf-8"></script>
+
+
+
+<script>
+
+
+
+
+     $('#jqte-conpla').jqte();
+     $('#jqte-conref').jqte();
+    //$('#jqte-conreq').jqte();
+    // $('#jqte-conind').jqte();     
+    // settings of status
+    var jqteStatus = true;
+    $(".status").click(function()
+    {
+        jqteStatus = jqteStatus ? false : true;
+        $('.jqte-test').jqte({"status" : jqteStatus})
+    });
+
+</script>
+{% endblock %}
+
+
+{% block css %}
+<style>
+
+
+
+
+</style>
+
+
+{% endblock %}

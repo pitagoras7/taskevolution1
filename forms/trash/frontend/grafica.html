@@ -1,0 +1,24 @@
+{% extends "baseXP.html" %}
+
+
+
+    {% block content_wrapper %}
+
+    <div id="container"></div>
+
+    {% endblock %}
+
+    {% block javascript %}
+
+
+<script src="https://code.highcharts.com/highcharts.js"></script>
+
+{{ dato.grafica|raw }}
+
+
+{% endblock %}
+
+
+{% block css %}
+
+{% endblock %}

@@ -1,0 +1,76 @@
+{
+  "userOrder": {
+    "id": "modal_new_userOrder",
+    "name": "modal_new_userOrder",
+    "class": "",
+    "title": "Settings",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_userOrder",
+    "type": "search",
+    "col": [
+      {
+        "campo": "usuid",
+        "label": "",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "usunom",
+        "label": "usunom",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_userOrder_confirm",
+        "id": "submit_form_userOrder_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_userOrder_confirm','#submit_form_userOrder');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_userOrder",
+        "id": "submit_form_userOrder",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_userOrder_click();",
+        "data-dismiss": "modal"
+      }
+    ],
+    "button_search": [
+      {
+        "funcion": "ajax_url('search_userOrder',0,'modal-userOrder_search','module/user/modal/userOrder/userOrder_AJAX.php')",
+        "style": " font-weight:bold ",
+        "color": "primary",
+        "ico": " <i class=\"ace-icon fa fa-search\"></i>",
+        "label": "Search",
+        "class": "",
+        "externo": "",
+        "href": "#modal-userOrder_search"
+      }
+    ]
+  }
+}

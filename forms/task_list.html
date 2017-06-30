@@ -1,0 +1,155 @@
+{% extends "baseXP.html" %}
+{% block menuTop %}{% endblock %}
+{% block content_menu %}{% endblock %}
+{% block content_wrapper %}
+<div class="row" >
+  <div class="col-xs-12 barra_superior_datatable" >
+    <span class="livicon"    data-hovercolor="white"
+    data-color="white" data-name="settings" data-size="24">
+  </span>
+  To do List
+  <a class="btn btn-success pull-right bolder" href="#modal-tsk" role="button" data-toggle="modal" onclick="new_modal_tsk_click()" >  <span class="livicon"    data-hovercolor="white"
+    data-color="white" data-name="plus-alt" data-size="18"></span>  Task 
+  </a>
+</div>
+</div>
+<div class="row" >
+  <div class="col-xs-12">
+    <div class="clearfix options-print-datatable" >
+      <div class="pull-right tableTools-container"></div>
+    </div>
+    <div id="view">
+      {{ dato.datatable|raw }}
+    </div>
+  </div>
+</div>
+<div id = "modal-tsk" class="modal fade" tabindex="-1">
+  <div id="content-modal-tsk"></div>
+</div>
+
+
+
+
+{% if (  dato.notifications_sesion.count  > 0 ) %}
+
+
+<div id="my-modal-task" class="modal fade in" tabindex="-1" style="display: none;">
+ <div class="modal-dialog">
+  <div class="modal-content">
+   <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 class="smaller lighter blue no-margin"> You have  <b> {{ dato.notifications_modal.count   }} </b> tasks to expire soon  </h3>
+  </div>
+  <div class="modal-body">
+
+    <ul>
+    {% for list in dato.notifications_modal.list  %}
+      
+      <div style="padding:10px;  height:30px;width:100%; float:none; ">
+           <div style="float:left; width:20%"> 
+            <span class="badge badge-important"> Expire in {{ list.tskdif|e }} Days</span>  
+           </div>
+          <div style="float:left; width:80%"> &nbsp;&nbsp;<b> {{ list.tskden|e }} </b> </div>
+      </div>
+
+      
+
+
+
+      {% endfor %}
+    </ul>
+
+  </div>
+  <div class="modal-footer">
+    <button class="btn btn-sm btn-danger pull-right" data-dismiss="modal">
+      <i class="ace-icon fa fa-times"></i>
+      Close
+    </button>
+  </div>
+</div>
+<!-- /.modal-content -->
+
+</div>
+<!-- /.modal-dialog -->
+</div>
+
+
+
+{% endif %}
+
+
+
+
+
+{% endblock %}
+{% block javascript %}
+<script type="text/javascript">
+  function new_modal_tsk_click(x) {
+   goto_lsdajax001('new_tsk', [x], 'content-modal-tsk','module/task/tsk_AJAX.php');
+ }
+
+ function submit_modal_tsk_click(x) {
+   goto_lsdajax001('edit_tsk', [x], 'content-modal-tsk','module/task/tsk_AJAX.php');
+ }
+
+
+
+ function submit_form_tsk_click() {
+
+   var vista = 'view';
+   var data = $('#form_tsk').serialize();
+   goto_lsdajax002('save_tsk', [data], vista,'module/task/tsk_AJAX.php');
+
+ }
+
+
+ function response_lsdajax001(){
+   validation_form();
+ }
+
+
+ function response_lsdajax002(){
+   initDatatable();
+ }
+
+
+
+
+ {% if ( dato.notifications_modal.count > 0 ) %}
+
+ $('#my-modal-task').modal({show: 'false'});
+
+ {% endif %}
+
+
+
+ initDatatable();
+
+
+
+ function refresh_JS() {
+
+
+
+
+   $(".date").datepicker({
+     format: 'yyyy/mm/dd',
+     showOtherMonths: true,
+     selectOtherMonths: false,
+     startDate:"0",
+     showOnFocus:true
+   });
+
+
+
+   $('.date').mask('2999/99/99');
+
+
+ }
+
+
+
+</script>
+{% endblock %}
+{% block css %}
+{% endblock %}

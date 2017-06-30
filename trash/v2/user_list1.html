@@ -1,0 +1,77 @@
+{% extends "base_materialize.html" %}
+
+
+
+
+{% block content_wrapper %}
+
+
+        <div id="view_user">
+
+            {{ dato.datatable_user|raw }} 
+
+
+        </div>
+ 
+
+{% endblock %}
+
+
+
+
+
+
+{% block javascript %}
+
+
+<script type="text/javascript">
+
+
+
+function new_modal_usu_click(x) {
+    goto_lsdajax001('new_usu', [x], 'content-modal-usu','module/user/usu_AJAX.php');
+}
+
+function submit_modal_usu_click(x) {
+    goto_lsdajax001('edit_usu', [x], 'content-modal-usu','module/user/usu_AJAX.php');
+}
+
+
+function submit_form_usu_click() {
+    var vista = 'view_user';
+    var data = $('#form_usu').serialize();
+    goto_lsdajax002('save_usu001', [data], vista,'module/user/usu_AJAX.php');
+}
+
+function submit_modal_usuimg_click(x) {
+    goto_lsdajax001('edit_usuimg', [x], 'content-modal-usuimg','module/user/usuimg_AJAX.php');
+}
+
+function submit_form_usuimg_click() {
+    $("#form_usuimg").submit();
+}
+
+function submit_modal_usu_report_click(x) {
+    goto_lsdajax001('edit_usu_report', [x], 'content-modal-usu-report','module/user/usureport_AJAX.php');
+}
+
+function submit_form_usu_report_click() {
+    var vista = 'view_user';
+    var data = $('#form_usu').serialize();
+    goto_lsdajax001('save_usu001', [data], vista,'module/user/usureport_AJAX.php');
+}
+
+initDatatable();
+
+function response_lsdajax001(){
+    validation_form();
+}
+
+function response_lsdajax002(){
+    initDatatable();
+}
+
+
+</script>  
+
+{% endblock %}

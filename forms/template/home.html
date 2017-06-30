@@ -1,0 +1,159 @@
+{% extends "baseXP.html" %}
+
+{% block menuTop %}
+
+{% endblock %}
+
+
+
+{% block content_menu %}
+
+{% endblock %}
+
+
+
+
+{% block content_wrapper %}
+
+
+<div class="row" >
+
+    <div class="col-xs-12">
+
+        <div class=" col-md-4 col-xs-12">
+
+            <a href="?opcion=pedido" role="button" data-toggle="modal"  style="width:100%; margin:10px; font-size:36px" class="btn  btn-app radius-4 btn-primary">
+
+                <span class="livicon"    data-hovercolor="white"
+                data-color="white" data-name="hand-down" data-size="50">
+            </span> 
+
+            HERE
+
+        </a>
+
+    </div>
+
+    <div class=" col-md-4 col-xs-12">
+
+        <a href="?opcion=orders_delivery" role="button" data-toggle="modal"  style="width:100%; margin:10px; font-size:36px" class="btn  btn-app radius-4 btn-warning">
+
+            <span class="livicon"    data-hovercolor="white"
+            data-color="white" data-name="home" data-size="50">
+        </span> 
+
+        DELIVERY
+
+    </a>
+
+
+</div>
+
+
+<div class=" col-md-4 col-xs-12">
+
+<a href="?opcion=orders_togo" role="button" data-toggle="modal"  style="width:100%; margin:10px; font-size:36px" class="btn  btn-app radius-4 btn-success">
+
+    <span class="livicon"    data-hovercolor="white"
+                data-color="white" data-name="car" data-size="50">
+    </span> 
+
+    TO-GO
+
+</a>
+
+</div>
+
+
+
+    <div class=" col-md-4 col-xs-12">
+
+        <a href="?opcion=orders_schedule" role="button" data-toggle="modal"  style="width:100%; margin:10px; font-size:36px" class="btn  btn-app radius-4 btn-warning">
+
+            <span class="livicon"    data-hovercolor="white"
+            data-color="white" data-name="calendar" data-size="50">
+        </span> 
+
+        EVENTS
+
+    </a>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+{% endblock %}
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+function new_modal_acmest_click(x) {
+    goto_lsdajax001('edit_acmest', [x], 'modal-form','module/activityMesa/acm_AJAX.php');
+}
+
+
+function submit_modal_acmest_click(x) {
+    var vista = 'view';
+    goto_lsdajax002('save_acmest_f', [x], vista,'module/activityMesa/acm_AJAX.php');
+}
+
+
+
+function new_modal_acm_click(x) {
+    goto_lsdajax001('new_acm', [x], 'content-modal-acm','module/activityMesa/acm_AJAX.php');
+}
+
+
+function submit_modal_acm_click(x) {
+    goto_lsdajax001('edit_acm', [x], 'content-modal-acm','module/activityMesa/acm_AJAX.php');
+}
+
+
+function submit_form_acm_click() {
+
+    var vista = 'view';
+    var data = $('#form_acm').serialize();
+    goto_lsdajax002('save_acm', [data], vista,'module/activityMesa/acm_AJAX.php');
+
+}
+
+
+
+
+
+function response_lsdajax001(){
+    validation_form();
+}
+
+
+function response_lsdajax002(){
+}
+
+
+
+</script>  
+{% endblock %}
+
+
+{% block css %}
+
+{% endblock %}

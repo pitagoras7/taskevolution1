@@ -1,0 +1,88 @@
+{
+  "kidscombo": [
+    {
+      "name": "KIDSCOMBO001",
+      "ico": "",
+      "category": "kidscombo_product cold",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "KIDSCOMBO002",
+      "ico": "",
+      "category": "kidscombo_product cold",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "KIDSCOMBO004",
+      "ico": "",
+      "category": "kidscombo_product cold",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "KIDSCOMBO005",
+      "ico": "",
+      "category": "kidscombo_product hot",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "KIDSCOMBO006",
+      "ico": "",
+      "category": "kidscombo_product hot",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "hit ",
+      "ico": "",
+      "category": "kidscombo_product cold",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "cocacola",
+      "ico": "",
+      "category": "kidscombo_product hot",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "te",
+      "ico": "",
+      "category": "kidscombo_product cold",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "caffe",
+      "ico": "",
+      "category": "kidscombo_product cold",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "producto9",
+      "ico": "",
+      "category": "kidscombo_product hot",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": " brothers",
+      "ico": "",
+      "category": "kidscombo_product cold",
+      "price": "",
+      "color": ""
+    },
+    {
+      "name": "soy kidscombo_product ",
+      "ico": "",
+      "category": "kidscombo_product hot",
+      "price": "",
+      "color": ""
+    }
+  ]
+}

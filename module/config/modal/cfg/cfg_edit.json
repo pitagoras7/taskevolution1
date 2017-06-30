@@ -1,0 +1,119 @@
+{
+ "cfg_edit": {
+    "id": "modal_new_config",
+    "name": "modal_new_config",
+    "class": "",
+    "title": "Configuration Parameters",
+    "height": "200px",
+    "form_class": "",
+    "form_id": "form_cfg",
+    "col": [
+      {
+        "campo": "cfgden",
+        "label": "Denomination",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgext",
+        "label": "Extra Parameter",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgnum",
+        "label": "numeric parameter",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgreg",
+        "label": "Registro",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "display:none",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfguse",
+        "label": "cfguse",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "display:none",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgobs",
+        "label": "Details",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_cfg_confirm",
+        "id": "submit_form_cfg_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_cfg_confirm','#submit_form_cfg');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_cfg",
+        "id": "submit_form_cfg",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "are you sure for save ?",
+        "style": "display:none",
+        "onclick": "submit_form_cfg_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,670 @@
+  .icheckbox_line-blue.checked,
+    .iradio_line-blue.checked {
+        background: green;
+    }
+
+.input_text{
+font-size: 11px;
+float: left;
+width: 100%;
+}
+
+
+.label_text {
+     font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 13px;
+    color: #635e5e;
+    float: none;
+    width: 100%;
+    margin-top: 14px;
+    height: 20px;
+    letter-spacing: 2px;
+}
+
+.label_text2{
+font-size: 12px;
+text-transform: uppercase;
+padding-left: 15px;
+font-weight: 400;
+line-height: 10px;
+color:#333;
+}
+
+.col-group{
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+	height: 25px;
+  color:#333;
+}
+
+.menu_principal{
+    padding-bottom: 10px;  
+    margin-bottom: 20px; 
+    border-bottom: 1px solid #f5f5f5
+}
+
+
+.view_cliente{
+    padding-bottom: 0px;  
+    margin-bottom: 0px; 
+    border-bottom: 1px solid #f5f5f5
+    
+}
+
+
+.view_general{
+    padding-bottom: 0px;  
+    margin-bottom: 0px; 
+    border-bottom: 1px solid #f5f5f5
+    
+}
+
+
+.column_total{
+    text-align: right;
+}
+
+
+.column_costo{
+    text-align: right;
+}
+
+
+.column_costo a{
+    
+  border: 1px gray solid;
+  background: gray;
+  font-weight: 600;
+  color:white;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.column_denominacion{
+    text-align: left;
+}
+
+.column_tipoequipo{
+    text-align: left;
+}
+
+
+.column_cantidad{
+    text-align: center;
+}
+
+.column_cantidad a{
+  color:white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.modal-body .form-group{
+    margin-top: 5px;
+}
+
+.modal-header h3{
+    font-weight: 600;
+}
+
+.totales_presupuesto_web {
+   text-align: right;
+}
+
+
+.totales_presupuesto_web .label_text2{
+   font-size: 14px;
+   font-weight: 600;
+   padding-left:  100px;
+   text-align: right;
+}
+
+.totales_presupuesto_web p{
+   font-size: 14px;
+   font-weight: 600;
+  
+   
+}
+
+
+.descripcion_acciones_head{
+    
+
+    
+}
+
+.descripcion_imagenes .cuadro{
+    
+
+}
+
+.descripcion_imagenes .texto{
+   
+}
+
+.header{
+padding:12px;
+font-size:12px;
+}
+
+.pdf{
+    font-family:'tahoma';
+}
+
+.pdf .table_pdf{
+	color:#333;
+
+margin-top:20px;
+width:100%;
+border-left: 3px solid #276695;
+
+/*#276695*/
+
+}
+
+.pdf  .table_pdf table {
+	color:#333;
+
+   border: 1px solid black;
+   font-size:11px;
+   border-left: 4px solid #276695;
+}
+
+.table_pdf  td, .table_pdf  th{
+   color:#333;
+   border: 1px solid #f5f5f5;
+   font-size:12px;
+   padding-left:10px;
+   height:25px;
+}
+
+.pdf  .table_pdf  th {
+	color:#333;
+
+background:#f5f5f5;
+}
+
+.table_cliente{
+	color:#333;
+
+width:100%;
+ font-size:11px;
+    border-left: 4px solid #276695;
+}
+
+.table_cliente  td, .table_pdf  th{
+	color:#333;
+   border: 1px solid #f5f5f5;
+   font-size:12px;
+   padding-left:10px;
+   height:20px;
+
+}
+
+.totales_table_pdf{
+	color:#333;
+
+margin-top:20px;
+width:100%;
+font-size:12px;
+
+
+}
+
+.header_table_pdf{
+	color:#333;
+font-size:12px;
+height:35px;
+ text-transform: uppercase;
+margin:20px;
+margin-bottom:10px;
+}
+
+.pdf_mmsv{
+color:#666;
+font-size:15px;
+font-weight:bold;
+}
+
+.pdf_mmsv_H1{
+color:#276695;
+font-size:20px;
+font-weight:bold;
+}
+
+
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+.h-sidebar+.main-content .page-content {
+    padding-top: 12px;
+    background-color: #f8f8f8;
+}
+.main-container:before {
+    background-color: #f8f8f8;
+}
+
+
+#calculator{
+
+
+
+
+}
+
+
+.armarpedido {
+}
+.page-content {
+    background-color: #f5f5f5; 
+    position: relative;
+    margin: 0;
+    padding: 8px 20px 24px;
+    height: 500px;
+}
+
+
+#view {
+    overflow: auto;
+    position: relative;
+    padding: 10px;
+    background: #f4f4f4;
+    border: 5px solid #f9f9f9;
+    margin: 0px;
+    max-width: 100%;
+    height: 550px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+#view_orderDetail {
+padding:5px;
+border:7px solid #f9f9f9;
+background:#f3f3f3; 
+height: 500px;
+}
+
+#view_orderDetail  .table_totales td{
+height: 30px;
+font-size: 15px;
+background: white;
+padding-left: 10px;
+color:#333;
+}
+
+#view_orderDetail  #totales i{
+margin-right: 10px;
+color:#999;
+font-size: 18px;
+}
+
+#view_orderDetail  #totales .total{
+font-size: 22px;
+font-weight: bold;
+color:darkred;
+}
+
+
+#view_orderDetail .boton_cargar_pedido{
+
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 45px;
+    font-size: 22px;
+
+}
+
+#view_orderDetail  #totales .titulo_total{
+font-size: 18px;
+font-weight: bold;
+color:#333;
+}
+
+
+#view_orderDetail  .table_totales {
+background: white;
+border-radius: 20px;
+border: 5px solid #f9f9f9;
+}
+
+
+
+
+#view_orderDetail .header{
+
+      margin-top: 0px;
+      padding-top: 0px;
+}
+
+
+#panel_login{
+padding: 7px;
+background: #333;
+height: 110px;
+padding-top: 15px;
+}
+
+
+
+
+.no-skin .sidebar.h-sidebar {
+    background-color: #f8f8f8;
+    padding: 0px;
+}
+
+.modal input,.modal select{
+  height: 35px;
+  text-transform: none;
+}
+
+
+#panel_nav{
+height: 50px;
+}
+
+
+
+.navbar {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-width: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    min-height: 45px;
+    background: #688A08;
+}
+
+
+
+#panel_opciones{
+padding: 10px;
+background: #333;
+height: 90px;
+padding-top: 10px;
+margin: 0 auto;
+text-align: center;
+   /* background-color: rgba(18, 29, 44, 0.62); */
+}
+
+
+
+.menu_category_card{
+  width: 80px; 
+  height:70px;  
+  text-align: center;  
+  color: white;
+}
+
+.menu_category_card i{
+ font-size: 35px;
+ float: none;
+}
+
+
+
+.menu_category_card span{ 
+  text-align: center;  
+  color: white;
+  float: none;
+}
+.menu_category_card i{ 
+  text-align: center;  
+  color: white;
+}
+
+
+.barra_superior_datatable{
+
+font-size:1.3em; 
+font-family: 'Open Sans'; 
+background:#609ED0;
+padding:10px 20px; 
+color:white; 
+font-weight:bold;
+
+}
+
+.bolder{
+  font-weight: bold;
+}
+
+
+#modal_new_formEvolucionMedica .modal-dialog{
+  width:95%;
+}
+
+#modal_new_formInforme .modal-dialog{
+  width:95%;
+}
+
+#modal_new_formIndicaciones .modal-dialog{
+  width:95%;
+}
+
+#modal_new_formReferencia .modal-dialog{
+  width:95%;
+}
+
+
+#modal_new_examenFisico .modal-dialog{
+  width:95%;
+}
+
+
+#modal_new_formPaciente .modal-dialog{
+  width:95%;
+}
+
+
+#modal_new_doctorRegistro .modal-dialog{
+  width:70%;
+}
+
+
+.textareaConsulta01{
+
+height:100px;  
+resize: none;
+padding:10px; 
+line-height: 20px; 
+text-transform:none;
+ font-size:18px
+
+
+}
+
+
+.textareaConsulta02{
+
+height:70px;  
+resize: none;
+padding:10px; 
+line-height: 20px; 
+text-transform:none;
+ font-size:18px
+
+
+}
+
+
+
+
+
+
+#modal_new_formPaciente .modal-footer,  
+#modal_new_formInforme .modal-footer,  
+#form_formEvolucionMedica   .modal-footer{
+    padding-top: 12px;
+    padding-bottom: 14px;
+    border-top-color: #333;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #333;
+}
+
+#modal_new_formPaciente  .modal-header h3 , 
+#modal_new_formInforme  .modal-header h3 , 
+#form_formEvolucionMedica  .modal-header h3 {
+    font-weight: 600;
+    color:white !important;
+    font-size: 26px;
+}
+
+#modal_new_formPaciente .modal-footer .btn, 
+#modal_new_formInforme .modal-footer .btn, 
+#form_formEvolucionMedica .modal-footer .btn {
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+#modal_new_formPaciente .modal-content, 
+#modal_new_formInforme .modal-content, 
+#form_formEvolucionMedica .modal-content {
+    border: 3px solid #333;
+    border-radius: 5px;
+}
+
+#modal_new_formPaciente .modal-content input,
+#modal_new_formInforme .modal-content input,
+ #form_formEvolucionMedica .modal-content input{
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+
+#modal_new_formPaciente .modal-content textarea, 
+#modal_new_formInforme .modal-content textarea, 
+#form_formEvolucionMedica .modal-content textarea{
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #999;
+  border-left: 1px solid #999;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+
+
+.datatable0001{
+color:#333; 
+border-radius:5px; 
+background:white; 
+font-size:14px;
+}
+
+.dataTables_wrapper {
+
+    color: #333;
+    margin: 10px;
+    border: 10px solid #eee;
+    border-radius: 5px;
+
+}
+   
+.dataTables_wrapper .row:first-child,.dataTables_wrapper .row:last-child{
+  background: #eee;
+}
+
+  .easy-autocomplete{
+
+    width: 100% !important;
+
+  }
+
+
+  .span-modal-calendar{
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+
+  }
+
+
+  .botonDashboard table:hover{
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+  }
+
+.modal-reporte {
+    width: 100%;
+    margin: 30px auto;
+}
+
+nav>li.light-blue>a:hover, .ace-nav>li.open.light-blue>a {
+    background-color: #333;
+}
+
+.ace-nav>li.light-blue>a {
+    background-color: #688A08;
+}
+
+
+#table_length label{
+display: none;
+}
+
+
+.titulo_datatable{
+
+color:#666; 
+position:relative; 
+top:-10px; 
+line-height:0px;
+ font-size:30px;
+  margin:0px; 
+  padding:0px;
+   font-weight:bold
+
+}
+
+
+
+.modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #688A08;
+    min-height: 16.43px;
+    border: 2px solid #688A08;
+    background: #688A08;
+    color: #fff;
+}
+
+.modal-header h3{
+  color: #FFF !important;
+}
+
+
+.modal-header button{
+  display:none;
+}
+
+.modal-footer {
+    padding-top: 12px;
+    padding-bottom: 14px;
+    border-top-color: #666;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #222;
+}

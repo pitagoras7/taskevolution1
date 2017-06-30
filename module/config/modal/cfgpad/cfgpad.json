@@ -1,0 +1,105 @@
+{
+"cfgpad": {
+    "id": "modal_new_config",
+    "name": "modal_new_config",
+    "class": "",
+    "title": "Configuration Parameters",
+    "height": "250px",
+    "form_class": "",
+    "form_id": "form_cfgpad",
+    "col": [
+      {
+        "campo": "cfgid",
+        "label": "Id",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "readonly",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgden",
+        "label": "Denomination",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgext",
+        "label": "Extra Parameter",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgnum",
+        "label": "numeric parameter",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgobs",
+        "label": "Details",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_cfgpad_confirm",
+        "id": "submit_form_cfgpad_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_cfgpad_confirm','#submit_form_cfgpad');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_cfgpad",
+        "id": "submit_form_cfgpad",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "are you sure for save ?",
+        "style": "display:none",
+        "onclick": "submit_form_cfgpad_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }}
+

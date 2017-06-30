@@ -1,0 +1,64 @@
+{
+  "cfgnum": {
+    "id": "modal_new_cfgnum",
+    "type":"bootstrap",
+    "name": "modal_new_cfgnum",
+    "class": "",
+    "title": "Settings",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_cfgnum",
+    "col": [
+      {
+        "campo": "cfgid",
+        "label": "",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgnum",
+        "label": "cfgnum",
+        "size": "12",
+        "type": "text",
+        "class": "spinner1",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_cfgnum_confirm",
+        "id": "submit_form_cfgnum_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_cfgnum_confirm','#submit_form_cfgnum');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_cfgnum",
+        "id": "submit_form_cfgnum",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_cfgnum_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,266 @@
+HORA				
+TRAUMA										
+CAUSA CLÍNICA										
+CAUSA G. OBSTÉTRICA										
+CAUSA QUIRÚRGICA								
+GRUPO SANGUÍNEO Y FACTOR Rh
+NOTIFICACION A LA POLICIA										
+OTRO MOTIVO										
+
+
+
+ACCIDENTE DE TRANSITO								
+CAÍDA								
+QUEMADURA								
+MORDEDURA								
+AHOGAMIENTO								
+CUERPO 
+EXTRAÑO"								
+APLASTAMIENTO								
+OTRO ACCIDENTE
+VIOLENCIA X ARMA DE FUEGO								
+VIOLENCIA X ARMA C. PUNZANTE								
+VIOLENCIA X RIÑA								
+VIOLENCIA FAMILIAR								
+ABUSO FÍSICO								
+ABUSO PSICOLÓGICO								
+ABUSO SEXUAL								
+OTRA VIOLENCIA
+INTOXICACIÓN
+ALCOHÓLICA								
+INTOXICACIÓN
+ALIMENTARIA								
+INTOXICACIÓN
+X DROGAS								
+INHALACIÓN DE GASES								
+OTRA INTOXICACIÓN								
+ENVENENAMIENTO								
+PICADURA								
+ANAFILAXIA
+ALIENTO ETÍLICO							
+VALOR ALCOCHECK
+
+
+ALÉRGICO								
+CLÍNICO								
+GINECOLÓGICO								 
+TRAUMATÓG.								 
+QUIRÚRGICO								
+FARMACOLÓG.								 
+PSIQUIATRICO						 		 
+OTRO
+APP: NO REFIERE
+AQX: NO REFIERE
+ALERGIAS: NO REFIERE
+APF:NO REFIERE
+HABITO TOXICO: NO REFIERE
+
+
+VÍA AÉREA LIBRE										
+VÍA AÉREA OBSTRUIDA										
+CONDICIÓN ESTABLE										
+CONDICIÓN INESTABLE
+
+
+
+PRESIÓN ARTERIAL										
+F. CARDIACA min									
+F. RESPIRAT. min									
+TEMP.   BUCAL °C									
+TEMP. AXILAR  °C								PESO                                 
+Kg									
+TALLA                                       					
+GLASGOW						
+OCULAR(4)						
+VERBAL(5)							
+MOTORA (6)							
+TOTAL
+REACCIÓN PUPILA DER								
+REACCIÓN PUPILA IZQ								
+T. LLENADO CAPILAR							
+SATURA. OXIGENO				
+
+
+VIA AEREA OBSTRUIDA 
+CABEZA 								  
+CUELLO 								  
+TORAX								  
+ABDOMEN								  
+COLUMNA								  
+PELVIS								  
+EXTREMIDADES
+
+
+HERIDA PENETRANTE
+HERIDA CORTANTE
+FRACTURA EXPUESTA
+FRACTURA CERRADA
+CUERPO EXTRAÑO
+HEMORRAGIA
+MORDEDURA
+PICADURA
+EXCORIACIÓN
+DEFORMIDAD O MASA
+HEMATOMA
+ERITEMA / INFLAMACION
+ LUXACION / ESGUINCE
+QUEMADURA
+
+
+GESTAS					
+PARTOS	
+GESTA				
+ABORTOS						
+CESÁREAS
+FECHA ULTIMA MENSTRUACIÓN										
+SEMANAS GESTACIÓN						
+MOVIMIENTO FETAL
+FRECUENCIA C. FETAL								
+MEMBRANAS ROTAS						
+TIEMPO		
+ALTURA UTERINA								
+PRESENTA CIÓN								
+DILATACIÓN								
+BORRAMIEN TO								
+PLANO
+PELVIS ÚTIL						
+SANGRADO VAGINAL						
+CONTRACCIONES				
+
+
+
+QUÍMICA SANGUÍNEA								 
+GASOMETRÍA								
+ENDOSCOPIA								 
+R-X ABDOMEN								 
+TOMOGRAFÍA								 
+ECOGRAFÍA PÉLVICA								 
+INTERCONSULTA
+UROANALISIS								 
+ELECTROLITOS						
+ELECTRO CARDIOGRAMA 							
+R-X TÓRAX								 
+R-X ÓSEA								 
+RESONANCIA								 
+ECOGRAFÍA ABDOMEN								 
+OTROS
+
+
+DOMICILIO						
+CONSULTA EXTERNA						
+OBSERVACIÓN							
+INTERNACIÓN							
+REFERENCIA						
+EGRESA VIVO								
+EN CONDICIÓN ESTABLE								
+EN CONDICIÓN INESTABLE								
+DÍAS DE INCAPACIDAD
+SERVICIO DE REFERENCIA				
+CIRUGÍA GENERAL													
+ESTABLECIMIENTO															
+MUERTO EN EMERGENCIA								
+CAUSA																
+
+
+
+Cardiopatías  
+Infectocontagiosas  
+Trastornos sanguíneos 
+Diabetes  
+Endocrinopatías  
+Trastornos respiratorios 
+Alergias Si No 
+Trastornos renales  
+Enfermedades genéticas 
+Cáncer  
+Otros 
+
+
+Caries 
+Enfermedad periodontal 
+Alteraciones estructurales 
+Exodoncias 
+Portador de prótesis 
+Supernumerarios/Ausencias 
+Maloclusión 
+Hendidura labio palatina 
+Otros
+
+
+
+Enfermedades durante el embarazo
+Medicamentos tomados durante el embarazo
+Parto N° 
+Pretérmino 
+A Término  
+Post-término
+Natural 
+Fórceps 
+Cesárea 
+Peso al nacer: 
+Talla al nacer:
+Dificultades neonatales 
+Alimentación materna: 
+Duración (Alimentación materna): 
+Fórmula (Alimentación materna): 
+Edad (Alimentación materna):
+Leche completa: *edad
+Alimentos sólidos *edad
+
+
+Edad de erupción de los dientes primarios: 
+Edad de erupción de los dientes permanentes:
+Traumatismos dentarios *Edad: 
+Tratamiento recibido:
+¿Ha asistido anteriormente al odontólogo? 
+Comportamiento observado:
+¿Cuántas veces al día se cepilla? 
+¿Quién cepilla al paciente?
+¿Cuál crema dental utiliza? 
+¿Utiliza seda dental o enjuague bucal?
+
+
+
+Talla actual (Estatura/cm): 
+Peso actual (Kg): *Cabeza *Cuello *Ganglios
+Perfil: *Convexo *Recto *Cóncavo 
+Cara : *Braquifacial *Mesofacial *Dolicofacial
+Labios:  *Normales *Hipertónicos *Hipotónicos *Resecos
+Tamaño de la nariz: *Pequeña *Mediana *Grande
+Inserción de orejas: *Baja *Norma
+
+
+
+Encía: *Color *Contorno *Textura *Consistencia *Recesión
+Mucosa bucal: *Anterior *Posterior *Carrillos
+Lengua: *Papilas *Volumen *Posición
+Frenillo Labial *Normal *Corto *Fibroso 
+Frenillo Lingual *Normal *Corto *Fibroso *Piso Bucal dar Duro *Paladar Blando *Amígdalas *Glándulas Salivales
+
+
+
+
+Desviaciones ATM Apertura* Cierre* 
+Ruidos: Saltos:  
+Contactos prematuros: 
+
+Bruxismo 
+Protrusión Lingual 
+Succión Digital 
+Chupón 
+Respiración Bucal
+Queilofagia 
+Onicofagia 
+Otros: Frecuencia:
+
+
+
+
+OVERJET (mm)  Normal Aumentado  A tope Inverso 
+OVERBITE (mm) Normal Mordida abierta Mordida profunda En paladar En cíngulo Incompleto
+LINEA MEDIA Normal Desviada 
+DIENTES Protruídos
+DIENTES Diastemas
+DIENTES Espacio de primate
+DIENTES Apiñamiento
+DIENTES Pérdidas prematuras

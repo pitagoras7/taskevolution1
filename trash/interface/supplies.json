@@ -1,0 +1,308 @@
+{
+  "supplies": [
+    {
+      "name": "ARROZ",
+      "ico": "",  
+      "code": "1",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "AGUACATE",
+      "ico": "",  
+      "code": "2",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "BERENGENA",
+      "ico": "",  
+      "code": "3",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "CARAOTA",
+      "ico": "",  
+      "code": "4",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "ESPINACA",
+      "ico": "",  
+      "code": "5",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "GARBANZO",
+      "ico": "",  
+      "code": "6",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "LIMON",
+      "ico": "",  
+      "code": "7",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "SAL",
+      "ico": "",  
+      "code": "8",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "MANI",
+      "ico": "",  
+      "code": "9",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "PULPO",
+      "ico": "",  
+      "code": "10",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "MOSTAZA",
+      "ico": "",  
+      "code": "11",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "AJO",
+      "ico": "",  
+      "code": "12",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    }, {
+      "name": "ÑAME",
+      "ico": "",  
+      "code": "13",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "YUCA",
+      "ico": "",  
+      "code": "14",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "RABANO",
+      "ico": "",  
+      "code": "15",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "PLATANO",
+      "ico": "",  
+      "code": "16",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "QUESO",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "JAMON",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "HUEVO",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "TOCINETA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "SSS",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "CAFE",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "SARDINA",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "NARANJA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "UVA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "VINO BLANCO",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    }, {
+      "name": "VINOTINTO",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "CACAGUATE",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "MEREI",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "IGUANA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "PERA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "MANZANA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "PIMIENTA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "COMINO",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "SOYA",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    },
+    {
+      "name": "PICANTE",
+      "ico": "",  
+      "code": "56789",
+      "click":"",
+      "category": "supplies_product",
+      "price": "1000",
+      "color": ""
+    }
+  ]
+}

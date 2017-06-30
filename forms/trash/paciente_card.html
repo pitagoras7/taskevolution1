@@ -1,0 +1,155 @@
+{% extends "base_consulta.html" %}
+
+
+
+{% block categoria2 %} 
+<div id="categoria2" >
+
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block visor1 %}
+<div id="visor1"  class="col-md-12">
+{{ dato.visor1|raw }}
+</div>
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+function response_lsdajax001(){
+  validation_form();
+}
+
+
+function response_lsdajax002(){
+}
+
+
+  ver_general();
+  
+  function ocultarformPaciente(){
+  $(".element-formPaciente").fadeOut();
+  }
+
+
+
+$( "#element-pacapr" ).append( "<a  onclick=\"openModalDatatablecie10Consulta(0)\" data-toggle=\"modal\"  href=\"#modal-cie10Consulta\"><i style='font-size:20px; color:#333; position: absolute;top: 10%;left: 5%;' class='fa fa-search'></i></a>" );
+
+
+  function ver_general(){
+  $(".element-formPaciente").fadeIn();
+  $("#element-pacapr").css('display','none');
+  $("#element-pacago").css('display','none');
+  $("#element-pacafo").css('display','none');
+  $("#element-pacafh").css('display','none');
+  $("#element-pacafp").css('display','none');
+  $("#element-pacafm").css('display','none');
+  $("#element-pacanp").css('display','none');
+  $("#element-pacapp").css('display','none');
+  $("#element-pacfamiliar").css('display','none');
+  $("#element-pacenfermedad").css('display','none');
+  $("#element-pactipoantecedente").css('display','none');
+  $("#element-pacenfermedadpersonal").css('display','none');
+  }
+
+
+  function ver_anp(){
+  ocultarformPaciente();  
+  //$("#element-pacapr").fadeIn();
+  ///$("#element-pacago").fadeIn();
+  //$("#element-pacanp").fadeIn();
+  $("#element-pacapp").fadeIn();
+  $("#element-pactipoantecedente").fadeIn();
+  $("#element-pacenfermedadpersonal").fadeIn();
+  }
+
+
+  function ver_anf(){
+  ocultarformPaciente();  
+  // $("#element-pacafo").fadeIn();
+  //$("#element-pacafh").fadeIn();
+  //$("#element-pacafp").fadeIn();
+  $("#element-pacafm").fadeIn();
+  $("#element-pacfamiliar").fadeIn();
+  $("#element-pacenfermedad").fadeIn();
+  }
+
+
+  $( "#element-pacenfermedad" ).change(function() {
+
+        valor = '['+$("#element-form-pacfamiliar").val()+' ] '+$("#element-form-pacenfermedad").val();
+        $("#element-form-pacafm").val(valor+'\n'+$("#element-form-pacafm").val());
+
+        $("#element-form-pacfamiliar").val('');
+        $("#element-form-pacenfermedad").val('');
+        $("#element-form-pacfamiliar").focus();
+  });
+
+
+  $( "#element-pacenfermedadpersonal" ).change(function() {
+
+        valor = '['+$("#pactipoantecedente").val()+' ] '+$("#element-form-pacenfermedadpersonal").val();
+        $("#element-form-pacapp").val(valor+'\n'+$("#element-form-pacapp").val());
+
+        $("#element-form-pactipoantecedente").val('');
+        $("#element-form-pacenfermedadpersonal").val('');
+        $("#pactipoantecedente").focus();
+  });
+
+
+
+
+</script>
+
+
+<link type="text/css" rel="stylesheet" href="jQuery-TE/jquery-te-1.4.0.css">
+<script type="text/javascript" src="jQuery-TE/jquery-te-1.4.0.min.js" charset="utf-8"></script>
+<script>
+    $('#jqte-conpla').jqte();
+     $('#jqte-conref').jqte();
+       $('#jqte-conind').jqte();     
+    // settings of status
+    var jqteStatus = true;
+    $(".status").click(function()
+    {
+        jqteStatus = jqteStatus ? false : true;
+        $('.jqte-test').jqte({"status" : jqteStatus})
+    });
+
+
+
+
+
+</script>
+{% endblock %}
+
+
+{% block css %}
+<style>
+
+
+
+
+</style>
+
+
+{% endblock %}

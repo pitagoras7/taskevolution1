@@ -1,0 +1,127 @@
+{% extends "baseXP.html" %}
+
+{% block menuTop %}
+
+
+
+<li class="hover">
+    <a href="#modal-cfg" role="button" data-toggle="modal" onclick="new_modal_cfg_click()">
+        <i class="menu-icon fa fa-plus"></i>
+        <span class="menu-text">  New  </span>
+    </a>
+
+    <b class="arrow"></b>
+</li>
+
+
+<li class="hover">
+    <a href="?opcion=config">
+        <i class="menu-icon fa fa-print"></i>
+        <span class="menu-text">  Report  </span>
+    </a>
+
+    <b class="arrow"></b>
+</li>
+
+
+
+
+{% endblock %}
+
+
+
+{% block content_menu %}
+
+
+{% endblock %}
+
+
+
+
+{% block content_wrapper %}
+
+<div class="row" >
+
+    <div class="col-xs-12 barra_superior_datatable" >
+
+        <span class="livicon"    data-hovercolor="white"
+            data-color="white" data-name="settings" data-size="24">
+        </span>
+        CONFIGURATION
+
+        <a class="btn btn-success pull-right bolder" href="#modal-cfg" role="button" data-toggle="modal" onclick="new_modal_cfg_click()" >  <span class="livicon"    data-hovercolor="white"
+            data-color="white" data-name="plus-alt" data-size="18"></span>   NEW PARAMETERS 
+        </a>
+    
+    </div>
+
+</div>
+
+<div class="row" >
+
+    <div class="col-xs-12">
+
+
+        <div class="clearfix options-print-datatable" >
+            <div class="pull-right tableTools-container"></div>
+        </div>
+
+        <!--<div class="table-header">
+            Listado
+        </div>-->
+
+        <div id="view">
+
+            {{ dato.datatable|raw }} 
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+{% endblock %}
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+$('.options-print-datatable').css("display", "none");
+
+
+
+
+
+function response_lsdajax002(){
+    initDatatable();
+}
+
+
+function response_lsdajax001(){
+    validation_form();
+}
+
+
+</script>
+<script>
+
+
+
+
+initDatatable();
+
+
+
+</script>  
+
+{% endblock %}
+
+
+{% block css %}
+
+{% endblock %}
+
+

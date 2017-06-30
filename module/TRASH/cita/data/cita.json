@@ -1,0 +1,1221 @@
+{
+  "config": {
+    "table": "cita",
+    "view": "cita",
+    "col": [
+      {
+        "campo": "citid",
+        "label": "citid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citusuid",
+        "label": "citusuid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citpacid",
+        "label": "citpacid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citres",
+        "label": "citres",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citdes",
+        "label": "citdes",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citedo",
+        "label": "citedo",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citavi",
+        "label": "citavi",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cittfa",
+        "label": "cittfa",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cittfb",
+        "label": "cittfb",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citfec",
+        "label": "citfec",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citreg",
+        "label": "citreg",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cithor",
+        "label": "cithor",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citcor",
+        "label": "citcor",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citrsp",
+        "label": "citrsp",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citobs",
+        "label": "citobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "citden",
+        "label": "citden",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cittur",
+        "label": "cittur",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "citid  not in (0)",
+    "th": [
+      {
+        "value": "citid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citpacid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citres",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citdes",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citedo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citavi",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cittfa",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cittfb",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citfec",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cithor",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citcor",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citrsp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "citid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citusuid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citpacid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citres",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citdes",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citedo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citavi",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "cittfa",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "cittfb",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citfec",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "cithor",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citcor",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citrsp",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_cit_click",
+            "parametro": "citid",
+            "href": "#modal-cit",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_dashboard": {
+    "id": "table",
+    "style": "font-size:14px",
+    "class": "datatable0001",
+    "version": 2,
+    "select_conditional": "citid  not in (0)",
+    "th": [
+      {
+        "value": "citid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citpacid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citres",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citdes",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citedo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citavi",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cittfa",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cittfb",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citfec",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cithor",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citcor",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citrsp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "citden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "citid",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citusuid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citpacid_fk#citres",
+        "visible": "true",
+        "fin":"<br>",
+        "hidden_desktop": "",
+        "label": "PACIENTE",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citres",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citdes",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citedo_fk_value_fijo",
+        "visible": "true",
+        "label": "Estatus",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citavi",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "cittfa",
+        "visible": "true",
+        "hidden_desktop": "",
+        "label": "Teléfono",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "cittfb",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citfec",
+        "visible": "true",
+        "date":true,
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "label": "Fecha",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citreg",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "label": "EMISION",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "cithor",
+        "visible": "true",
+        "hidden_desktop": "",
+        "label": "HORA",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citcor",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citrsp",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citobs",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "value": "citden",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "type": "",
+        "type_externo": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-cog bigger-120'></i>",
+            "funcion": "submit_modal_cit_click",
+            "parametro": "citid",
+            "href": "#modal-consultaDashboardPaciente",
+            "class": "btn btn-xs btn-primary"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa-cog bigger-120'></i>",
+            "funcion": "submit_modal_reporteCitaIndividual_click",
+            "parametro": "citid",
+            "href": "#modal-reporteCitaIndividual",
+            "class": "btn btn-xs btn-danger"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "citreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "citid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "citxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "citest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_cita",
+    "name": "modal_new_cita",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_cit",
+    "col": [
+      {
+        "campo": "citid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citusuid_combo",
+        "label": "citusuid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citpacid_combo",
+        "label": "citpacid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citres",
+        "label": "citres",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citdes",
+        "label": "citdes",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citedo",
+        "label": "citedo",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citavi",
+        "label": "citavi",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cittfa",
+        "label": "cittfa",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cittfb",
+        "label": "cittfb",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citfec",
+        "label": "citfec",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "Readonly",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cithor",
+        "label": "cithor",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citcor",
+        "label": "citcor",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citrsp",
+        "label": "citrsp",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citobs",
+        "label": "citobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "citden",
+        "label": "citden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_cit_confirm",
+        "id": "submit_form_cit_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_cit_confirm','#submit_form_cit');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_cit",
+        "id": "submit_form_cit",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_cit_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "citusuid",
+      "fk_table": "user",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usuden",
+      "fk_table_where": " usuest ='t'  "
+    },
+    {
+      "fk_id": "citpacid",
+      "fk_table": "paciente",
+      "fk_table_id": "pacid",
+      "fk_table_campo": "pacfnm",
+      "fk_table_where": " pacest ='t'  "
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "citid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "citest='t' and citid > 0",
+      "fk_id2": "citid",
+      "fk_table2": "cita",
+      "fk_table_id2": "citid",
+      "fk_table_id3": "citid",
+      "fk_table_est": "citest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "citest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    },
+    {
+      "campo": "citedo",
+      "option": [
+        {
+          "value": "Por confirmar",
+          "name": "Por confirmar"
+        },
+        {
+          "value": "Confirmada",
+          "name": "Confirmada"
+        },
+        {
+          "value": "Por atender",
+          "name": "Por atender"
+        },
+        {
+          "value": "Atendida",
+          "name": "Atendida"
+        },
+        {
+          "value": "Anulada",
+          "name": "Anulada"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

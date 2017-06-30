@@ -1,0 +1,63 @@
+{
+  "oddest": {
+    "id": "modal_new_oddest",
+    "name": "modal_new_oddest",
+    "class": "",
+    "title": "Settings",
+    "height": "100px",
+    "form_class": "",
+    "form_id": "form_oddest",
+    "col": [
+      {
+        "campo": "oddid",
+        "label": "",
+        "size": "6",
+        "type": "type",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_oddest_confirm",
+        "id": "submit_form_oddest_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_oddest_confirm','#submit_form_oddest');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_oddest",
+        "id": "submit_form_oddest",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_oddest_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

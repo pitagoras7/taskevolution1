@@ -1,0 +1,730 @@
+{
+  "config": {
+    "table": "work",
+    "view": "work",
+    "col": [
+      {
+        "campo": "wrkid",
+        "label": "wrkid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkresid",
+        "label": "wrkresid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkusuid",
+        "label": "wrkusuid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkasiid",
+        "label": "wrkasiid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkest",
+        "label": "wrkest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkreg",
+        "label": "wrkreg",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkcul",
+        "label": "wrkcul",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkedo",
+        "label": "wrkedo",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkden",
+        "label": "wrkden",
+        "size": "12",
+        "type": "varchar(140)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkobs",
+        "label": "wrkobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrktyp",
+        "label": "wrktyp",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "wrkmod",
+        "label": "wrkmod",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "font-size:11px",
+    "class": "",
+    "select_conditional": "wrkid  not in (0) and wrkest in ('t') order by wrkid desc , wrktyp asc",
+    "th": [
+      {
+        "value": "Type",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Name",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Details",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "code",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Responsable",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "User",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Asignated",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "delete",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Created",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Fecha Culminación",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Estatu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Module",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "wrktyp_fk_value_fijo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkden",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": ""
+      },
+      {
+        "value": "wrkid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkresid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkusuid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkasiid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkest",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkcul",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkedo_fk_value_fijo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "wrkmod",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-cog bigger-120'></i>",
+            "funcion": "submit_modal_wrk_click",
+            "parametro": "wrkid",
+            "href": "#modal-wrk",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "wrkreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "wrkid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "wrkxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "wrkest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_work",
+    "name": "modal_new_work",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "450px",
+    "form_class": "",
+    "form_id": "form_wrk",
+    "col": [
+      {
+        "campo": "wrkid",
+        "label": "",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkresid_combo",
+        "label": "Responsable",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkusuid_combo",
+        "label": "wrkusuid",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkasiid_combo",
+        "label": "ASignado A.",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "Readonly",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkcul",
+        "label": "Culminated",
+        "size": "6",
+        "type": "text",
+        "class": "date",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkedo_combo_fijo",
+        "label": "wrkedo",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrktyp_combo_fijo",
+        "label": "Type",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkmod",
+        "label": "Module",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },{
+        "campo": "wrkden",
+        "label": "Name",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "wrkobs",
+        "label": "Details",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_wrk_confirm",
+        "id": "submit_form_wrk_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_wrk_confirm','#submit_form_wrk');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_wrk",
+        "id": "submit_form_wrk",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_wrk_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "wrkresid",
+      "fk_table": "user",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usunom",
+      "fk_table_where": "usuest ='t'"
+    },
+    {
+      "fk_id": "wrkusuid",
+      "fk_table": "user",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usunom",
+      "fk_table_where": " usuest ='t'  "
+    },
+    {
+      "fk_id": "wrkasiid",
+      "fk_table": "user",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usunom",
+      "fk_table_where": "usuest ='t'"
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "wrkid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "wrkest='t' and wrkid > 0",
+      "fk_id2": "wrkid",
+      "fk_table2": "work",
+      "fk_table_id2": "wrkid",
+      "fk_table_id3": "wrkid",
+      "fk_table_est": "wrkest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "wrkest",
+      "option": [
+        
+        {
+          "value": "f",
+          "name": "Inactivo"
+        },{
+          "value": "t",
+          "name": "Activo"
+        }
+      ]
+    },
+    {
+      "campo": "wrkedo",
+      "option": [
+        {
+          "value": 1,
+          "name": "En espera"
+        },
+        {
+          "value": 2,
+          "name": "En Proceso"
+        },
+        {
+          "value": 3,
+          "name": "Culminado"
+        },
+        {
+          "value": 4,
+          "name": "Defasado"
+        }
+      ]
+    },
+    {
+      "campo": "wrktyp",
+      "option": [
+        {
+          "value": 1,
+          "name": "Frontend"
+        },
+        {
+          "value": 2,
+          "name": "Backend"
+        },
+        {
+          "value": 3,
+          "name": "Database"
+        },
+        {
+          "value": 4,
+          "name": "Documentacion"
+        },
+        {
+          "value": 4,
+          "name": "Traduccion"
+        },
+        {
+          "value": 5,
+          "name": "Reunión"
+        },
+        {
+          "value": 6,
+          "name": "Gen code"
+        },
+        {
+          "value": 7,
+          "name": "Otra"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

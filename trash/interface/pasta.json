@@ -1,0 +1,94 @@
+{
+  "pasta": [
+    {
+      "name": "Pasta con Perejil",
+      "ico": "",
+      "category": "pasta_product cold",
+      "price": "15.50",
+      "color": "",
+      "code":200001,
+    "exento":"false"
+
+
+    },
+    {
+      "name": "Pasta con Tomate",
+      "ico": "",
+      "category": "pasta_product cold",
+      "price": "15.50",
+      "color": "",
+      "code":200002,
+      "exento":"false"
+    }
+    ,
+    {
+      "name": "Pasta Primavera",
+      "ico": "",
+      "category": "pasta_product cold",
+      "price": "15.50",
+      "color": "",
+      "code":200003,
+      "exento":"false"
+    }
+    ,
+    {
+      "name": "Pasta Frola",
+      "ico": "",
+      "category": "pasta_product hot",
+      "price": "15.50",
+      "color": "",
+      "code":200004,
+      "exento":"false"
+    }
+    ,
+    {
+      "name": "Pasta a la Anchoa",
+      "ico": "",
+      "category": "pasta_product hot",
+      "price": "15.50",
+      "color": "",
+      "code":200005,
+      "exento":"false"
+    }
+    ,
+    {
+      "name": "Pasta Primavera con Pollo ",
+      "ico": "",
+      "category": "pasta_product cold",
+      "price": "15.50",
+      "color": "",
+      "code":200006,
+      "exento":"false"
+    }
+    ,
+    {
+      "name": "Pasta con Mejillones",
+      "ico": "",
+      "category": "pasta_product hot",
+      "price": "15.50",
+      "color": "",
+      "code":200007,
+      "exento":"false"
+    }
+    ,
+    {
+      "name": "Pasta con Atún a la Mediterránea",
+      "ico": "",
+      "category": "pasta_product cold",
+      "price": "15.50",
+      "color": "",
+      "code":200008,
+      "exento":"false"
+    }
+    ,
+    {
+      "name": "Sopita de Pasta",
+      "ico": "",
+      "category": "pasta_product cold",
+      "price": "15.50",
+      "color": "",
+      "code":200009,
+      "exento":"true"
+    }
+  ]
+}

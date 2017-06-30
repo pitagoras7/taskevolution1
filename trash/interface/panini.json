@@ -1,0 +1,74 @@
+{
+  "panini": [
+    {
+      "name": "Panini de Queso Manchego y Manzana",
+      "ico": "",  
+      "code": "100001",
+      "click":"",
+      "category": "panini_product",
+      "price": "10.80",
+      "color": "",
+      "exento":"false"
+    },
+    {
+      "name": "Panini de Jamón de Pavo Ahumado",
+      "ico": "",  
+      "code": "100002",
+      "click":"",
+      "category": "panini_product",
+      "price": "10.80",
+      "color": "",
+      "exento":"false"
+    },
+    {
+      "name": "Sandwich de Quesos con Mayonesa de Chipotle",
+      "ico": "",  
+      "code": "100003",
+      "click":"",
+      "category": "Panini de Queso Crema y Salmón Ahumado",
+      "price": "10.80",
+      "color": "",
+      "exento":"false"
+    },
+    {
+      "name": "Panini de Berenjena con Queso Mozarella",
+      "ico": "",  
+      "code": "100004",
+      "click":"",
+      "category": "panini_product",
+      "price": "10.80",
+      "color": "",
+      "exento":"false"
+    },
+    {
+      "name": "Sandwich de Queso e Higo",
+      "ico": "",  
+      "code": "100005",
+      "click":"",
+      "category": "panini_product",
+      "price": "10.80",
+      "color": "",
+      "exento":"false"
+    },
+    {
+      "name": "Panini de Jamón, Queso y Huevo",
+      "ico": "",  
+      "code": "100006",
+      "click":"",
+      "category": "panini_product",
+      "price": "10.80",
+      "color": "",
+      "exento":"false"
+    },
+    {
+      "name": "Panini de Jamón Serrano",
+      "ico": "",  
+      "code": "100007",
+      "click":"",
+      "category": "panini_product",
+      "price": "10.80",
+      "color": "",
+      "exento":"false"
+    }
+  ]
+}

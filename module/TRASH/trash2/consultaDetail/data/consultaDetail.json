@@ -1,0 +1,829 @@
+{
+  "config": {
+    "table": "consultaDetail",
+    "view": "consultaDetail",
+    "col": [
+      {
+        "campo": "cndid",
+        "label": "cndid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndanxid",
+        "label": "cndanxid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndanx",
+        "label": "cndanx",
+        "size": "12",
+        "type": "varchar(100)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndden",
+        "label": "cndden",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndcan",
+        "label": "cndcan",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndedo",
+        "label": "cndedo",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndref",
+        "label": "cndref",
+        "size": "12",
+        "type": "varchar(100)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndfec",
+        "label": "cndfec",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndind",
+        "label": "cndind",
+        "size": "12",
+        "type": "varchar(20)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndinh",
+        "label": "cndinh",
+        "size": "12",
+        "type": "varchar(50)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndinm",
+        "label": "cndinm",
+        "size": "12",
+        "type": "varchar(50)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndest",
+        "label": "cndest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndemi",
+        "label": "cndemi",
+        "size": "12",
+        "type": "varchar(100)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "cndobs",
+        "label": "cndobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable__": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "cndid  not in (0)",
+    "th": [
+      {
+        "value": "cndid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndanxid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndanx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndcan",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndedo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndref",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndfec",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndind",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndinh",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndinm",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndemi",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "cndid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndanxid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndanx",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndcan",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndedo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndref",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndfec",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndind",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndinh",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndinm",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndest",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndemi",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_cnd_click",
+            "parametro": "cndid",
+            "href": "#modal-cnd",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+   "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "cndid  not in (0) order by cndid desc",
+    "th": [
+      {
+        "value": "cndid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndanx",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "cndid",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndanx",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "cndden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "class": ""
+      },
+      {
+        "width": "50px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-trash bigger-120'></i>",
+            "funcion": "submit_modal_cnd_click",
+            "parametro": "cndid",
+            "href": "#modal-cnd",
+            "class": "btn btn-xs btn-danger"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "cndreg"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "cndid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "cndxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "cndest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_consultaDetail",
+    "name": "modal_new_consultaDetail",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_cnd",
+    "col": [
+      {
+        "campo": "cndid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndanxid_combo",
+        "label": "cndanxid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndanx",
+        "label": "cndanx",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndden",
+        "label": "cndden",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndcan",
+        "label": "cndcan",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndedo",
+        "label": "cndedo",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndref",
+        "label": "cndref",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndfec",
+        "label": "cndfec",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndind",
+        "label": "cndind",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndinh",
+        "label": "cndinh",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndinm",
+        "label": "cndinm",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndemi",
+        "label": "cndemi",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cndobs",
+        "label": "cndobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_cnd_confirm",
+        "id": "submit_form_cnd_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_cnd_confirm','#submit_form_cnd');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_cnd",
+        "id": "submit_form_cnd",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_cnd_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "cndanxid",
+      "fk_table": "ane",
+      "fk_table_id": "aneid",
+      "fk_table_campo": "aneden",
+      "fk_table_where": " aneest ='t'  "
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "cndid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "cndest='t' and cndid > 0",
+      "fk_id2": "cndid",
+      "fk_table2": "consultaDetail",
+      "fk_table_id2": "cndid",
+      "fk_table_id3": "cndid",
+      "fk_table_est": "cndest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "cndest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ]
+}

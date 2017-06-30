@@ -1,0 +1,264 @@
+{% extends "base_consulta.html" %}
+
+
+
+
+{% block categoria1 %}
+
+{{ dato.menu_filter_cards|raw }}
+
+{% endblock %}
+
+
+
+{% block categoria2 %} 
+<div id="categoria2" >
+
+
+
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block visor1 %}
+
+
+
+<div id="visor1"  class="col-md-3" style="background:#333; height:600px; border-radius:5px; padding-top:10px; color:#fff">
+
+  <!-- ULTIMA VISITA -->
+  <div class="col-md-12" style="background:#f5f5f5; color:#333; margin-top:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:5px;" class="fa fa-calendar"></i></td>
+        <td > <div style="margin-top:5px; font-size:14px">
+         <span style="font-size:16px; font-weight:bold"> Ultima Visita </span>
+         <br> 12 / 09 / 2016 hace  días  </div></td>
+       </tr>
+
+     </table>
+
+   </div>
+   <!-- ULTIMA VISITA -->
+
+   <!-- ALERGIA -->
+   <div class="col-md-12" style="background:#F3F781; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-exclamation-circle"></i></td>
+        <td > <div style="margin-top:5px;  font-size:14px">
+         <span style="font-size:16px; font-weight:bold">  Recordatorio para hoy  </span>
+         <br> Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  </div></td>
+       </tr>
+
+     </table>
+   </div>
+   <!-- ALERGIA -->
+
+
+   <!-- OBSERVACION -->
+   <div class="col-md-12" style="background:#F5F5F5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-clock-o"></i></td>
+        <td > <div style="margin-top:5px;  font-size:14px">
+         <span style="font-size:16px; font-weight:bold"> Pacientes en espera  </span>
+         <br>
+         -  Marbelis Cordero<br>
+         -  Alberto Felix<br>
+         -  Jesus Rovkrter<br>
+         -  Armando Salas Vector<br>                   
+       </div></td>
+     </tr>
+
+   </table>
+ </div>
+ <!-- OBSERVACION -->
+
+
+
+
+
+
+ <div class="col-md-9" style="text-align:center; margin-top:15px; padding-bottom:10px; border-radius:5px">
+
+      <a style=" width:100%; height:40px; font-size:16px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-success" href="#" onclick="openModalDatatableconsultaDashboardPaciente(0)">
+        <span class="menu-text"> PACIENTE </span>
+      </a>
+
+ </div>
+
+
+ <div class="col-md-3" style="text-align:center; margin-top:15px; padding-bottom:10px; border-radius:5px">
+
+      <a style=" width:100%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-success" href="?opcion=abrirHistoria" onclick="#">
+       <i class='fa fa-plus' style='font-size:18px'></i>   <span class="menu-text">  </span>
+     </a>
+
+</div>
+
+
+
+ <div class="col-md-9" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+  <a style=" width:100%; height:40px; font-size:16px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-info" onclick="openModalDatatablecitaDashboard(0)"  href="#modal-citaDashboard" >
+     <span class="menu-text" >  CITA </span>
+  </a>
+
+ </div>
+
+
+ <div class="col-md-3" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+      <a style=" width:100%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-info" onclick="openModalDatatablepacienteCita('cita')" 
+                  data-toggle="modal"  href="#modal-pacienteCita" >
+       <i class='fa fa-plus' style='font-size:18px'></i>   <span class="menu-text">  </span>
+     </a>
+
+</div>
+
+
+
+
+
+<div class="col-md-9" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+  <a style=" width:100%; height:40px; font-size:16px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-warning" href="#" onclick="openModalDatatableconsultaDashboardconsulta()">
+   <i class='fa fa-eyes' style='font-size:18px'></i>  <span class="menu-text"> CONSULTAS </span>
+ </a>
+
+</div>
+
+
+
+ <div class="col-md-3" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+      <a style=" width:100%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-warning" onclick="openModalDatatablepacienteCita('consulta')" 
+                  data-toggle="modal"  href="#modal-pacienteCita" >
+       <i class='fa fa-plus' style='font-size:18px'></i>   <span class="menu-text">  </span>
+     </a>
+
+</div>
+
+<!--
+ <div class="col-md-9" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+  <a    style=" width:100%; height:40px; font-size:16px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-info" onclick="openModalDatatablepagoMedicoDatatable(0)" 
+                   href="#modal-pagoMedicoDatatable"  >
+    <span class="menu-text"> PAGOS  </span>
+  </a>
+ </div>
+
+ <div class="col-md-3" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+      <a style=" width:100%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-info" onclick="openModalDatatablepacienteCita('pago')" 
+                  data-toggle="modal"  href="#modal-pacienteCita" >
+       <i class='fa fa-plus' style='font-size:18px'></i>   <span class="menu-text">  </span>
+     </a>
+
+</div>
+
+
+
+
+
+ <div class="col-md-9" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+  <a  style=" width:100%; height:40px; font-size:16px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-info"  onclick="openModalDatatablerecordatorioDatatable(0)" 
+                   href="#modal-recordatorioDatatable" >
+    <span class="menu-text"> RECORDATORIO </span>
+  </a>
+
+
+ </div>
+
+
+ <div class="col-md-3" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+      <a data-toggle="modal" style=" width:100%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn   menu_category_card   btn-info" href="#modal-recordatorioRegistro" onclick="submit_modal_recordatorioRegistro_click()">
+       <i class='fa fa-plus' style='font-size:18px'></i>   <span class="menu-text">  </span>
+     </a>
+
+</div>
+
+
+-->
+
+</div>
+
+
+
+
+
+
+
+
+
+<div id="visor2"  class="col-md-8"  style="background:#333; height:600px; border-radius:5px; padding-top:10px; margin-left:50px; color:#fff" >
+
+
+
+
+{{ dato.visor2|raw }}
+
+
+
+
+</div>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+openModalDatatablecitaDashboard(0);
+     // initDatatable();
+
+
+     function response_lsdajax001(){
+      validation_form();
+    }
+
+
+    function response_lsdajax002(){
+    }
+
+
+
+
+
+    </script>
+
+
+    {% endblock %}
+
+
+    {% block css %}
+    <style>
+
+
+
+
+    </style>
+
+
+    {% endblock %}

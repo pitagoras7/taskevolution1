@@ -1,0 +1,75 @@
+{"odd": {
+    "id": "modal_new_orderDetail",
+    "name": "modal_new_orderDetail",
+    "class": "",
+    "title": "Add",
+    "height": "300px",
+    "form_class": "",
+    "form_id": "form_odd",
+    "col": [
+      {
+        "campo": "oddid",
+        "label": "",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddcan",
+        "label": "Cantidad",
+        "size": "12",
+        "type": "text",
+        "class": "spinner1",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddobs",
+        "label": "Observacion",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_odd_confirm",
+        "id": "submit_form_odd_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_odd_confirm','#submit_form_odd');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_odd",
+        "id": "submit_form_odd",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_odd_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }}

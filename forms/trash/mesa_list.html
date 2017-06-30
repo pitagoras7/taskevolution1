@@ -1,0 +1,127 @@
+{% extends "baseXP.html" %}
+
+
+
+{% block content_wrapper %}
+
+
+
+<div class="row" >
+
+    <div class="col-xs-12 barra_superior_datatable" >
+
+        <span class="livicon"    data-hovercolor="white"
+        data-color="white" data-name="settings" data-size="24">
+    </span>
+    MESA
+
+
+    <a class="btn btn-success pull-right bolder" href="#modal-mes" role="button" data-toggle="modal" onclick="new_modal_mes_click()" >  <span class="livicon"    data-hovercolor="white"
+        data-color="white" data-name="plus-alt" data-size="18"></span> MESA 
+    </a>
+
+
+</div>
+
+
+
+
+
+<div class="col-xs-12">
+
+
+    <div class="clearfix options-print-datatable" >
+        <div class="pull-right tableTools-container"></div>
+    </div>
+
+    <!--<div class="table-header">
+    Listado
+</div>-->
+
+<div id="view">
+
+    {{ dato.datatable|raw }} 
+
+
+</div>
+</div>
+
+</div>
+
+
+
+<div id = "modal-mes" class="modal fade" tabindex="-1">
+    <div id="content-modal-mes"></div>
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+
+
+
+<script type="text/javascript">
+
+
+
+function new_modal_mes_click(x) {
+    goto_lsdajax001('new_mes', [x], 'content-modal-mes','module/mesa/mes_AJAX.php');
+}
+
+function submit_modal_mes_click(x) {
+    goto_lsdajax001('edit_mes', [x], 'content-modal-mes','module/mesa/mes_AJAX.php');
+}
+
+
+
+function submit_form_mes_click() {
+
+    var vista = 'view';
+    var data = $('#form_mes').serialize();
+    goto_lsdajax002('save_mes', [data], vista,'module/mesa/mes_AJAX.php');
+
+}
+
+
+function response_lsdajax001(){
+    validation_form();
+}
+
+
+function response_lsdajax002(){
+    initDatatable();
+}
+
+
+
+
+initDatatable();
+
+
+
+function refresh_JS() {
+
+
+    $(".date").datepicker({
+        format: 'dd/mm/yyyy',
+        showOtherMonths: true,
+        selectOtherMonths: false
+
+    });
+
+
+    $('.date').mask('99/99/2999');
+
+
+}
+
+
+
+</script>  
+
+{% endblock %}
+
+
+{% block css %}
+
+{% endblock %}

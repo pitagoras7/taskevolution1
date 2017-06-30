@@ -1,0 +1,1217 @@
+{
+  "config": {
+    "table": "orders",
+    "view": "orders",
+    "col": [
+      {
+        "campo": "ordid",
+        "label": "ordid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordcliid",
+        "label": "ordcliid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordmesid",
+        "label": "ordmesid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordusuid",
+        "label": "ordusuid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordodcid",
+        "label": "ordodcid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "orddes",
+        "label": "orddes",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordest",
+        "label": "ordest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordreg",
+        "label": "ordreg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordemi",
+        "label": "ordemi",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordpre",
+        "label": "ordpre",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordenv",
+        "label": "ordenv",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordanu",
+        "label": "ordanu",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordobs",
+        "label": "ordobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordedo",
+        "label": "ordedo",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "ordresid",
+        "label": "ordresid",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "ordid  not in (0)",
+    "th": [
+      {
+        "value": "ordid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordcliid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordmesid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordusuid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordodcid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "orddes",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordemi",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordpre",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordenv",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordanu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordedo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      },
+      {
+        "value": "ordresid",
+        "style": "",
+        "class": ""
+      }
+    ],
+    "tr": [
+      {
+        "value": "ordid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordcliid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordmesid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordusuid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordodcid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "orddes",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordest",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordemi",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordpre",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordenv",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordanu",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordobs",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordedo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordresid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "edit": [
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_ord_click",
+            "parametro": "ordid",
+            "href": "#modal-ord",
+            "class": "btn btn-xs btn-primary"
+          },
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_ordxxx_click",
+            "parametro": "usuid",
+            "href": "#modal-usuimg",
+            "class": "btn btn-xs btn-primary"
+          },
+          {
+            "icon": "<*i class='ace-icon fa fa-file bigger-120'><*/i>",
+            "funcion": "submit_modal_ord_report_click",
+            "parametro": "ordid",
+            "href": "#modal-ord-report",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_here": {
+    "id": "table",
+    "style": "font-size:20px; color:#333",
+    "class": "",
+    "select_conditional": "ordid  not in (0) and ordedo not in (72) and ordest in ('t') and ordodcid in (1) ",
+    "th": [
+      {
+        "value": "---",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Code",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordcliid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Mesa",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Camamero",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordodcid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "orddes",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Created",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordpre",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordenv",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordanu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "ordedo_ordedo_ico",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "font-size:30px; width:50px; text-align:center",
+        "class": ""
+      },
+      {
+        "value": "ordid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordcliid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordmesid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": "",
+        "style": "font-size:30px; width:100px"
+      },
+      {
+        "value": "ordusuid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordodcid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "orddes",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordest",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordpre",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordenv",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordanu",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordobs",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "class": "btn btn-xs btn-primary",
+            "funcion": "",
+            "parametro": "ordmesid",
+            "href": "?opcion=abrirOrders&code=",
+            "mode": "href"
+          }
+        ]
+      }
+    ]
+  },
+  "datatable_togo": {
+    "id": "table",
+    "style": "font-size:20px; color:#333",
+    "class": "",
+    "select_conditional": "ordid  not in (0) and ordedo not in (72) and ordest in ('t') and ordodcid in (2)",
+    "th": [
+      {
+        "value": "---",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Code",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordcliid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Mesa",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Camamero",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordodcid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "orddes",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Created",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordpre",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordenv",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordanu",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "ordobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "ordedo_ordedo_ico",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "style": "font-size:30px; width:50px; text-align:center",
+        "class": ""
+      },
+      {
+        "value": "ordid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordcliid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordmesid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": "",
+        "style": "font-size:30px; width:100px"
+      },
+      {
+        "value": "ordusuid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordodcid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "orddes",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordest",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordreg",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordpre",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordenv",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordanu",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "ordobs",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "class": "btn btn-xs btn-primary",
+            "funcion": "",
+            "parametro": "ordmesid",
+            "href": "?opcion=abrirOrders&code=",
+            "mode": "href"
+          }
+        ]
+      }
+    ]
+  },
+  "grafica_togo": {
+    "showInLegend": "true",
+    "id": "grafico",
+    "text": "Disponibility",
+    "type": "pie",
+    "plotShadow": "true",
+    "series_name": "Skydinners",
+    "sql": "select count(srcden) as value,srcden as name from service s , serviceCategory c where s.srvsrcid = c.srcid and srcest in ('t') and c.srcid not in (1) group by srcden"
+  },
+  "type_date": [
+    {
+      "campo": "ordreg"
+    },
+    {
+      "campo": "ordemi"
+    },
+    {
+      "campo": "ordpre"
+    },
+    {
+      "campo": "ordenv"
+    },
+    {
+      "campo": "ordanu"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "ordid"
+    }
+  ],
+  "type_ordedo": [
+    {
+      "campo": "ordedo"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "",
+      "type": ""
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "ordxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "ordest"
+    }
+  ],
+  "type_ordpvp": [
+    {
+      "campo": "ordid"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_orders",
+    "name": "modal_new_orders",
+    "class": "",
+    "title": "Nuevo Registro",
+    "height": "400px",
+    "form_class": "",
+    "form_id": "form_ord",
+    "col": [
+      {
+        "campo": "ordid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordcliid_combo",
+        "label": "ordcliid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordmesid_combo",
+        "label": "ordmesid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordusuid_combo",
+        "label": "ordusuid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordodcid_combo",
+        "label": "ordodcid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "orddes",
+        "label": "orddes",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "Readonly",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordemi",
+        "label": "ordemi",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordpre",
+        "label": "ordpre",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordenv",
+        "label": "ordenv",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordanu",
+        "label": "ordanu",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "ordobs",
+        "label": "ordobs",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_ord_confirm",
+        "id": "submit_form_ord_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_ord_confirm','#submit_form_ord');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_ord",
+        "id": "submit_form_ord",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_ord_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "ordcliid",
+      "fk_table": "cli",
+      "fk_table_id": "cliid",
+      "fk_table_campo": "cliden",
+      "fk_table_where": " cliest ='t'  "
+    },
+    {
+      "fk_id": "ordmesid",
+      "fk_table": "mesa",
+      "fk_table_id": "mesid",
+      "fk_table_campo": "mesden",
+      "fk_table_where": " mesest ='t'  "
+    },
+    {
+      "fk_id": "ordusuid",
+      "fk_table": "user",
+      "fk_table_id": "usuid",
+      "fk_table_campo": "usulog",
+      "fk_table_where": " usuest ='t'  "
+    },
+    {
+      "fk_id": "ordodcid",
+      "fk_table": "orderCategory",
+      "fk_table_id": "odcid",
+      "fk_table_campo": "odcden",
+      "fk_table_where": " odcest ='t'  "
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "ordid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "ordest='t' and ordid > 0",
+      "fk_id2": "ordid",
+      "fk_table2": "orders",
+      "fk_table_id2": "ordid",
+      "fk_table_id3": "ordid",
+      "fk_table_est": "ordest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "ordest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ]
+}

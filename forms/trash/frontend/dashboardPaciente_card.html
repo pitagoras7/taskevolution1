@@ -1,0 +1,225 @@
+{% extends "base_consulta_paciente.html" %}
+
+
+
+
+{% block categoria1 %}
+
+{{ dato.menu_filter_cards|raw }}
+
+{% endblock %}
+
+
+
+{% block categoria2 %} 
+<div id="categoria2" >
+
+
+
+</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+{% block visor1 %}
+
+
+
+<div id="visor1"  class="col-md-3" style="background:#333; height:600px; border-radius:5px; padding-top:10px; color:#fff">
+
+
+  <div class="col-md-12" style="background:#F5F5F5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td >
+
+          <img src="distXP/img/pdro2.jpg" style="width:80px; margin-top:5px; border-radius:5px">
+
+        </td>
+
+        <td > <div style="margin-top:5px; margin-left:10px;  font-size:14px">
+         <span style="font-size:16px; font-weight:bold">
+          Rojas Garcia Pedro Alejandro  </span>
+          <br>  29 años | Soltero 
+        </div></td>
+      </tr>
+
+    </table>
+  </div>
+
+
+
+
+  <!-- ULTIMA VISITA -->
+  <div class="col-md-12" style="background:#f5f5f5; color:#333; margin-top:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:5px;" class="fa fa-calendar"></i></td>
+        <td > <div style="margin-top:5px; font-size:14px">
+         <span style="font-size:16px; font-weight:bold"> Ultima Visita </span>
+         <br> 12 / 09 / 2016 Hace 28 días </div></td>
+       </tr>
+
+     </table>
+
+   </div>
+   <!-- ULTIMA VISITA -->
+
+
+   <!-- DIAGNOSTICO -->
+   <div class="col-md-12" style="background:#f5f5f5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-stethoscope"></i></td>
+        <td > <div style="margin-top:5px;font-size:14px">
+         <span style="font-size:16px; font-weight:bold"> Ultimo Diagnostico </span>
+         <br> Queratitis Hermeticamente Solida  </div></td>
+       </tr>
+
+     </table>
+   </div>
+   <!-- DIAGNOSTICO -->
+
+
+   <!-- ALERGIA -->
+   <div class="col-md-12" style="background:#F3F781; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-exclamation-circle"></i></td>
+        <td > <div style="margin-top:5px;  font-size:14px">
+         <span style="font-size:16px; font-weight:bold">  Alergías </span>
+         <br> Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  Queratitis Hermeticamente Solida  </div></td>
+       </tr>
+
+     </table>
+   </div>
+   <!-- ALERGIA -->
+
+
+   <!-- OBSERVACION -->
+   <div class="col-md-12" style="background:#F5F5F5; color:#333; margin-top:10px; padding-bottom:10px; border-radius:5px">
+
+    <table style="width:100%; height:60px; font-size:14px;">
+      <tr>
+        <td ><i style="font-size:33px; margin-top:5px; margin-right:10px;" class="fa fa-pencil-square"></i></td>
+        <td > <div style="margin-top:5px;  font-size:14px">
+         <span style="font-size:16px; font-weight:bold">  Nota importante  </span>
+         <br> Vamos pedro tu puedes hermanoooo por tu futuro no te rindas  </div></td>
+       </tr>
+
+     </table>
+   </div>
+   <!-- OBSERVACION -->
+
+   <!-- OBSERVACION -->
+   <div class="col-md-6" style="text-align:center; margin-top:15px; padding-bottom:10px; border-radius:5px">
+
+    <a style=" width:100%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-danger" href="?opcion=dashboardConsulta" onclick="#">
+     <i  style="margin-top: -10px" class="fa fa-home "></i> <span class="menu-text">  </span>
+    </a>
+ </div>
+
+
+    <div class="col-md-6" style="text-align:center; margin-top:15px; padding-bottom:10px; border-radius:5px">
+
+    <a style=" width:100%; height:40px; font-size:14px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-primary"  data-toggle="modal" href="#modal-reportePacienteIndividual" onclick="submit_modal_reportePacienteIndividual_click()">
+     <i  style="margin-top: -10px; font-size:22px" class="fa fa-plus "></i>   <span class="menu-text"> HISTORIA </span>
+    </a>
+ </div>
+ <!-- OBSERVACION -->
+
+
+ <div class="col-md-6" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+  <a style=" width:100%; height:40px; font-size:18px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-success" href="?opcion=abrirConsulta" onclick="#">
+   <i  style="margin-top: -10px; font-size:22px" class="fa fa-stethoscope "> </i> <span class="menu-text"> EM </span>
+  </a>
+
+</div>
+
+<div class="col-md-6" style="text-align:center; margin-top:5px; padding-bottom:10px; border-radius:5px">
+
+  <a style=" width:100%; height:40px; font-size:18px; border-radius:5px; font-weight:bold " class=" btn  menu_category_card   btn-success" href="?opcion=abrirInforme" onclick="#">
+   <i  style="margin-top: -10px; font-size:22px" class="fa fa-file-text "></i>  <span class="menu-text"> INF / REF </span>
+  </a>
+
+</div>
+
+
+      <!--
+    <div class="col-md-12" style=" height:50px">
+     {{ dato.menu_filter_cards|raw }}
+   </div>-->
+
+
+</div>
+
+
+
+
+<div id="visor2"  class="col-md-8"  style="background:#333; height:600px; border-radius:5px; padding-top:10px; margin-left:50px; color:#fff" >
+
+
+          {{ dato.visor2|raw }}
+
+
+</div>
+
+
+
+
+
+      {% endblock %}
+
+
+
+
+
+
+      {% block javascript %}
+
+
+      <script type="text/javascript">
+
+      openModalDatatableconsultaDatatableIndividual(0);
+
+      initDatatable();
+
+      function response_lsdajax001(){
+        validation_form();
+      }
+
+
+      function response_lsdajax002(){
+      }
+
+//$("#calculator").css('display','none');
+
+
+
+
+</script>
+
+
+{% endblock %}
+
+
+{% block css %}
+<style>
+
+
+
+
+</style>
+
+
+{% endblock %}

@@ -1,0 +1,128 @@
+{
+	"srp_cards_datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "srpid  not in (0)",
+    "th": [
+      {
+        "value": "srpid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srpsupid",
+        "style": "",
+        "class": ""
+      },
+      
+      {
+        "value": "srpuse",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srptip",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srpreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srpden",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "srpest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "srpid",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "srpsupid_fk",
+        "visible": "",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+       {
+        "value": "srpuse",
+        "visible": "",
+        "hidden_desktop": "true",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "srptip_ico",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": "",
+        "style":"width:20px;text-align:center"
+      },
+      {
+        "value": "srpreg",
+        "visible": "",
+        "hidden_desktop": "true",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "srpden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "srpest",
+        "visible": "",
+        "hidden_desktop": "true",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-trash bigger-120'></i>",
+            "funcion": " ajax", 
+            "ajax_code": "srpest", 
+            "ajax_parametro": "srpid", 
+            "ajax_view": "view_orderDetail", 
+            "href": "",
+            "class":  "btn btn-xs btn-danger",
+            "mode":"ajax-directo"
+          }
+        ]
+      }
+    ]
+  }
+}

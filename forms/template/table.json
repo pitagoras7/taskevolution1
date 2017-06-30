@@ -1,0 +1,133 @@
+{
+    "config": {},
+    "datatable": {
+        
+        "th": [
+            {
+                "value": "Edit",
+                "visible": "true"
+            }
+        ],
+        "tr": [
+            {
+                "edit": [
+                    {
+                        "icon": "<i class='fa fa-edit green'></i>",
+                        "funcion": "submit_modal_usu_click",
+                        "parametro": "usuid",
+                        "href": "#modal-usu"
+                    },
+                    {
+                        "icon": "<i class='fa fa-photo green'></i>",
+                        "funcion": "submit_modal_usuimg_click",
+                        "parametro": "usuid",
+                        "href": "#modal-usuimg"
+                    },
+                    {
+                        "icon": "<i class='fa fa-file green'></i>",
+                        "funcion": "submit_modal_usu_report_click",
+                        "parametro": "usuid",
+                        "href": "#modal-usu-report"
+                    }
+                ],
+                "width": "100px",
+                "visible": "true"
+            }
+        ]
+    },
+    "type_date": [
+        {
+            "campo": ""
+        }
+    ],
+    "type_pk": [
+        {
+            "campo": ""
+        }
+    ],
+    "type_moneda": [
+        {
+            "campo": "",
+            "type": ""
+        }
+    ],
+    "type_numeric": [
+        {
+            "campo": "",
+            "length": ""
+        }
+    ],
+    "type_sec": [
+        {
+            "campo": "",
+            "part1": "",
+            "alias": "",
+            "table": ""
+        }
+    ],
+    "type_img": [
+        {
+            "campo": "",
+            "url": "",
+            "class": "",
+            "width": "",
+            "style": ""
+        }
+    ],
+    "type_delete": [
+        {
+            "campo": ""
+        }
+    ],
+    "form_": {
+        
+    },
+    "type_combo": [
+        {
+            "fk_id": "",
+            "fk_table": "",
+            "fk_table_id": "",
+            "fk_table_campo": "",
+            "fk_table_where": " gruest='t' "
+        }
+    ],
+    "type_combo_fijo": [
+        {
+            "campo": "xxxest",
+            "option": [
+                {
+                    "value": "t",
+                    "name": "Activo"
+                },
+                {
+                    "value": "f",
+                    "name": "Inactivo"
+                }
+            ]
+        },
+        {
+            "campo": "usugen",
+            "option": [
+                {
+                    "value": "f",
+                    "name": "Femenino"
+                },
+                {
+                    "value": "m",
+                    "name": "Masculino"
+                },
+                {
+                    "value": "n",
+                    "name": "No especifica"
+                }
+            ]
+        }
+    ],
+    "menu_top": [
+        {
+            "icon": "",
+            "url": "",
+            "label": "New"
+        }
+    ]
+}

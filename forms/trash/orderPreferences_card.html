@@ -1,0 +1,129 @@
+{% extends "base_cards.html" %}
+
+
+{% block menuTop1 %} 
+              
+{% endblock %}
+
+
+
+{% block menuTop2 %}
+        <input type="hidden" value="Con"  id="botonplus" >
+       {{ dato.menu_filter_cards|raw }}
+
+{% endblock %}
+
+
+
+{% block content_menu %}
+
+{% endblock %}
+
+
+
+
+{% block content_wrapper %}
+
+
+<div class="row" >
+
+  <div class="col-xs-12 col-md-8 ">
+
+
+    <div id="view">
+      {{ dato.cardsimple|raw }}
+    </div>
+
+
+
+    <div id = "modal-odd" class="modal fade" tabindex="-1">
+      <div id="content-modal-odd"></div>
+    </div>
+
+
+    <div id="modal-form" class="modal in" tabindex="-1" style="display: none; padding-right: 15px;">
+
+    </div>
+
+  </div>
+
+  <div class="col-xs-12 col-md-4">
+
+
+    <div id="view_orderDetail">
+      {{ dato.datatable|raw }}
+    </div>
+
+
+  </div>
+
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+
+<script type="text/javascript">
+
+
+function response_lsdajax001(){
+  validation_form();
+}
+
+
+function response_lsdajax002(){
+}
+
+
+function botonplus(x){
+
+    if(x==1){
+        $('.botonno').css("display","inline-block");
+        $('.botonyes').css("display","none");
+        $('#botonplus').val('Sin');
+    }
+
+
+    if(x==0){
+        $('#botonplus').val("Con");
+        $('.botonno').css("display","none");
+        $('.botonyes').css("display","inline-block");
+    }
+
+
+}
+
+
+
+
+
+
+function srp_cards_ajax(x){
+
+goto_lsdajax001('srp',[x,$('#botonplus').val()],"view_orderDetail",'module/ajax/ajax.php');
+
+}
+
+
+
+$(document).ready(function(){
+
+
+
+
+
+
+});
+
+
+</script>
+
+
+{% endblock %}
+
+
+{% block css %}
+
+
+
+{% endblock %}

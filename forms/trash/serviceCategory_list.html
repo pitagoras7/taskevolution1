@@ -1,0 +1,149 @@
+
+{% extends "baseXP.html" %}
+
+{% block menuTop %}
+
+
+<li class="hover">
+    <a href="#modal-src" role="button" data-toggle="modal" onclick="new_modal_src_click()">
+        <i class="menu-icon fa fa-plus"></i>
+        <span class="menu-text">  New  </span>
+    </a>
+
+    <b class="arrow"></b>
+</li>
+
+
+<li class="hover">
+    <a href="?opcion=serviceCategory">
+        <i class="menu-icon fa fa-print"></i>
+        <span class="menu-text">  Report  </span>
+    </a>
+
+    <b class="arrow"></b>
+</li>
+
+{% endblock %}
+
+
+
+{% block content_menu %}
+
+
+{% endblock %}
+
+
+
+
+{% block content_wrapper %}
+
+            <div class="row" >
+
+                <div class="col-xs-12 barra_superior_datatable" >
+
+                    <span class="livicon"    data-hovercolor="white"
+                        data-color="white" data-name="settings" data-size="24">
+                    </span>
+                    SERVICE CATEGORY
+
+                    <a class="btn btn-success pull-right bolder" href="#modal-src" role="button" data-toggle="modal" onclick="new_modal_src_click()" >  <span class="livicon"    data-hovercolor="white"
+                        data-color="white" data-name="plus-alt" data-size="18"></span>   ADD CATEGORY        </a>
+
+                </div>
+
+            </div>
+
+<div class="row" >
+
+    <div class="col-xs-12">
+
+
+        <div class="clearfix options-print-datatable" >
+            <div class="pull-right tableTools-container"></div>
+        </div>
+
+        <!--<div class="table-header">
+            Listado
+        </div>-->
+
+        <div id="view">
+
+            {{ dato.datatable|raw }}
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<div id = "modal-src" class="modal fade" tabindex="-1">
+        <div id="content-modal-src"></div>
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+
+
+
+<script type="text/javascript">
+
+function new_modal_src_click(x) {
+    goto_lsdajax001('new_src', [x], 'content-modal-src','module/serviceCategory/src_AJAX.php');
+}
+
+function submit_modal_src_click(x) {
+    goto_lsdajax001('edit_src', [x], 'content-modal-src','module/serviceCategory/src_AJAX.php');
+}
+
+
+function submit_form_src_click() {
+
+    var vista = 'view';
+    var data = $('#form_src').serialize();
+    goto_lsdajax002('save_src', [data], vista,'module/serviceCategory/src_AJAX.php');}
+
+
+
+function response_lsdajax002(){
+    initDatatable();
+}
+
+
+function response_lsdajax001(){
+    validation_form();
+}
+
+
+initDatatable();
+
+
+
+function refresh_JS() {
+
+
+    $(".date").datepicker({
+        format: 'dd/mm/yyyy',
+        showOtherMonths: true,
+        selectOtherMonths: false
+
+    });
+
+
+    $('.date').mask('99/99/2999');
+
+
+}
+
+
+
+</script>
+
+{% endblock %}
+
+
+{% block css %}
+
+{% endblock %}

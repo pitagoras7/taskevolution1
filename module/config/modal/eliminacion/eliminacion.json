@@ -1,0 +1,63 @@
+{
+  "eliminacion": {
+    "id": "modal_new_eliminacion",
+    "name": "modal_new_eliminacion",
+    "class": "",
+    "title": "Settings",
+    "height": "100px",
+    "form_class": "",
+    "form_id": "form_eliminacion",
+    "col": [
+      {
+        "campo": "cfgid",
+        "label": "",
+        "size": "6",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "cfgest_combo_fijo",
+        "label": "Estatu",
+        "size": "12",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_eliminacion_confirm",
+        "id": "submit_form_eliminacion_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_eliminacion_confirm','#submit_form_eliminacion');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_eliminacion",
+        "id": "submit_form_eliminacion",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_eliminacion_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+ALTER TABLE `skydinners`.`suppliesCategory` 
+ADD COLUMN `sucico` TEXT NULL AFTER `sucobs`,
+ADD COLUMN `succol` VARCHAR(45) NULL AFTER `sucico`;

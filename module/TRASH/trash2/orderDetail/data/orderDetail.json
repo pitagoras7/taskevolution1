@@ -1,0 +1,1072 @@
+{
+  "config": {
+    "table": "orderDetail",
+    "view": "orderDetail",
+    "col": [
+      {
+        "campo": "oddid",
+        "label": "oddid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "PRI",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddordid",
+        "label": "oddordid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddsrvid",
+        "label": "oddsrvid",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddcan",
+        "label": "oddcan",
+        "size": "12",
+        "type": "int(11)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddest",
+        "label": "oddest",
+        "size": "12",
+        "type": "varchar(1)",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddreg",
+        "label": "oddreg",
+        "size": "12",
+        "type": "datetime",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddobs",
+        "label": "oddobs",
+        "size": "12",
+        "type": "text",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddpvp",
+        "label": "oddpvp",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "odddes",
+        "label": "odddes",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddcajid",
+        "label": "oddcajid",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddblo",
+        "label": "oddblo",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      },
+      {
+        "campo": "oddresid",
+        "label": "oddresid",
+        "size": "12",
+        "type": "",
+        "key": "",
+        "default": "",
+        "fijo": "false",
+        "data": "",
+        "password": "false",
+        "correlativo": "false",
+        "input_type": "text",
+        "input_class": ""
+      }
+    ]
+  },
+  "datatable": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "oddid  not in (0)",
+    "th": [
+      {
+        "value": "oddid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddordid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Name Service",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Unit",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddest",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddpvp",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "odddes",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddblo",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "oddresid",
+        "style": "",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "oddid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddordid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddsrvid_fk",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddcan",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddest",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddpvp",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "odddes",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddblo",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddresid",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-file bigger-120'></i>",
+            "funcion": "submit_modal_odd_click",
+            "parametro": "oddid",
+            "href": "#modal-odd",
+            "class": "btn btn-xs btn-primary"
+          }
+        ]
+      }
+    ]
+  },
+  "type_date": [
+    {
+      "campo": "oddreg"
+    }
+  ],
+  "type_oddsrvid": [
+    {
+      "campo": "oddid"
+    }
+  ],
+  "type_oddid": [
+    {
+      "campo": "oddid"
+    }
+  ],
+  "type_pk": [
+    {
+      "campo": "oddid"
+    }
+  ],
+  "type_moneda": [
+    {
+      "campo": "oddpvp",
+      "type": " $ "
+    }
+  ],
+  "type_numeric": [
+    {
+      "campo": "oddxxx",
+      "length": 1000
+    }
+  ],
+  "type_sec": [
+    {
+      "campo": "",
+      "part1": "",
+      "alias": "",
+      "table": ""
+    }
+  ],
+  "type_img": [
+    {
+      "campo": "",
+      "url": "",
+      "class": "",
+      "width": "",
+      "style": ""
+    }
+  ],
+  "type_delete": [
+    {
+      "campo": "oddest"
+    }
+  ],
+  "form_": {
+    "id": "modal_new_orderDetail",
+    "name": "modal_new_orderDetail",
+    "class": "",
+    "title": "Add",
+    "height": "300px",
+    "form_class": "",
+    "form_id": "form_odd",
+    "col": [
+      {
+        "campo": "oddid",
+        "label": "",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddordid_combo",
+        "label": "oddordid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddsrvid_combo",
+        "label": "oddsrvid",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddcan",
+        "label": "Cantidad",
+        "size": "12",
+        "type": "text",
+        "class": "spinner1",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddest_combo_fijo",
+        "label": "Estatu",
+        "size": "6",
+        "type": "select",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddreg",
+        "label": "Created",
+        "size": "6",
+        "type": "text",
+        "class": "date_form",
+        "style": "",
+        "externo": "Readonly",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddobs",
+        "label": "Observacion",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_odd_confirm",
+        "id": "submit_form_odd_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_odd_confirm','#submit_form_odd');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_odd",
+        "id": "submit_form_odd",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_odd_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "form_order": {
+    "id": "modal_new_orderDetail",
+    "name": "modal_new_orderDetail",
+    "class": "",
+    "title": "Add",
+    "height": "300px",
+    "form_class": "",
+    "form_id": "form_odd",
+    "col": [
+      {
+        "campo": "oddid",
+        "label": "",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "display:none",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddcan",
+        "label": "Cantidad",
+        "size": "12",
+        "type": "text",
+        "class": "spinner1",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      },
+      {
+        "campo": "oddobs",
+        "label": "Observacion",
+        "size": "12",
+        "type": "text",
+        "class": "",
+        "style": "",
+        "externo": "",
+        "class_modal_row": "",
+        "style_modal_row": "",
+        "placeholder": "",
+        "maxlength": "",
+        "maxfilesize": ""
+      }
+    ],
+    "button_footer": [
+      {
+        "name": "submit_form_odd_confirm",
+        "id": "submit_form_odd_confirm",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Save",
+        "style": "",
+        "onclick": "return validar_submit('#submit_form_odd_confirm','#submit_form_odd');",
+        "data-dismiss": ""
+      },
+      {
+        "name": "submit_form_odd",
+        "id": "submit_form_odd",
+        "value": "Guardar Como",
+        "color": "success",
+        "title": "Confirma los cambios?",
+        "style": "display:none",
+        "onclick": "submit_form_odd_click();",
+        "data-dismiss": "modal"
+      }
+    ]
+  },
+  "type_combo": [
+    {
+      "fk_id": "oddordid",
+      "fk_table": "ord",
+      "fk_table_id": "ordid",
+      "fk_table_campo": "ordden",
+      "fk_table_where": " ordest ='t'  "
+    },
+    {
+      "fk_id": "oddsrvid",
+      "fk_table": "service",
+      "fk_table_id": "srvid",
+      "fk_table_campo": "srvden",
+      "fk_table_where": " srvest ='t'  "
+    }
+  ],
+  "type_combo_multiple": [
+    {
+      "fk_id": "oddid",
+      "fk_table": "",
+      "fk_table_id": "id",
+      "fk_table_campo": "den",
+      "fk_table_where": "oddest='t' and oddid > 0",
+      "fk_id2": "oddid",
+      "fk_table2": "orderDetail",
+      "fk_table_id2": "oddid",
+      "fk_table_id3": "oddid",
+      "fk_table_est": "oddest",
+      "fk_table_where2": "est='t' and id>0",
+      "onfocus": "refresh_JS1();",
+      "class": "",
+      "externo": "multiple",
+      "multiple": "true",
+      "style": "width:300px; display:none",
+      "fk_id_input": "duallist"
+    }
+  ],
+  "type_combo_fijo": [
+    {
+      "campo": "oddest",
+      "option": [
+        {
+          "value": "t",
+          "name": "Activo"
+        },
+        {
+          "value": "f",
+          "name": "Inactivo"
+        }
+      ]
+    }
+  ],
+  "menu_top": [
+    {
+      "icon": "",
+      "url": "",
+      "label": "New"
+    }
+  ],
+  "armarpedido": {
+    "id": "table",
+    "style": "",
+    "class": "armarpedido",
+    "select_conditional": "oddid  not in (0)",
+    "th": [
+      {
+        "value": "oddid",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddordid",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Unit",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Name Service",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "PVP7",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "visible": "true",
+        "style": "display:none"
+      }
+    ],
+    "tr": [
+      {
+        "value": "oddid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddordid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddcan",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": "",
+        "style": "text-align:center; font-size:1.5em; font-weight:bold; color:white; width:50px;background:#93BF8C"
+      },
+      {
+        "value": "oddid_srpden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": "",
+        "style": "text-align:left; font-size:1em; font-weight:bold; color:black; width:200px"
+      },
+      {
+        "value": "oddpvp_format_type",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": "",
+        "style": "text-align:right; font-size:1.4em; font-weight:bold; color:#999; "
+      },
+      {
+        "value": "oddreg",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "120px",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": [
+          {
+            "icon": "<i class='ace-icon fa fa-plus-square bigger-120'></i>",
+            "funcion": "submit_modal_odd_click",
+            "parametro": "oddid",
+            "href": "#modal-odd",
+            "class": "btn btn-xs btn-success"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa-trash bigger-120'></i>",
+            "funcion": " ajax",
+            "ajax_code": "oddest",
+            "ajax_parametro": "oddid",
+            "ajax_view": "view_orderDetail",
+            "href": "",
+            "class": "btn btn-xs btn-danger",
+            "mode": "ajax-directo"
+          },
+          {
+            "icon": "<i class='ace-icon fa fa fa-sliders bigger-120'></i>",
+            "class": "btn btn-xs btn-primary",
+            "funcion": "",
+            "parametro": "oddid",
+            "href": "?opcion=servicePreferenceOrderDetails&code=",
+            "mode": "href"
+          }
+        ]
+      }
+    ]
+  },
+  "estatupedido": {
+    "id": "table",
+    "style": "border:none; background:white; overflow:auto; border-radius:15px; padding:10px",
+    "class": "",
+    "select_conditional": "oddid  not in (0)",
+    "div_style": "height:350px; overflow-y:scroll;  overflow-x: hidden; ",
+    "th": [
+      {
+        "value": "oddid",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddordid",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Unit",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Unit",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Name Service",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "style": "display:none",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "oddid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddordid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddcan",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": "",
+        "style": "background:#444; text-align:center; font-size:1.5em; font-weight:bold; color:white; width:50px"
+      },
+      {
+        "value": "oddid_srpden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "style": "text-align:left; font-size:1em; font-weight:bold; color:black; width:200px",
+        "class": ""
+      },
+      {
+        "value": "oddpvp_format_type",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": "",
+        "style": "text-align:right; font-size:1em; font-weight:bold; color:#333; width:100px"
+      },
+      {
+        "value": "oddid_odetip",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "style": "text-align:center; font-size:1.5em; font-weight:bold; color:green; "
+      },
+      {
+        "value": "oddid_oddblo_ico",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "style": "text-align:center; font-size:1.5em; font-weight:bold;"
+      },
+      {
+        "value": "oddreg",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "width": "100px",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": []
+      }
+    ]
+  },
+  "pagopedido": {
+    "id": "table",
+    "style": "",
+    "class": "",
+    "select_conditional": "oddid  not in (0) ",
+    "div_style": "height:350px; overflow-y:scroll;  overflow-x: hidden; ",
+    "th": [
+      {
+        "value": "oddid",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddordid",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddordid",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Unit",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Name Service",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "oddobs",
+        "style": "display:none",
+        "class": ""
+      },
+      {
+        "value": "Edit",
+        "style": "display:none",
+        "visible": "true"
+      }
+    ],
+    "tr": [
+      {
+        "value": "oddid",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddordid_fk",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddid_odetip",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "style": "text-align:center; font-size:1em; font-weight:bold; color:green"
+      },
+      {
+        "value": "oddid_oddblo_ico",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "style": "text-align:center; font-size:1.5em; font-weight:bold;"
+      },
+      {
+        "value": "oddcan",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": "",
+        "style": "text-align:center; font-size:1em; font-weight:bold; color:black"
+      },
+      {
+        "value": "oddid_srpden",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "class": ""
+      },
+      {
+        "value": "oddreg",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": ""
+      },
+      {
+        "value": "oddpvp_format_type",
+        "visible": "true",
+        "hidden_desktop": "",
+        "hidden_tablet": "true",
+        "hidden_mobil": "true",
+        "class": "",
+        "style": "text-align:center; font-size:1em; font-weight:bold; color:black"
+      },
+      {
+        "width": "100px",
+        "visible": "false",
+        "hidden_desktop": "",
+        "hidden_tablet": "",
+        "hidden_mobil": "",
+        "edit": []
+      }
+    ]
+  }
+}
